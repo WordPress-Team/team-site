@@ -2,6 +2,10 @@
 --------------------------------------------- */
 @import "navigation/navigation";
 
+/* Footer
+--------------------------------------------- */
+@import "footer/navigation";
+
 /* Posts and pages
 --------------------------------------------- */
 @import "content/posts-and-pages";
@@ -48,12 +52,12 @@
 
 /* Projects
 --------------------------------------------- */
-@import "mission/projects";
+@import "projects/content";
 
 /* Team
 --------------------------------------------- */
-@import "mission/team";
+@import "team/content";
 
-/* Projects
+/* Acknowledgments
 --------------------------------------------- */
-@import "mission/projects";
+@import "acknowledgments/content";
