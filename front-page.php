@@ -32,5 +32,8 @@
 <?php get_template_part('template-parts/contact')?> 
 <!-- Loading in Contact Section -->
 
+<?php get_template_part('template-parts/acknowledgements')?> 
+<!-- Loading in Acknowledgements Section -->
+
 <?php get_footer(); ?>
 <!-- Loading in Footer -->
