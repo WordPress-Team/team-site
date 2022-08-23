@@ -1,0 +1,66 @@
+.about-section {
+    margin: 0% auto;
+    padding: 0%;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: $darkpurple;
+    background-size:50% 50%;
+    background-repeat:no-repeat;
+    background:
+        linear-gradient(to bottom right,rgba(83, 37, 248, 0.5)  0%, rgba(83, 37, 248, 0.4)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom right,
+        
+        linear-gradient(to bottom left, rgba(83, 37, 248, 0.5)  0%, rgba(83, 37, 248, 0.4)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom left,
+        
+        linear-gradient(to top left, rgba(83, 37, 248, 0.5)  0%, rgba(83, 37, 248, 0.4)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top left,
+        
+        linear-gradient(to top right, rgba(83, 37, 248, 0.5)  0%, rgba(83, 37, 248, 0.4)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top right;
+    
+    .about-content {
+        margin: 0% auto;
+        padding: 2%;
+        text-align: center;
+
+        .about-header{
+            font-family: $cinzel;
+            font-size: 1.5rem;
+            margin: 0% auto;
+            padding: 2% ;
+        }
+
+        .about-text{
+            margin: 0% auto;
+            padding: 4% 8%;
+            font-family: $raleway;
+            font-size: 0.7rem;
+            font-weight: 600;
+            
+        }
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+   
+    
+    .about-header{
+        font-size: 2rem !important;
+    }
+    .about-text{
+        font-size: 0.9rem !important;
+                
+    }
+}
+    
+@media screen and (min-width: 900px) {
+   
+    
+    .about-header{
+        font-size: 2.5rem !important;
+    }
+    .about-text{
+        font-size: 1.3rem !important;
+                
+    }
+}   
