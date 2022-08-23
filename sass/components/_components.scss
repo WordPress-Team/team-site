@@ -4,7 +4,7 @@
 
 /* Footer
 --------------------------------------------- */
-@import "footer/navigation";
+@import "navigation/footer";
 
 /* Posts and pages
 --------------------------------------------- */
@@ -32,32 +32,32 @@
 
 /* Main
 --------------------------------------------- */
-@import "main/content";
+@import "content/main";
 
 /* Contact
 --------------------------------------------- */
-@import "contact/content";
+@import "content/contact";
 
 /* About
 --------------------------------------------- */
-@import "about/content";
+@import "content/about";
 
 /* Banner
 --------------------------------------------- */
-@import "banner/content";
+@import "content/banner";
 
 /* Mission
 --------------------------------------------- */
-@import "mission/content";
+@import "content/mission";
 
 /* Projects
 --------------------------------------------- */
-@import "projects/content";
+@import "content/projects";
 
 /* Team
 --------------------------------------------- */
-@import "team/content";
+@import "content/team";
 
 /* Acknowledgments
 --------------------------------------------- */
-@import "acknowledgments/content";
+@import "content/acknowledgments";

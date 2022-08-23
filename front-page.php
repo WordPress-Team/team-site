@@ -6,7 +6,7 @@
  *
  * 
  *
- * @package wordpress-team-site
+ * @package impact zone
  */
 
 ?>

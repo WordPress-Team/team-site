@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package wordpress-team-site
+ * @package impact zone
  */
 
 ?>
