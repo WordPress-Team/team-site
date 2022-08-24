@@ -149,6 +149,14 @@ function wordpress_team_site_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'wordpress_team_site_scripts' );
 
+// include custom jQuery
+function portfolio_include_custom_jquery() {
+    wp_deregister_script('jquery');
+    wp_enqueue_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', array(), null, true);
+    wp_enqueue_script( 'customScript', get_template_directory_uri() . '/js/customScript.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action('wp_enqueue_scripts', 'portfolio_include_custom_jquery', 99999);
+
 /**
  * Implement the Custom Header feature.
  */

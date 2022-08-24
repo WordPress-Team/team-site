@@ -13,10 +13,11 @@ $raleway: 'Raleway', sans-serif;
 .site-header{
     height: 60px;
     width: 100%;
-    background-color: #eedbff;
+    background-color: $darkpurple;
     position: sticky;
     top: 0;
     z-index: 1;
+
 	.site-branding{
 		float: left;
 		margin: 5px 15px;
@@ -30,6 +31,7 @@ $raleway: 'Raleway', sans-serif;
 
 	ul {
 		display: none;
+		float: right;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
@@ -86,6 +88,16 @@ $raleway: 'Raleway', sans-serif;
 	a {
 		display: block;
 		text-decoration: none;
+		color: #000;
+		font-weight: bolder;
+		text-transform: uppercase;
+		margin: 20px 20px;
+		&:hover{
+			color: darkmagenta;
+		}
+		&:active{
+			color:cornflowerblue;
+		}
 	}
 
 	.current_page_item > a,
@@ -101,6 +113,31 @@ $raleway: 'Raleway', sans-serif;
 	display: block;
 }
 
+button.menu-toggle {
+    position: absolute;
+	top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.hamburger {
+	color: $aqua;
+	font-size: 30px;
+}
+
+.toggled {
+    width: 100%;
+    height: 100vh;
+    background: $darkpurple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
 @media screen and (min-width: 37.5em) {
 
 	.menu-toggle {
@@ -110,6 +147,10 @@ $raleway: 'Raleway', sans-serif;
 	.main-navigation ul {
 		display: flex;
 	}
+	.toggled {
+		display: none;	
+	}
+	
 }
 
 .comment-navigation,

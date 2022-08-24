@@ -1,1 +1,1 @@
-hello world
+<h1 class="banner">Imp<span class="logo-a"><img class="logo-letter" src="http://impact-zone.local/wp-content/uploads/2022/08/Impact-Zone-Logo-2.png"></span>ct Zone</h1>
