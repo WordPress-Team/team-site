@@ -1,18 +1,61 @@
+// Set Variables 
+$darkpurple: #1c0d1b;
+$violet: #5325f8;
+$aqua: #74e7d9;
+$cinzel: 'Cinzel Decorative', cursive;
+$raleway: 'Raleway', sans-serif;
 
+// EXAMPLE:
 
-.banner {
+// color: $darkpurple;
+// font-family: $cinzel;
+
+.banner-1 {
     font-family: $cinzel;
     text-align: center;
     margin: 1 auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 600;
 }
 
 .logo-letter {
-    height: 25px;
+    height: 26px;
     width: 25px;
-    padding-top: 5px;
+    padding-top: 1px;
+    position: relative;
+    top: 3px;
+}
+
+.banner-container {
+    background-color: #1c0d1b;
+    height: 33vh;
+    width: auto;
+    margin: 5px 10px;
+    margin: 18px 28px;
+}
+
+.banner-2 {
+    color: white;
+    font-family: $cinzel;
+    text-align: center;
+    padding: 15px 0; 
+}
+
+.paragraph {
+    color:white;
+    font-family: $raleway;
+    line-height: 25px;
+    text-align: center;
+}
+
+.button-1 {
+    
+}
+
+.button-2 {
+    
+    
 }
 
     @media screen and (min-width: 600px) {
