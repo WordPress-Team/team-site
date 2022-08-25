@@ -1,3 +1,6 @@
+<div class="team-title">
+    <h1>Team</h1>
+</div>
 <div class="mobile-grid desktop-grid">
   <div class="circle">
     <div class="wrapper">

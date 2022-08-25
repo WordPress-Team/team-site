@@ -1,15 +1,22 @@
-h1, h2 {
+
+
+h1,h2{
     font-family: $cinzel;
-    color: white;
-    letter-spacing: 2px;
 }
 
 p, a{
     font-family: $raleway;
-    color: white;
     letter-spacing: 1.5px;
 }
 
+.team-title{
+    text-align: center;
+    margin: 0% auto;
+    padding: 0%;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: $darkpurple;
+}
 .mobile-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -27,8 +34,7 @@ p, a{
     border-radius:50%;
     margin: 2%;
     padding:1%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    
+    box-shadow: rgba(28, 13, 27, 0.25) 0px 50px 100px -20px, rgba(28, 13, 27, 0.3) 0px 30px 60px -30px, rgba(28, 13, 27, 0.35) 0px -2px 6px 0px inset;
     .member-name{
       text-align:center;
       margin: 0% auto;
@@ -79,7 +85,9 @@ p, a{
   justify-content: center;
   transition: all .4s;
   z-index: 999;
-
+  font-family: $cinzel;
+  color: white;
+  letter-spacing: 2px;
 }
 
 .modal:target {
@@ -142,6 +150,7 @@ p, a{
       padding: 4%;
       margin: 0% auto;
       width:100%;
+      color: white;
     }
     
     .profile-links{
@@ -254,13 +263,17 @@ p, a{
 }
   
   .circle:hover{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(28, 13, 27) 0px 20px 30px -10px;
   }
                 
 }
 
 
 @media screen and (min-width: 600px) {
+
+    .team-title{
+        font-size: 1.3rem !important;
+    }
     
   .mobile-grid {
     display:grid;
@@ -325,6 +338,10 @@ p, a{
       }
       
 @media screen and (min-width: 900px) {
+
+    .team-title{
+        font-size: 1.6rem !important;
+    }
     
   .mobile-grid {
     display:none;
@@ -335,10 +352,14 @@ p, a{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: 2px;
         height: 90vh;
-        width:100%;
+        width:80% !important;
         align-items:center;
         justify-content:center;
         margin: 8% auto;
+
+        .modal {
+            width: 65%
+        }
     
         .circle{
           height:20vh !important;
@@ -385,7 +406,7 @@ p, a{
               .profile-pic{
                   height: 200px !important;
                   width: 200px !important;
-                  margin: 8% 0% 0% 3% !important;
+                  margin: 20% 0% 0% 3% !important;
               }
           
             }
