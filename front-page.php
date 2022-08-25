@@ -6,7 +6,7 @@
  *
  * 
  *
- * @package impact zone
+ * @package  Impact Zone
  */
 
 ?>
