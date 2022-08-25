@@ -1,0 +1,311 @@
+.mobile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    height: 100vh;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    justify-items: center;
+    margin: 4% auto 20% auto;
+  
+  .circle{
+    height:10vh;
+    width:10vh;
+    background-color:grey;
+    border-radius:50%;
+    margin: 4%;
+    padding:1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    .member-name{
+      text-align:center;
+      font-size:0.6rem;
+      margin: 0% auto;
+      padding: 1%;
+    }
+  }
+  .wrapper {
+   height:10vh;
+   width:10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:50%;
+}
+
+.wrapper a {
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 0.5rem;;
+  background-color: transparent;
+  border-radius: 50%;
+  text-transform: uppercase;
+  text-align:center;
+  color: #585858;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.profile-modal {
+  height: auto;
+  // width:45%;
+  margin: 0% auto;
+  padding: 0%;
+  position: relative;
+  width: 90%;
+  background-color:pink;
+
+  .header{
+    height: 25vh;
+    width: 100%;
+    background-color: #585858;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+
+    .profile-pic{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        top: 8%;
+        margin: 0% auto;
+    }
+
+  }
+  
+  .modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  text-decoration: none;
+  z-index: 999;
+}
+  .profile-info{
+    text-align:center;
+    text-decoration:none;
+    list-style-type: none;
+    h1{
+      font-size: 1rem;
+      margin: 0% auto;
+      padding: 2%;
+    }
+    
+    p{
+      font-size: 0.7rem;
+      padding: 2%;
+      margin: 0% auto;
+      width:100%;
+    }
+    
+    .profile-links{
+      margin: 2% auto;
+      padding: 3%;
+      
+      .link{
+        display:inline;
+        margin: 2%;
+        padding: 1%;
+        
+        .link-icon{
+          height:auto;
+          width:100%;
+          padding:3%;
+          margin:0% auto;
+          background-color:grey;
+          text-decoration:none;
+        }
+      }
+    }
+    .profile-logo{
+      height:10vh;
+      width:10vh;
+      margin: 2% auto;
+      padding: 1%;
+    }
+    .profile-projects{
+       margin: 1% auto;
+      padding: 1%;
+      width:60%;
+      
+      .project{
+        display:inline !important;
+         margin: 2%;
+        padding: 1%;
+        
+        
+        figure{
+         height:auto;
+          width:100%;
+          padding:2%;
+          margin:0% auto;
+          // background-color:grey;
+          text-decoration:none;
+          img{
+            height:10vh;
+            width:100%;
+            padding:0%;
+            box-shadow: rgb(38, 57, 77) 0px 20px 20px -10px;
+            background-color:grey;
+          }
+                  figcaption {
+                text-align: left;
+                padding: 5%;
+                margin: 0%;
+                font-size: 1em;
+                height: auto;
+                width: 100%;
+
+    
+                .view:hover {
+                  text-transform: uppercase;
+                  font-weight: 600;
+                  transition: all 0.2s ease 0s;
+                  box-shadow: rgba(138, 8, 8, 0.7) 0 2px 4px,rgba(138, 8, 8, 0.5) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
+              
+                }
+              
+                .view {
+                    background-color: white;
+                    margin: 2%;
+                    padding: 3%;
+                    font-size: 0.5rem;
+                    text-align: center;
+                    align-items: center;
+                    height: auto;
+                    width: fit-content;
+                    text-transform: uppercase;
+                    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);  
+                    
+                 
+                }
+               
+            }
+        }
+      }
+    }
+  }
+}
+
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #585858;
+  text-decoration: none;
+  font-size: 2rem;
+ 
+}
+  
+  .circle:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+                
+}
+
+
+@media screen and (min-width: 500px) {
+    
+  .mobile-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+      .circle{
+        height:12vh;
+        width:12vh; 
+         
+        .member-name{
+        font-size:1.2rem;
+        }
+      }
+      .wrapper {
+         height:12vh;
+        width:12vh;
+    }
+  }            
+}
+
+
+
+@media screen and (min-width: 900px) {
+    
+  .mobile-grid {
+    display:none;
+  }
+  
+  .desktop-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 2px;
+        height: 100vh;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        margin: 0% auto;
+    
+        .circle{
+          height:15vh;
+          width:15vh;
+          background-color:grey;
+          border-radius:50%;
+          margin: 4%;
+          padding:1%;
+                  
+          .member-name{
+            font-size:1.7rem;
+            }
+        }
+    
+      .wrapper {
+        height:15vh;
+        width:15vh;
+    }
+    
+    .profile-modal{
+      height: 55vh;
+      width: 35%;
+      
+      profile-info{
+        width: 100%;
+        h1 {
+          font-size:3rem;
+        }
+        p{
+          padding:2%;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+                
+}
+
