@@ -1028,11 +1028,22 @@ textarea {
 --------------------------------------------- */
 /* Team
 --------------------------------------------- */
+h1, h2 {
+  font-family: "Cinzel Decorative", cursive;
+  color: white;
+  letter-spacing: 2px;
+}
+
+p, a {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
 .mobile-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2px;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -1044,15 +1055,18 @@ textarea {
   width: 10vh;
   background-color: grey;
   border-radius: 50%;
-  margin: 4%;
+  margin: 2%;
   padding: 1%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .mobile-grid .circle .member-name {
   text-align: center;
-  font-size: 0.6rem;
   margin: 0% auto;
   padding: 1%;
+}
+.mobile-grid .circle .member-name h2 {
+  font-size: 0.6rem;
+  margin: 1% auto;
 }
 .mobile-grid .wrapper {
   height: 10vh;
@@ -1090,6 +1104,7 @@ textarea {
   align-items: center;
   justify-content: center;
   transition: all 0.4s;
+  z-index: 999;
 }
 .mobile-grid .modal:target {
   visibility: visible;
@@ -1101,10 +1116,11 @@ textarea {
   padding: 0%;
   position: relative;
   width: 90%;
-  background-color: pink;
+  background-color: #1c0d1b;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .mobile-grid .profile-modal .header {
-  height: 25vh;
+  height: 20vh;
   width: 100%;
   background-color: #585858;
   justify-items: center;
@@ -1117,8 +1133,8 @@ textarea {
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  top: 8%;
-  margin: 0% auto;
+  top: 0%;
+  margin: 15% 0% 0% 3%;
 }
 .mobile-grid .profile-modal .modal__close {
   position: absolute;
@@ -1140,7 +1156,7 @@ textarea {
 }
 .mobile-grid .profile-modal .profile-info p {
   font-size: 0.7rem;
-  padding: 2%;
+  padding: 4%;
   margin: 0% auto;
   width: 100%;
 }
@@ -1170,11 +1186,12 @@ textarea {
 .mobile-grid .profile-modal .profile-info .profile-projects {
   margin: 1% auto;
   padding: 1%;
-  width: 60%;
+  width: 90%;
+  display: flex;
 }
 .mobile-grid .profile-modal .profile-info .profile-projects .project {
   display: inline !important;
-  margin: 2%;
+  margin: 2% auto;
   padding: 1%;
 }
 .mobile-grid .profile-modal .profile-info .profile-projects .project figure {
@@ -1188,34 +1205,42 @@ textarea {
   height: 10vh;
   width: 100%;
   padding: 0%;
-  box-shadow: #26394d 0px 20px 20px -10px;
+  box-shadow: rgba(116, 231, 217, 0.5) 0px 15px 15px -10px;
   background-color: grey;
 }
 .mobile-grid .profile-modal .profile-info .profile-projects .project figure figcaption {
   text-align: left;
   padding: 5%;
   margin: 0%;
-  font-size: 1em;
+  font-size: 0.8em;
   height: auto;
   width: 100%;
+  color: white;
 }
 .mobile-grid .profile-modal .profile-info .profile-projects .project figure figcaption .view:hover {
   text-transform: uppercase;
-  font-weight: 600;
+  background-color: #5325f8;
+  border: none;
+  font-weight: 800;
   transition: all 0.2s ease 0s;
-  box-shadow: rgba(138, 8, 8, 0.7) 0 2px 4px, rgba(138, 8, 8, 0.5) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: 116, 231, 217, 0.5 0 2px 4px, 116, 231, 217, 0.5 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 }
 .mobile-grid .profile-modal .profile-info .profile-projects .project figure figcaption .view {
   background-color: white;
   margin: 2%;
   padding: 3%;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
   text-align: center;
   align-items: center;
   height: auto;
   width: fit-content;
   text-transform: uppercase;
   box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
+}
+.mobile-grid .profile-modal .profile-info .profile-projects .project figure figcaption .view .viewbtn {
+  text-decoration: none;
+  color: #1c0d1b;
 }
 .mobile-grid .modal__close {
   position: absolute;
@@ -1229,21 +1254,48 @@ textarea {
   box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .mobile-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .mobile-grid .circle {
-    height: 12vh;
-    width: 12vh;
+    height: 15vh;
+    width: 15vh;
   }
   .mobile-grid .circle .member-name {
-    font-size: 1.2rem;
+    margin: 0% auto;
+  }
+  .mobile-grid .circle .member-name h2 {
+    font-size: 1.1rem !important;
+    margin: 0% auto !important;
   }
   .mobile-grid .wrapper {
-    height: 12vh;
-    width: 12vh;
+    height: 15vh;
+    width: 15vh;
+  }
+  .mobile-grid .header {
+    height: 25vh;
+  }
+  .mobile-grid .header .profile-pic {
+    height: 150px !important;
+    width: 150px !important;
+    margin: 10% 0% 0% 3% !important;
+  }
+  .mobile-grid .profile-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .mobile-grid .profile-info p {
+    font-size: 0.8rem !important;
+  }
+  .mobile-grid .profile-info .profile-logo {
+    height: 12vh !important;
+    width: 12vh !important;
+  }
+  .mobile-grid .profile-info .profile-projects .project figure img {
+    height: 15vh !important;
+    width: 25vh !important;
+    padding: 0%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1255,40 +1307,83 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2px;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin: 0% auto;
+    margin: 8% auto;
   }
   .desktop-grid .circle {
-    height: 15vh;
-    width: 15vh;
+    height: 20vh !important;
+    width: 20vh !important;
     background-color: grey;
     border-radius: 50%;
-    margin: 4%;
+    margin: 10%;
     padding: 1%;
   }
   .desktop-grid .circle .member-name {
-    font-size: 1.7rem;
+    display: flex;
+    position: relative;
+    margin: 0% auto;
+    font-size: 1rem !important;
+  }
+  .desktop-grid .circle .member-name h2 {
+    margin: 0% auto;
+    padding: 0%;
   }
   .desktop-grid .wrapper {
-    height: 15vh;
-    width: 15vh;
+    height: 20vh !important;
+    width: 20vh !important;
   }
-  .desktop-grid .profile-modal {
-    height: 55vh;
-    width: 35%;
+  .desktop-grid .circle {
+    height: 12vh;
+    width: 12vh;
   }
-  .desktop-grid .profile-modal profile-info {
-    width: 100%;
+  .desktop-grid .circle .member-name {
+    font-size: 1.2rem;
   }
-  .desktop-grid .profile-modal profile-info h1 {
-    font-size: 3rem;
+  .desktop-grid .wrapper {
+    height: 12vh;
+    width: 12vh;
   }
-  .desktop-grid .profile-modal profile-info p {
-    padding: 2%;
-    font-size: 1.5rem;
+  .desktop-grid .header {
+    height: 35vh !important;
+  }
+  .desktop-grid .header .profile-pic {
+    height: 200px !important;
+    width: 200px !important;
+    margin: 8% 0% 0% 3% !important;
+  }
+  .desktop-grid .profile-info h1 {
+    font-size: 2rem !important;
+  }
+  .desktop-grid .profile-info p {
+    font-size: 1rem !important;
+  }
+  .desktop-grid .profile-info .profile-logo {
+    height: 14vh !important;
+    width: 14vh !important;
+  }
+  .desktop-grid .profile-info .profile-projects .project figure img {
+    height: 20vh !important;
+    width: 35vh !important;
+    padding: 0%;
+  }
+  .desktop-grid .profile-info .profile-projects .project figure figcaption {
+    font-size: 1rem !important;
+  }
+  .desktop-grid .profile-info .profile-projects .project figure figcaption .view {
+    font-size: 0.8rem !important;
+  }
+  .desktop-grid .profile-info .profile-projects .project figure figcaption .view .viewbtn {
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .profile-pic {
+    height: 300px !important;
+    width: 300px !important;
+    margin: 8% 0% 0% 3% !important;
   }
 }
 /* Acknowledgments
