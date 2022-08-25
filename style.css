@@ -888,6 +888,16 @@ textarea {
   padding: 20px;
 }
 
+@media screen and (min-width: 300px) {
+  .section-1 {
+    padding-bottom: 750px;
+  }
+}
+@media screen and (min-width: 520px) {
+  .section-1 {
+    padding-bottom: 0px;
+  }
+}
 /* Projects
 --------------------------------------------- */
 /* Team
