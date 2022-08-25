@@ -130,13 +130,28 @@ button.menu-toggle {
 .toggled {
     width: 100%;
     height: 100vh;
-    background: $violet;
+    background: $darkpurple;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     position: absolute;
     top: 0;
+    div {
+		height: 100vh;
+		width: 100%;
+		background:
+		 linear-gradient(to bottom right,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom right,
+		  
+		 linear-gradient(to bottom left,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom left,
+		  
+		 linear-gradient(to top left, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top left,
+		  
+		 linear-gradient(to top right, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top right;
+		background-size:50% 50%;
+		background-repeat:no-repeat;
+	  
+	  }
 }
 
 @media screen and (min-width: 37.5em) {

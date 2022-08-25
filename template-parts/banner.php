@@ -3,6 +3,9 @@
 <div class="banner-container">
       <h2 class="banner-2">LOREM IPSUM</h2>
       <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra et ultrices neque ornare aenean.</p>
-      <button class="button-1"></button>
-      <button class="button-2"></button>
+
+      <div class="both-buttons">
+        <button class="button-1" type="button">IMPACT</button>
+        <button class="button-2" type="button">ZONE</button>
+    </div>
 </div>

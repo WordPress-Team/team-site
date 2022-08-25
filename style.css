@@ -708,13 +708,20 @@ button.menu-toggle {
 .toggled {
   width: 100%;
   height: 100vh;
-  background: #5325f8;
+  background: #1c0d1b;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   position: absolute;
   top: 0;
+}
+.toggled div {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom right, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) bottom right, linear-gradient(to bottom left, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) bottom left, linear-gradient(to top left, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) top left, linear-gradient(to top right, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) top right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -934,7 +941,7 @@ button.menu-toggle {
 
 .banner-container {
   background-color: #1c0d1b;
-  height: 33vh;
+  height: 39vh;
   width: auto;
   margin: 5px 10px;
   margin: 18px 28px;
@@ -952,6 +959,22 @@ button.menu-toggle {
   font-family: "Raleway", sans-serif;
   line-height: 25px;
   text-align: center;
+}
+
+.both-buttons {
+  text-align: center;
+}
+.both-buttons .button-1 {
+  background-color: #1c0d1b;
+  color: #74e7d9;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
+  border-radius: 20px;
+}
+.both-buttons .button-2 {
+  background-color: #1c0d1b;
+  color: #74e7d9;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
+  border-radius: 20px;
 }
 
 @media screen and (min-width: 600px) {
