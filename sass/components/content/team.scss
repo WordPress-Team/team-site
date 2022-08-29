@@ -1,465 +1,425 @@
-
-
-h1,h2{
-    font-family: $cinzel;
+* {
+  letter-spacing: 1.6px;
 }
-
-p, a{
-    font-family: $raleway;
-    letter-spacing: 1.5px;
+h2 {
+  font-size: 0.7rem;
+  padding: 2%;
+  text-align: center;
 }
-
-.team-title{
-    text-align: center;
-    margin: 0% auto;
-    padding: 0%;
-    letter-spacing: 2px;
-    font-size: 1rem;
-    color: $darkpurple;
-}
-.mobile-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 80vh;
-    width:auto;
-    align-items:center;
-    justify-content:center;
-    justify-items: center;
-    margin: 2% auto 20% auto;
-    // overflow: hidden;
-  
-  .circle{
-    height:10vh;
-    width:10vh;
-    background-color:grey;
-    border-radius:50%;
-    margin: 2%;
-    padding:1%;
-    box-shadow: rgba(28, 13, 27, 0.25) 0px 50px 100px -20px, rgba(28, 13, 27, 0.3) 0px 30px 60px -30px, rgba(28, 13, 27, 0.35) 0px -2px 6px 0px inset;
-    .member-name{
-      text-align:center;
-      margin: 0% auto;
-      padding: 1%;
-      h2 {
-        font-size:0.6rem;
-        margin: 1% auto;
-      }
-    }
-  }
-  .wrapper {
-   height:10vh;
-   width:10vh;
-  display: flex;
+.parent{
+  margin: 0% auto;
   align-items: center;
   justify-content: center;
-  border-radius:50%;
+  justify-items: center;
+  padding: 10%;
+  text-align: center;
+}
+.card {
+  width: auto;
+height:auto;
+  // border-radius: 5px;
+  overflow: hidden;
+  background: transparent;
+  // box-shadow: 3px 3px 18px -8px #263238;
+  color: #424242;
+  margin: 0px auto;
+  padding: 1%;
+display: inline-block;
+
+/*   border-radius: 50%; */
 }
 
-.wrapper a {
+.modal-open {
   display: inline-block;
-  align-items: center;
-  text-decoration: none;
-  padding: 15px;
-  font-size: 0.5rem;;
-  background-color: transparent;
   border-radius: 50%;
-  text-transform: uppercase;
-  text-align:center;
-  color: #585858;
-  font-family: 'Roboto', sans-serif;
-  
+height:10vh;
+width:10vh;
+  background: lightgrey;
+  padding: 0%;
+margin:0% auto;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+
+.modal-label {
+  position: relative;
+}
+
+.modal-radio {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .modal {
-  display: inline-block;
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  top: 10%;
-  right: 0;
-  bottom: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
   left: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity .25s, transform .25s;
+  z-index:99;
+}
+
+#modal-open:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.modal .content {
+  position: relative;
+  width: 70%;
   height: auto;
-  width: 90%;
+  max-height: 80%;
+  top: 10%;
+  left: 0%;
+  // background: #fff;
+  background-color: $darkpurple;
+  // border-radius: 15px;
+  box-shadow: 0 3px 15px -2px #222;
+  padding: 0%;
   margin: 0% auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all .4s;
-  z-index: 999;
+}
+
+.close-btn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 20px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.close-btn:after,
+.close-btn:before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  background: grey;
+  left: 15%;
+  top: 50%;
+  top: calc(50% - 1px);
+  transform-origin: 50% 50%;
+  transform: rotate(45deg);
+}
+
+.close-btn:before {
+  transform: rotate(-45deg);
+}
+
+.action-btn{
+display:inline-block;
+padding: 10px 20px;
+background:$darkpurple;
+color:#fff;
+border-radius:15px;
+}
+
+.top{
+background-color:$darkpurple;
+height:auto;
+width:100%;
+padding:0%;
+margin:0% auto;
+
+.profile-pic{
+  position:relative;
+  height: 10vh;
+  width:100%;
+  border-radius: 0%;
+  background-color:white;
+  align-items:center;
+  justify-content:center;
+  margin: 0% auto;
+  padding: 2% auto !important;
+  
+  .picture{
+    position:relative;
+    height: 10vh;
+    width:10vh;
+    border-radius: 50%;
+    background-color:yellow;
+    align-items:center;
+    justify-content:center;
+    margin: 4% auto 2% auto;
+    padding: 2% auto !important;
+  }
+  
+}
+}
+.member{
+font-size:0.6rem;
+font-family: $cinzel;
+color: $darkpurple;
+
+}
+.member-about{
+font-size:0.6rem;
+padding: 1% 4%;
+margin: 0% auto;
+font-family: $raleway;
+color: white;
+
+}
+.modal-name{
+  background-color: $darkpurple;
   font-family: $cinzel;
   color: white;
-  letter-spacing: 2px;
-  // overflow: hidden;
+  margin: 3% auto;
+  padding: 1%;
 }
-
-.modal:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.profile-modal {
-  height: auto;
-  // width:45%;
-  overflow: hidden;
-  margin: 0% auto;
-  padding: 0%;
-  position:static;
-  justify-content: center;
-  justify-items: center;
-  width:100%;
-  top: 10%;
-  z-index: 999;
-  background-color:$darkpurple;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
-
-  .header{
-    height: 20vh;
-    width: 100%;
-    background-color: #585858;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-
-
-    .profile-pic{
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        background-color: white;
-        position: relative;
-        top: 0%;
-        padding: 0%;
-        margin: 10% 0% 0% 3%;
-    }
-
-  }
-  
-.modal__close {
-  position: absolute;
-  top: -80%;
-  right: 10px;
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
- 
-}
-  .profile-info{
-    text-align:center;
-    text-decoration:none;
-    list-style-type: none;
-    h1{
-      font-size: 1rem;
-      margin: 5% auto 1% auto;
-      padding: 2%;
-    }
+.profile-links{
+    margin: 0% auto;
+    padding: 1%;
     
-    p{
-      font-size: 0.6rem;
-      padding: 1% 4%;
+    .link{
+      display:inline;
+      margin: 1%;
+      padding: 1%;
+      
+      .link-icon{
+        height:auto;
+        width:100%;
+        padding:1%;
+        margin:0% auto;
+        background-color:grey;
+        text-decoration:none;
+        font-size: 0.7rem;;
+      }
+    }
+  }
+ .profile-logo{
+    height:7vh;
+    width:7vh;
+    margin: 0% auto;
+    padding: 1%;
+  }
+.profile-projects{
+     margin: 1% auto;
+    padding: 1%;
+    width:95%;
+    display: flex;
+    
+    .project{
+      display:inline !important;
       margin: 0% auto;
-      width:100%;
-      color: white;
-    }
-    
-    .profile-links{
-      margin: 2% auto;
-      padding: 3%;
+      padding: 1%;
+      max-width: 50%;
       
-      .link{
-        display:inline;
-        margin: 2%;
-        padding: 1%;
-        
-        .link-icon{
-          height:auto;
+      
+      figure{
+       height:auto;
+        width:100%;
+        padding:2%;
+        margin:0% auto;
+        // background-color:grey;
+        text-decoration:none;
+        img{
+          height:10vh;
           width:100%;
-          padding:3%;
-          margin:0% auto;
+          padding:0%;
+          box-shadow: rgb(116, 231, 217, 0.5) 0px 15px 15px -10px;
           background-color:grey;
-          text-decoration:none;
         }
-      }
-    }
-    .profile-logo{
-      height:7vh;
-      width:7vh;
-      margin: 2% auto;
-      padding: 1%;
-    }
-    .profile-projects{
-       margin: 1% auto;
-      padding: 1%;
-      width:90%;
-      display: flex;
-      
-      .project{
-        display:inline !important;
-         margin: 2% auto;
-        padding: 1%;
-        
-        
-        figure{
-         height:auto;
-          width:100%;
-          padding:2%;
-          margin:0% auto;
-          // background-color:grey;
-          text-decoration:none;
-          img{
-            height:10vh;
-            width:100%;
-            padding:0%;
-            box-shadow: rgb(116, 231, 217, 0.5) 0px 15px 15px -10px;
-            background-color:grey;
-          }
-                  figcaption {
-                text-align: left;
-                padding: 5%;
-                margin: 0%;
-                font-size: 0.6em;
-                height: auto;
-                width: 100%;
-                color: white;
-
-    
-                .view:hover {
-                  text-transform: uppercase;
-                  background-color: $violet;
-                  border: none;
-                  font-weight: 800;
-                  transition: all 0.2s ease 0s;
-                  box-shadow: (116, 231, 217, 0.5) 0 2px 4px,(116, 231, 217, 0.5) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
-              
-                }
-              
-                .view {
-                    background-color: white;
-                    margin: 2%;
-                    padding: 3%;
-                    font-size: 0.6rem;
-                    font-weight: 600;
-                    text-align: center;
-                    align-items: center;
-                    height: auto;
-                    width: fit-content;
-                    text-transform: uppercase;
-                    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);  
-                    
-                    .viewbtn{
-                        text-decoration: none;
-                        color: $darkpurple;
-                    }
-                 
-                }
-               
-            }
-        }
-      }
-    }
-  }
-}
-
-
+                figcaption {
+              text-align: left;
+              padding: 5%;
+              margin: 0%;
+              font-size: 0.6em;
+              height: auto;
+              width: 100%;
+              color: white;
 
   
-  .circle:hover{
-    box-shadow: rgb(28, 13, 27) 0px 20px 30px -10px;
+              .view:hover {
+                text-transform: uppercase;
+                background-color: $violet;
+                border: none;
+                font-weight: 800;
+                transition: all 0.2s ease 0s;
+                box-shadow: (116, 231, 217, 0.5) 0 2px 4px,(116, 231, 217, 0.5) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
+            
+              }
+            
+              .view {
+                  background-color: white;
+                  margin: 2%;
+                  padding: 3%;
+                  font-size: 0.6rem;
+                  font-weight: 600;
+                  text-align: center;
+                  align-items: center;
+                  height: auto;
+                  width: fit-content;
+                  text-transform: uppercase;
+                  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);  
+                  
+                  .viewbtn{
+                      text-decoration: none;
+                      color: $darkpurple;
+                      font-family: $cinzel;
+                  }
+               
+              }
+             
+          }
+      }
+    }
   }
-                
+
+  @media screen and (min-width: 600px) {
+    .parent{
+      padding: 10%;
+    }
+
+    .modal-name{
+      font-size: 0.9rem;
+      margin: 8% auto 0% auto
+    }
+    .modal-open {
+      height:15vh;
+      width:15vh;
+    }
+
+    .modal .content {
+      width: 85%;
+      max-height: 87%;
+    }
+    .top {
+      
+      .profile-pic{
+        height: 12vh;
+
+        .picture {
+          width: 15vh;
+          height: 15vh;
+          margin: 1% auto;
+        }
+      }
+    }
+
+    .profile-projects{
+     width:95%;
+     
+     .project{
+      width: 37%;
+       figure{
+         padding:2%;
+
+         img{
+           height:15vh;
+           width: 100%;
+         }
+                 figcaption {
+                  font-size: 0.6em;
+
+                  .view {
+                      font-size: 0.6rem;
+                  }
+              
+                  }
+       }
+     }
+   }
+      
 }
 
-
-@media screen and (min-width: 600px) {
-
-    .team-title{
-        font-size: 1.3rem !important;
-    }
-    
-  .mobile-grid {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-      .circle{
-        height:15vh;
-        width:15vh; 
-         
-        .member-name{
-            margin: 0% auto;
-            h2{
-                font-size:1.1rem !important;
-                margin: 0% auto !important;
-            }
-        }
-      }
-      .wrapper {
-         height:15vh;
-        width:15vh;
-    }
-
-        .header{
-          height: 25vh;
-
-          .profile-pic{
-              height: 150px !important;
-              width: 150px !important;
-              margin: 10% 0% 0% 3% !important;
-          }
-      
-        }
-        
-        .profile-info{
-          h1{
-            font-size: 1.5rem !important;
-          }
-          
-          p{
-            font-size: 0.8rem !important;
-          }
-          
-          .profile-logo{
-            height:12vh !important;
-            width:12vh !important;
-          }
-          .profile-projects{
-            .project{
-
-              figure{
-                img{
-                  height:15vh !important;
-                  width:25vh !important;
-                  padding:0%;
-                }
-                     
-                  }
-              }
-            }
-          }
-        }
-      }
-      
 @media screen and (min-width: 900px) {
 
-    .team-title{
-        font-size: 1.6rem !important;
+  .modal-open {
+    height:20vh;
+    width:20vh;
+  }
+
+  .modal-name{
+    margin: 0% auto;
+    font-size: 1.5rem;
+    padding: 1% 35% 0% 2%;
+
+  }
+
+  .member-about{
+    font-size: 0.8rem;
+    padding: 1% 2% 0% 30%;
+  }
+
+  .top {
+      align-items: flex-start !important;
+    .profile-pic{
+      height: 12vh;
+
+      .picture {
+        width: 20vh;
+        height: 20vh;
+        margin: 1% 75% 0% 1%;
+        
+      }
     }
+  }
+
+  .profile-projects{
+    width:95%;
     
-  .mobile-grid {
-    display:none;
+    .project{
+     width: 37%;
+      figure{
+        padding:2%;
+
+        img{
+          height:15vh;
+          width: 80%;
+        }
+                figcaption {
+                 font-size: 0.8em;
+
+                 .view {
+                     font-size: 0.7rem;
+                 }
+             
+                 }
+      }
+    }
+  }
+    
+}
+
+@media screen and (min-width: 1100px) {
+
+  .modal-open {
+    height:25vh;
+    width:25vh;
   }
   
-  .desktop-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 2px;
-        height: 90vh;
-        width:80% !important;
-        align-items:center;
-        justify-content:center;
-        margin: 2% auto 8% auto;
+  .modal .content {
+    width: 88%;
+    max-height: 89%;
+  }
 
-        .modal {
-            width: 65%
-        }
-    
-        .circle{
-          height:20vh !important;
-          width:20vh !important;
-          background-color:grey;
-          border-radius:50%;
-          margin: 10%;
-          padding:1%;
-                  
-          .member-name{
-            display: flex;
-            position: relative;
-            margin: 0% auto;
-            font-size:1rem !important;
-            h2{
-                margin: 0% auto;
-                padding: 0%;
-            }
-            }
-        }
-    
-      .wrapper {
-        height:20vh !important;
-        width:20vh !important;
-      }
-    
+  .top {
+    align-items: flex-start !important;
+  .profile-pic{
+    height: 12vh;
 
-          .circle{
-            height:12vh;
-            width:12vh; 
-             
-            .member-name{
-            font-size:1.2rem;
-            }
-          }
-          .wrapper {
-             height:12vh;
-            width:12vh;
-        }
-    
-            .header{
-              height: 35vh !important;
-    
-              .profile-pic{
-                  height: 200px !important;
-                  width: 200px !important;
-                  margin: 20% 0% 0% 3% !important;
-              }
-          
-            }
-            
-            .profile-info{
-              h1{
-                font-size: 2rem !important;
-              }
-              
-              p{
-                font-size: 1rem !important;
-              }
-              
-              .profile-logo{
-                height:14vh !important;
-                width:14vh !important;
-              }
-              .profile-projects{
-                .project{
-    
-                  figure{
-                    img{
-                      height:20vh !important;
-                      width:35vh !important;
-                      padding:0%;
-                    }
-
-                    figcaption{
-                        font-size: 1rem !important;
-                        .view {
-                            font-size: 0.8rem !important;
-                            
-                            .viewbtn{
-                                text-decoration: none;
-                            }
-                         
-                        }
-                    }
-                  
-                         
-                      } //figure
-                } //project
-                } //projects - profile
-              } // profile info
-        }
+    .picture {
+      width: 25vh;
+      height: 25vh;
+      margin: 1% 80% 0% 1%;
+      
     }
-
-    @media screen and (min-width: 1200px) {
-        .profile-pic{
-            height: 300px !important;
-            width: 300px !important;
-            margin: 8% 0% 0% 3% !important;
-        }
-    }
+  }
+}
+}
