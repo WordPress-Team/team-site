@@ -36,13 +36,17 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="hamburger">&#9776;</span></button>
+			
 			<?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+
 				)
 			);
 			?>
+			<!-- <img class="nav-image" src="<?php the_field('nav_image') ?>"> -->
+			
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

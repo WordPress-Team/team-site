@@ -719,18 +719,33 @@ button.menu-toggle {
 .toggled div {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom right, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) bottom right, linear-gradient(to bottom left, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) bottom left, linear-gradient(to top left, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) top left, linear-gradient(to top right, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) top right;
-  background-size: 50% 50%;
+  background-color: #1c0d1b;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-position: top;
+  opacity: 0.5;
+  margin: 100px 0;
+}
+
+img.nav#site-navigation.main-navigation {
+  display: none;
 }
 
 @media screen and (min-width: 37.5em) {
+  .nav-image {
+    display: none;
+  }
+
   .menu-toggle {
     display: none;
   }
 
   .main-navigation ul {
-    display: flex;
+    display: none;
   }
 
   .toggled {
@@ -776,10 +791,18 @@ button.menu-toggle {
   button.menu-toggle {
     display: none;
   }
+
+  .main-navigation ul {
+    display: flex;
+  }
 }
 @media screen and (min-width: 900px) {
   button.menu-toggle {
     display: none;
+  }
+
+  .main-navigation ul {
+    display: flex;
   }
 }
 /* Footer
@@ -941,10 +964,11 @@ button.menu-toggle {
 
 .banner-container {
   background-color: #1c0d1b;
-  height: 39vh;
+  height: 49vh;
   width: auto;
   margin: 5px 10px;
-  margin: 18px 28px;
+  margin: 12px 13px;
+  padding: 0 10px;
 }
 
 .banner-2 {
@@ -963,18 +987,34 @@ button.menu-toggle {
 
 .both-buttons {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 .both-buttons .button-1 {
   background-color: #1c0d1b;
   color: #74e7d9;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
+  margin: 15px;
+  width: 130px;
+}
+.both-buttons .button-1:hover {
+  background-color: #74e7d9;
+  color: #1c0d1b;
 }
 .both-buttons .button-2 {
   background-color: #1c0d1b;
   color: #74e7d9;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
+  margin: 15px;
+  width: 130px;
+}
+.both-buttons .button-2:hover {
+  background-color: #74e7d9;
+  color: #1c0d1b;
 }
 
 @media screen and (min-width: 600px) {

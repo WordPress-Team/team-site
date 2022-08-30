@@ -29,10 +29,11 @@ $raleway: 'Raleway', sans-serif;
 
 .banner-container {
     background-color: #1c0d1b;
-    height: 39vh;
+    height: 49vh;
     width: auto;
     margin: 5px 10px;
-    margin: 18px 28px;
+    margin: 12px 13px;
+    padding: 0 10px;
 }
 
 .banner-2 {
@@ -51,11 +52,22 @@ $raleway: 'Raleway', sans-serif;
 
 .both-buttons{
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
         .button-1 {
             background-color: $darkpurple;
             color: $aqua;
             box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);;
             border-radius: 20px;
+            margin: 15px;
+            width: 130px;
+            &:hover{
+               background-color: $aqua;
+               color:$darkpurple;
+            }
         }
 
         .button-2 {
@@ -63,6 +75,12 @@ $raleway: 'Raleway', sans-serif;
             color: $aqua;
             box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);;
             border-radius: 20px;
+            margin: 15px;
+            width: 130px;
+            &:hover{
+                background-color: $aqua;
+                color:$darkpurple;
+             }
         }
 }
 
