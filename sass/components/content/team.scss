@@ -25,7 +25,7 @@ h2 {
 }
 .card {
   width: auto;
-height:auto;
+  height:auto;
   // border-radius: 5px;
   overflow: hidden;
   background: transparent;
@@ -33,7 +33,7 @@ height:auto;
   color: #424242;
   margin: 0px auto;
   padding: 1%;
-display: inline-block;
+  display: inline-block;
 
 /*   border-radius: 50%; */
 }
@@ -78,7 +78,59 @@ display: inline-block;
   z-index:99;
 }
 
-#modal-open:checked + .modal {
+#modal-open-one:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-two:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-three:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-four:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-five:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-six:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-seven:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-eight:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-nine:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-ten:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-eleven:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-twelve:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-thirteen:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+#modal-open-logo:checked + .modal {
   opacity: 1;
   transform: scale(1);
 }
@@ -166,16 +218,28 @@ margin:0% auto;
   margin: 0% auto;
   padding: 2% auto !important;
   
-  .picture{
+  .picture-border{
     position:relative;
     height: 10vh;
     width:10vh;
     border-radius: 50%;
-    background-color:yellow;
+    background-color:white;
     align-items:center;
     justify-content:center;
     margin: 4% auto 2% auto;
     padding: 2% auto !important;
+    object-fit: contain;
+
+    .picture{
+      position:relative;
+      height: auto;
+      width:100%;
+      align-items:center;
+      justify-content:center;
+      margin: 2% auto;
+      padding: 5% ;
+      object-fit:contain;
+    }
   }
   
 }
@@ -200,6 +264,55 @@ margin:0% auto;
   color: white;
   margin: 5% auto 1% auto;
   padding: 1%;
+}
+
+.member-about-logo{
+  font-size:0.6rem;
+  padding: 1% 4%;
+  margin: 0% auto;
+  font-family: $raleway;
+  color: white;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.34) 0%, rgba(83, 37, 248, 0.01) 100%);
+}
+.modal-name-logo{
+  background-color: $darkpurple;
+  font-family: $cinzel;
+  color: white;
+  margin: 1% auto;
+  padding: 1%;
+}
+.logo-explained{
+  z-index: 999;
+  padding:2%;
+  margin: 0% auto;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+
+  .map, .triangle, .zone{
+    text-decoration:none;
+    padding: 2%;
+    margin: 0% auto;
+    text-align: center;
+    
+
+    
+    .map-ref, .triangle-ref, .zone-ref{
+      margin:0% auto;
+      padding: 2%;
+      height: 10vh;
+      width: auto;
+      object-fit: contain;
+    }
+    .logo-about{
+      font-size: 0.5rem;
+      color: white;
+      font-family: $raleway;
+      letter-spacing: 2px;
+      font-weight: 400;
+    }
+  }
+  
 }
 .profile-links{
     margin: 0% auto;
@@ -227,6 +340,7 @@ margin:0% auto;
     margin: 0% auto;
     padding: 1%;
   }
+
 .profile-projects{
      margin: 1% auto;
     padding: 1%;
@@ -310,14 +424,46 @@ margin:0% auto;
     .team-title{
       font-size: 2rem;
     }
+    .logo-explained{
+      
+      .map, .triangle, .zone{
+        display: inline-block;
+        width: 32%;
+       
+        .map-ref, .triangle-ref, .zone-ref{
+          margin:0% auto;
+          padding: 2%;
+          height: 15vh;
+          width: auto;
+          object-fit: contain;
+        }
+        .logo-about{
+          font-size: 0.8rem;
+          color: white;
+          font-family: $raleway;
+          letter-spacing: 2px;
+          font-weight: 400;
+        }
+      }
+      
+    }
 
     .parent{
       padding: 10%;
     }
 
     .modal-name{
-      font-size: 0.9rem;
+      font-size: 1.1rem;
       margin: 8% auto 0% auto
+    }
+    .member-about{
+      font-size: 0.8rem;
+    }
+    .member-about-logo{
+      font-size:0.8rem;
+    }
+    .modal-name-logo{
+      font-size: 1.1rem;
     }
     .modal-open {
       height:15vh;
@@ -392,6 +538,13 @@ margin:0% auto;
     font-size: 0.8rem;
     padding: 1% 2% 0% 30%;
     text-align: left;
+  }
+
+  .member-about-logo{
+    font-size:0.9rem;
+  }
+  .modal-name-logo{
+    font-size: 1.5rem;
   }
 
   .top {
