@@ -1032,6 +1032,15 @@ textarea {
   letter-spacing: 1.6px;
 }
 
+.team-title {
+  font-size: 1.5rem;
+  font-family: "Cinzel Decorative", cursive;
+  color: #1c0d1b;
+  text-align: center;
+  padding: 0%;
+  margin: 5% auto;
+}
+
 h2 {
   font-size: 0.7rem;
   padding: 2%;
@@ -1069,6 +1078,10 @@ h2 {
   margin: 0% auto;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.modal-open:hover {
+  box-shadow: #5325f8 0px 2px 4px, #5325f8 0px 7px 13px -3px, #5325f8 0px -3px 0px inset;
 }
 
 .modal-label {
@@ -1130,6 +1143,10 @@ h2 {
   border-radius: 50%;
   border: 1px solid grey;
   cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #74e7d9;
 }
 
 .close-btn:after,
@@ -1200,13 +1217,14 @@ h2 {
   margin: 0% auto;
   font-family: "Raleway", sans-serif;
   color: white;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.34) 0%, rgba(83, 37, 248, 0.01) 100%);
 }
 
 .modal-name {
   background-color: #1c0d1b;
   font-family: "Cinzel Decorative", cursive;
   color: white;
-  margin: 3% auto;
+  margin: 5% auto 1% auto;
   padding: 1%;
 }
 
@@ -1274,6 +1292,7 @@ h2 {
 .profile-projects .project figure figcaption .view:hover {
   text-transform: uppercase;
   background-color: #5325f8;
+  color: white;
   border: none;
   font-weight: 800;
   transition: all 0.2s ease 0s;
@@ -1297,8 +1316,15 @@ h2 {
   color: #1c0d1b;
   font-family: "Cinzel Decorative", cursive;
 }
+.profile-projects .project figure figcaption .view .viewbtn:hover {
+  color: white;
+}
 
 @media screen and (min-width: 600px) {
+  .team-title {
+    font-size: 2rem;
+  }
+
   .parent {
     padding: 10%;
   }
@@ -1348,6 +1374,14 @@ h2 {
   }
 }
 @media screen and (min-width: 900px) {
+  .team-title {
+    font-size: 2.5rem;
+  }
+
+  .member {
+    font-size: 1.2rem;
+  }
+
   .modal-open {
     height: 20vh;
     width: 20vh;
@@ -1362,6 +1396,7 @@ h2 {
   .member-about {
     font-size: 0.8rem;
     padding: 1% 2% 0% 30%;
+    text-align: left;
   }
 
   .top {
