@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+// Our Mission Section //
 .section-1 {
     height: 500px;
     width: 100%;
@@ -36,7 +36,7 @@
 .our-mission-2-container {
 
 }
-
+// Second Section of Section 1 //
 .section-2 {
     height: 500px;
     width: 100%;
@@ -88,14 +88,37 @@ img {vertical-align: middle;}
 .our-mission-2-container {
 
 }
-
+// Beginning of Projects Section //
 .section-2 {
   height: 500px;
   width: 100%;
   background-color: rgb(233, 225, 222);
   border: 4px solid orangered;
   padding: 20px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+  
+}
+.prev {
+  background-color: black;
+
+}
+
+.next {
+  background-color: black;
+
+}
+
+.w3-button-w3-black-w3-display-left {
+ 
+}
+
+.w3-button-w3-black-w3-display-right {
+  
+}
+
+
+
+@media screen and (min-width: 300px) {
+  .class {
+    background-color: lightgreen;
+  }
 }
