@@ -1191,7 +1191,7 @@ h2 {
   width: 70%;
   height: auto;
   max-height: 80%;
-  top: 10%;
+  top: 5%;
   left: 0%;
   background-color: #1c0d1b;
   box-shadow: 0 3px 15px -2px #222;
@@ -1317,7 +1317,7 @@ h2 {
   background-color: #1c0d1b;
   font-family: "Cinzel Decorative", cursive;
   color: white;
-  margin: 1% auto;
+  margin: 0% auto;
   padding: 1%;
 }
 
@@ -1331,23 +1331,34 @@ h2 {
 }
 .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
   text-decoration: none;
-  padding: 2%;
+  padding: 1%;
   margin: 0% auto;
   text-align: center;
 }
 .logo-explained .map .map-ref, .logo-explained .map .triangle-ref, .logo-explained .map .zone-ref, .logo-explained .triangle .map-ref, .logo-explained .triangle .triangle-ref, .logo-explained .triangle .zone-ref, .logo-explained .zone .map-ref, .logo-explained .zone .triangle-ref, .logo-explained .zone .zone-ref {
   margin: 0% auto;
   padding: 2%;
-  height: 10vh;
+  height: 7vh;
   width: auto;
   object-fit: contain;
 }
 .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
-  font-size: 0.5rem;
+  font-size: 0.45rem;
   color: white;
   font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   font-weight: 400;
+  margin: 0% auto;
+  padding: 1%;
+}
+
+.logo-creds {
+  font-size: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  margin: 0% auto;
+  text-align: center;
+  padding: 1%;
+  color: white;
 }
 
 .profile-links {
@@ -1442,14 +1453,19 @@ h2 {
   color: white;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   .team-title {
     font-size: 2rem;
   }
 
+  .logo-explained .map, .logo-explained .triangle {
+    width: 48%;
+  }
+  .logo-explained .zone {
+    width: 95%;
+  }
   .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
     display: inline-block;
-    width: 32%;
   }
   .logo-explained .map .map-ref, .logo-explained .map .triangle-ref, .logo-explained .map .zone-ref, .logo-explained .triangle .map-ref, .logo-explained .triangle .triangle-ref, .logo-explained .triangle .zone-ref, .logo-explained .zone .map-ref, .logo-explained .zone .triangle-ref, .logo-explained .zone .zone-ref {
     margin: 0% auto;
@@ -1459,11 +1475,15 @@ h2 {
     object-fit: contain;
   }
   .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: white;
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
     font-weight: 400;
+  }
+
+  .logo-creds {
+    font-size: 0.65rem;
   }
 
   .parent {
@@ -1529,6 +1549,10 @@ h2 {
 @media screen and (min-width: 900px) {
   .team-title {
     font-size: 2.5rem;
+  }
+
+  .logo-creds {
+    font-size: 0.7rem;
   }
 
   .member {
@@ -1601,6 +1625,26 @@ h2 {
   .modal .content {
     width: 88%;
     max-height: 89%;
+    top: 0%;
+  }
+
+  .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
+    display: inline-block;
+    width: 32%;
+  }
+  .logo-explained .map .map-ref, .logo-explained .map .triangle-ref, .logo-explained .map .zone-ref, .logo-explained .triangle .map-ref, .logo-explained .triangle .triangle-ref, .logo-explained .triangle .zone-ref, .logo-explained .zone .map-ref, .logo-explained .zone .triangle-ref, .logo-explained .zone .zone-ref {
+    margin: 0% auto;
+    padding: 2%;
+    height: 15vh;
+    width: auto;
+    object-fit: contain;
+  }
+  .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
+    font-size: 0.6rem;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
   }
 
   .top {

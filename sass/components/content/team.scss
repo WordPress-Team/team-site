@@ -149,7 +149,7 @@ h2 {
   width: 70%;
   height: auto;
   max-height: 80%;
-  top: 10%;
+  top: 5%;
   left: 0%;
   // background: #fff;
   background-color: $darkpurple;
@@ -278,7 +278,7 @@ margin:0% auto;
   background-color: $darkpurple;
   font-family: $cinzel;
   color: white;
-  margin: 1% auto;
+  margin: 0% auto;
   padding: 1%;
 }
 .logo-explained{
@@ -291,7 +291,7 @@ margin:0% auto;
 
   .map, .triangle, .zone{
     text-decoration:none;
-    padding: 2%;
+    padding: 1%;
     margin: 0% auto;
     text-align: center;
     
@@ -300,19 +300,30 @@ margin:0% auto;
     .map-ref, .triangle-ref, .zone-ref{
       margin:0% auto;
       padding: 2%;
-      height: 10vh;
+      height: 7vh;
       width: auto;
       object-fit: contain;
     }
     .logo-about{
-      font-size: 0.5rem;
+      font-size: 0.45rem;
       color: white;
       font-family: $raleway;
       letter-spacing: 2px;
       font-weight: 400;
+      margin: 0% auto;
+      padding: 1%;
     }
   }
   
+}
+
+.logo-creds{
+  font-size: 0.5rem;
+  font-family: $raleway;
+  margin: 0% auto;
+  text-align: center;
+  padding: 1%;
+  color: white;
 }
 .profile-links{
     margin: 0% auto;
@@ -419,16 +430,22 @@ margin:0% auto;
     }
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 500px) {
 
     .team-title{
       font-size: 2rem;
     }
     .logo-explained{
+
+      .map, .triangle{
+        width: 48%;
+      }
+      .zone{
+        width: 95%;
+      }
       
       .map, .triangle, .zone{
         display: inline-block;
-        width: 32%;
        
         .map-ref, .triangle-ref, .zone-ref{
           margin:0% auto;
@@ -438,7 +455,7 @@ margin:0% auto;
           object-fit: contain;
         }
         .logo-about{
-          font-size: 0.8rem;
+          font-size: 0.6rem;
           color: white;
           font-family: $raleway;
           letter-spacing: 2px;
@@ -446,6 +463,9 @@ margin:0% auto;
         }
       }
       
+    }
+    .logo-creds{
+      font-size: 0.65rem;
     }
 
     .parent{
@@ -517,6 +537,10 @@ margin:0% auto;
 
   .team-title{
     font-size: 2.5rem;
+  }
+
+  .logo-creds{
+    font-size: 0.7rem;
   }
 
   .member{
@@ -597,6 +621,38 @@ margin:0% auto;
   .modal .content {
     width: 88%;
     max-height: 89%;
+    top: 0%
+  }
+
+  .logo-explained{
+
+    // .map, .triangle{
+    //   width: 48%;
+    // }
+    // .zone{
+    //   width: 95%;
+    // }
+    
+    .map, .triangle, .zone{
+      display: inline-block;
+      width: 32%;
+     
+      .map-ref, .triangle-ref, .zone-ref{
+        margin:0% auto;
+        padding: 2%;
+        height: 15vh;
+        width: auto;
+        object-fit: contain;
+      }
+      .logo-about{
+        font-size: 0.6rem;
+        color: white;
+        font-family: $raleway;
+        letter-spacing: 2px;
+        font-weight: 400;
+      }
+    }
+    
   }
 
   .top {

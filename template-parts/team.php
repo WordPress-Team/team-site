@@ -952,26 +952,31 @@
           <li class="map">
             <img class="map-ref"src="http://wordpress-team-site.local/wp-content/uploads/2022/08/Team-Logo-Sample-1-e1661895699813.png" alt="">
             <h4 class="logo-about">
-              We as a team are located all throught CA. Our team member Danu Vong came up with the idea to utilize the freeway maps that connect us all.
+            As a team are located all throughout CA, our team members Danu Vong and Kyle Washington
+               came up with the idea to utilize the freeway maps as part of our logo.
             </h4>
           </li>
           
           <li class="triangle">
             <img class="triangle-ref"src="http://wordpress-team-site.local/wp-content/uploads/2022/08/Team-Logo-Sample-2.png" alt="">
             <h4 class="logo-about">
-              We then utilized a triangle to symbolize unity between us all.
+            When looking at our geographic locations Danu Vong saw a triangle that we 
+            then utilized a triangle to symbolize unity between us all.
             </h4>
           </li>
           
           <li class="zone">
             <img class="zone-ref"src="http://wordpress-team-site.local/wp-content/uploads/2022/08/image-2-e1661895923218.png" alt="">
             <h4 class="logo-about">
-       
+            The name IMPACT was first suggested by our lead Neptali Montez. While wanting to tie in our logo and
+             the name idea of IMPACT, Danu Vong envisioned the symbolism of the triangle (us) setting an impact of 
+             vibrations that resembled the urgency of a "Hazard Light" button on cars. As the impact of our
+              creative ideas will see the clients vision come to life through our team's design.
             </h4>           
           </li>
         </ul>
         
-     
+        <h3 class="logo-creds">Logo designed and illustrated by team member Grace Birnam</h3>
       </div> <!-- end of content sec -->
     </div>
   </div> <!-- end of main content sec -->
