@@ -19,13 +19,24 @@
 </style>
 <body>
 
-<h2 class="w3-center">Manual Slideshow</h2>
+<h1 class="w3-center">Projects</h1>
 
 <div class="w3-content w3-display-container">
   <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
-  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image3-1-scaled.jpg" style="width:300px height:300px">
-  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image2-1-scaled.jpg" style="width:300px height:300px">
-  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image1-1-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:300px height:300px">
+  <img class="mySlides" src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:300px height:300px">
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
