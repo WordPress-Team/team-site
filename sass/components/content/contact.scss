@@ -47,7 +47,7 @@
 .wpcf7-select:hover{
     // color: #F39C12;
     color: $violet;
-    text-shadow: 0px 2px 4px #5325F8;
+    text-shadow: 0px 2px 4px $aqua;
     background-color: $darkpurple;
 }
  
@@ -93,6 +93,7 @@
 
 .wpcf7 input[type="submit"]:hover {
     color: white;
+    cursor: pointer;
     font-weight: 400;
     letter-spacing: 2px;
     background: #1C0D1B;

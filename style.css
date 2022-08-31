@@ -891,7 +891,7 @@ textarea {
 
 .wpcf7-select:hover {
   color: #5325f8;
-  text-shadow: 0px 2px 4px #5325F8;
+  text-shadow: 0px 2px 4px #74e7d9;
   background-color: #1c0d1b;
 }
 
@@ -937,6 +937,7 @@ textarea {
 
 .wpcf7 input[type=submit]:hover {
   color: white;
+  cursor: pointer;
   font-weight: 400;
   letter-spacing: 2px;
   background: #1C0D1B;
@@ -1100,6 +1101,7 @@ h2 {
 
 .modal-open:hover {
   box-shadow: #5325f8 0px 2px 4px, #5325f8 0px 7px 13px -3px, #5325f8 0px -3px 0px inset;
+  cursor: pointer;
 }
 
 .modal-label {
