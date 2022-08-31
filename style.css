@@ -881,6 +881,24 @@ textarea {
 
 .wpcf7 select {
   box-shadow: 0px 4px 4px rgba(109, 108, 108, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.wpcf7-select {
+  color: #1c0d1b;
+}
+
+.wpcf7-select:hover {
+  color: #5325f8;
+  text-shadow: 0px 2px 4px #5325F8;
+  background-color: #1c0d1b;
+}
+
+.wpcf7-select::after {
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
 }
 
 .wpcf7 textarea {
@@ -1191,7 +1209,7 @@ h2 {
   width: 70%;
   height: auto;
   max-height: 80%;
-  top: 5%;
+  top: 10%;
   left: 0%;
   background-color: #1c0d1b;
   box-shadow: 0 3px 15px -2px #222;
@@ -1625,7 +1643,7 @@ h2 {
   .modal .content {
     width: 88%;
     max-height: 89%;
-    top: 0%;
+    top: 5%;
   }
 
   .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {

@@ -36,8 +36,26 @@
 
 .wpcf7 select{
     box-shadow: 0px 4px 4px rgba(109, 108, 108, 0.7);
-}
+    border: none;
+    cursor: pointer;
 
+}
+.wpcf7-select{
+    // color: #F39C12;
+    color: $darkpurple;
+}
+.wpcf7-select:hover{
+    // color: #F39C12;
+    color: $violet;
+    text-shadow: 0px 2px 4px #5325F8;
+    background-color: $darkpurple;
+}
+ 
+.wpcf7-select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
 .wpcf7 textarea{
     height: 25vh;
     width: 100%;
