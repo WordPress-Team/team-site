@@ -1278,19 +1278,50 @@ h2 {
   margin: 0% auto;
   padding: 2% auto !important;
 }
-.top .profile-pic .picture-border {
+.top .profile-pic .picture {
   position: relative;
   height: 10vh;
   width: 10vh;
   border-radius: 50%;
-  background-color: white;
+  background-color: grey;
   align-items: center;
   justify-content: center;
   margin: 4% auto 2% auto;
   padding: 2% auto !important;
   object-fit: contain;
 }
-.top .profile-pic .picture-border .picture {
+
+.top-logo {
+  background-color: #1c0d1b;
+  height: auto;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+}
+.top-logo .profile-pic-logo {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  border-radius: 0%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0% auto;
+  padding: 2% auto !important;
+}
+.top-logo .profile-pic-logo .picture-border {
+  position: relative;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  margin: 4% auto 2% auto;
+  padding: 2% auto !important;
+  object-fit: contain;
+}
+.top-logo .profile-pic-logo .picture-border .picture-logo {
   position: relative;
   height: auto;
   width: 100%;
@@ -1299,6 +1330,8 @@ h2 {
   margin: 2% auto;
   padding: 5%;
   object-fit: contain;
+  z-index: 999;
+  background-color: #222;
 }
 
 .member {
@@ -1322,6 +1355,15 @@ h2 {
   color: white;
   margin: 5% auto 1% auto;
   padding: 1%;
+  font-size: 0.9rem;
+}
+
+.pronouns {
+  font-size: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  color: lightgrey;
+  margin: 0%;
+  padding: 0%;
 }
 
 .member-about-logo {
@@ -1384,6 +1426,7 @@ h2 {
 .profile-links {
   margin: 0% auto;
   padding: 1%;
+  color: white;
 }
 .profile-links .link {
   display: inline;
@@ -1395,9 +1438,14 @@ h2 {
   width: 100%;
   padding: 1%;
   margin: 0% auto;
-  background-color: grey;
+  background-color: transparent;
   text-decoration: none;
   font-size: 0.7rem;
+  color: white;
+  font-family: "Cinzel Decorative", cursive;
+}
+.profile-links .link .link-icon:hover {
+  color: #74e7d9;
 }
 
 .profile-logo {
@@ -1515,8 +1563,12 @@ h2 {
     margin: 8% auto 0% auto;
   }
 
+  .pronouns {
+    font-size: 0.7rem;
+  }
+
   .member-about {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .member-about-logo {
@@ -1588,6 +1640,10 @@ h2 {
     margin: 0% auto;
     font-size: 1.5rem;
     padding: 1% 35% 0% 2%;
+  }
+
+  .pronouns {
+    font-size: 0.9rem;
   }
 
   .member-about {

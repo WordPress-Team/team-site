@@ -218,37 +218,87 @@ margin:0% auto;
   margin: 0% auto;
   padding: 2% auto !important;
   
-  .picture-border{
+  .picture{
     position:relative;
     height: 10vh;
     width:10vh;
     border-radius: 50%;
-    background-color:white;
+    background-color:grey;
     align-items:center;
     justify-content:center;
     margin: 4% auto 2% auto;
     padding: 2% auto !important;
     object-fit: contain;
 
-    .picture{
-      position:relative;
-      height: auto;
-      width:100%;
-      align-items:center;
-      justify-content:center;
-      margin: 2% auto;
-      padding: 5% ;
-      object-fit:contain;
-    }
+    // .picture{
+    //   position:relative;
+    //   height: auto;
+    //   width:100%;
+    //   align-items:center;
+    //   justify-content:center;
+    //   margin: 2% auto;
+    //   padding: 5% ;
+    //   object-fit:contain;
+    //   z-index: 999;
+    //   background-color: #222;
+    // }
   }
   
 }
 }
+
+.top-logo{
+  background-color:$darkpurple;
+  height:auto;
+  width:100%;
+  padding:0%;
+  margin:0% auto;
+  
+  .profile-pic-logo{
+    position:relative;
+    height: 10vh;
+    width:100%;
+    border-radius: 0%;
+    background-color:white;
+    align-items:center;
+    justify-content:center;
+    margin: 0% auto;
+    padding: 2% auto !important;
+    
+    .picture-border{
+      position:relative;
+      height: 10vh;
+      width:10vh;
+      border-radius: 50%;
+      background-color:grey;
+      align-items:center;
+      justify-content:center;
+      margin: 4% auto 2% auto;
+      padding: 2% auto !important;
+      object-fit: contain;
+  
+      .picture-logo{
+        position:relative;
+        height: auto;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        margin: 2% auto;
+        padding: 5% ;
+        object-fit:contain;
+        z-index: 999;
+        background-color: #222;
+      }
+    }
+    
+  }
+  }
 .member{
   font-size:0.6rem;
   font-family: $cinzel;
   color: $darkpurple;
 }
+
 
 .member-about{
   font-size:0.6rem;
@@ -264,6 +314,14 @@ margin:0% auto;
   color: white;
   margin: 5% auto 1% auto;
   padding: 1%;
+  font-size: 0.9rem;
+}
+.pronouns {
+  font-size: 0.5rem;
+  font-family: $raleway;
+  color: lightgrey;
+  margin: 0%;
+  padding: 0%;
 }
 
 .member-about-logo{
@@ -328,6 +386,7 @@ margin:0% auto;
 .profile-links{
     margin: 0% auto;
     padding: 1%;
+    color: white;
     
     .link{
       display:inline;
@@ -339,9 +398,15 @@ margin:0% auto;
         width:100%;
         padding:1%;
         margin:0% auto;
-        background-color:grey;
+        background-color:transparent;
         text-decoration:none;
-        font-size: 0.7rem;;
+        font-size: 0.7rem;
+        color: white;
+        font-family: $cinzel;
+      }
+
+      .link-icon:hover{
+        color: $aqua;
       }
     }
   }
@@ -476,8 +541,12 @@ margin:0% auto;
       font-size: 1.1rem;
       margin: 8% auto 0% auto
     }
+
+    .pronouns {
+      font-size: 0.7rem;
+    }
     .member-about{
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
     .member-about-logo{
       font-size:0.8rem;
@@ -556,6 +625,10 @@ margin:0% auto;
     font-size: 1.5rem;
     padding: 1% 35% 0% 2%;
 
+  }
+
+  .pronouns {
+    font-size: 0.9rem;
   }
 
   .member-about{
