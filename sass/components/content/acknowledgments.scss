@@ -3,10 +3,49 @@
     padding: 0;
 }
 
-.section-1 {
+.first-section {
     height: 500px;
     width: 100%;
-    background-color: rgb(233, 225, 222);
+    background-color: white;
     border: 4px solid orangered;
     padding: 20px;
 }
+
+
+
+.even-columns {
+    display: flex;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .even-columns > * {
+    flex-basis: 100%;
+  }
+  
+  .even-columns-1 {
+    display: flex;
+    background-color: blue;
+    padding: 50px;
+    border: 2px solid black;
+  }
+  
+  .even-columns-1 > * {
+    flex-basis: 100%;
+  }
+  
+  .even-columns-2 {
+    display: flex;
+    background-color: blue;
+    padding: 40px;
+    border: 2px solid black; 
+  }
+  
+  .even-columns-2 > * {
+    flex-basis: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
