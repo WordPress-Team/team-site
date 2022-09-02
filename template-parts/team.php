@@ -13,11 +13,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_1') ?><span class="pronouns">(<?php the_field('member_pronouns_1') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_1') ?><span class="pronouns">(<?php the_field('member_pronouns_1') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -28,16 +28,16 @@
         <ul class="profile-links">
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_1') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_1') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_1') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_1') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_1') ?>">Portfolio</a>
-          </li>
+            <a class="link-icon" href="<?php the_field('github_link_1') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          </li>       
           
         </ul> <!-- end of links ul sec -->
         
@@ -84,11 +84,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_2') ?><span class="pronouns">(<?php the_field('member_pronouns_2') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_2') ?><span class="pronouns">(<?php the_field('member_pronouns_2') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -97,15 +97,15 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_2') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_2') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('portfolio_link_2') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_2') ?>"><i class="fab fa-github fa-2x"></i></a>
-          </li>
-          
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_2') ?>">Portfolio</a>
+            <a class="link-icon" href="<?php the_field('github_link_2') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -153,11 +153,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_3') ?><span class="pronouns">(<?php the_field('member_pronouns_3') ?>)</span></h2>
+          <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_3') ?><span class="pronouns">(<?php the_field('member_pronouns_3') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -166,22 +166,22 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_3') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_3') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+                    
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('portfolio_link_3') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_3') ?>"><i class="fab fa-github fa-2x"></i></a>
-          </li>
-          
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_3') ?>">Portfolio</a>
+            <a class="link-icon" href="<?php the_field('github_link_3') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
         
         <img class="profile-logo" src="<?php the_field('member_logo_3') ?>" alt="">
         
-        <ul class="profile-projects">
+        <!-- <ul class="profile-projects">
            
            <li class="project">
               <figure>
@@ -204,7 +204,7 @@
                 </figcaption>
             </figure>
            </li>
-          </ul> <!-- end of projects ul sec -->
+          </ul> end of projects ul sec -->
       </div> <!-- end of content sec -->
     </div>
   </div> <!-- end of main content sec -->
@@ -222,11 +222,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_4') ?><span class="pronouns">(<?php the_field('member_pronouns_4') ?>)</span></h2>
+          <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_4') ?><span class="pronouns">(<?php the_field('member_pronouns_4') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -235,16 +235,17 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_4') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_4') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_4') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_4') ?>" target="_blank">Portfolio</a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('github_link_4') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_4') ?>">Portfolio</a>
-          </li>
           
         </ul> <!-- end of links ul sec -->
         
@@ -291,11 +292,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_5') ?><span class="pronouns">(<?php the_field('member_pronouns_5') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_5') ?><span class="pronouns">(<?php the_field('member_pronouns_5') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -304,15 +305,15 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_5') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_5') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('portfolio_link_5') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_5') ?>"><i class="fab fa-github fa-2x"></i></a>
-          </li>
-          
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_5') ?>">Portfolio</a>
+            <a class="link-icon" href="<?php the_field('github_link_5') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -360,11 +361,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_6') ?><span class="pronouns">(<?php the_field('member_pronouns_6') ?>)</span></h2>
+          <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_6') ?><span class="pronouns">(<?php the_field('member_pronouns_6') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -373,17 +374,17 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_6') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_6') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('portfolio_link_6') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_6') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_6') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
-          
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_6') ?>">Portfolio</a>
-          </li>
-          
+   
         </ul> <!-- end of links ul sec -->
         
         <img class="profile-logo" src="<?php the_field('member_logo_6') ?>" alt="">
@@ -429,11 +430,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_7') ?><span class="pronouns">(<?php the_field('member_pronouns_7') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_7') ?><span class="pronouns">(<?php the_field('member_pronouns_7') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -442,16 +443,17 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_7') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_7') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_7') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_7') ?>" target="_blank">Portfolio</a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('github_link_7') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_7') ?>">Portfolio</a>
-          </li>
           
         </ul> <!-- end of links ul sec -->
         
@@ -498,11 +500,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_8') ?><span class="pronouns">(<?php the_field('member_pronouns_8') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_8') ?><span class="pronouns">(<?php the_field('member_pronouns_8') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -511,15 +513,15 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_8') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_8') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_8') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_8') ?>" target="_blank">Portfolio</a>
           </li>
-          
+
           <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_8') ?>">Portfolio</a>
+            <a class="link-icon" href="<?php the_field('github_link_8') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -567,11 +569,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_9') ?><span class="pronouns">(<?php the_field('member_pronouns_9') ?>)</span></h2>
+          <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_9') ?><span class="pronouns">(<?php the_field('member_pronouns_9') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -580,17 +582,17 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_9') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_9') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('portfolio_link_9') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_9') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_9') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
-          
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_9') ?>">Portfolio</a>
-          </li>
-          
+
         </ul> <!-- end of links ul sec -->
         
         <!-- <img class="profile-logo" src="<?php the_field('member_logo_9') ?>" alt=""> -->
@@ -636,11 +638,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_10') ?><span class="pronouns">(<?php the_field('member_pronouns_10') ?>)</span></h2>
+          <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_10') ?><span class="pronouns">(<?php the_field('member_pronouns_10') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -649,16 +651,18 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_10') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_10') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_10') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_10') ?>" target="_blank">Portfolio</a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('github_link_10') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_10') ?>">Portfolio</a>
-          </li>
+      
           
         </ul> <!-- end of links ul sec -->
         
@@ -705,11 +709,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_11') ?><span class="pronouns">(<?php the_field('member_pronouns_11') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_11') ?><span class="pronouns">(<?php the_field('member_pronouns_11') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -718,17 +722,17 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_11') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_11') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_11') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_11') ?>" target="_blank">Portfolio</a>
           </li>
-          
+
           <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_11') ?>">Portfolio</a>
+            <a class="link-icon" href="<?php the_field('github_link_11') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
-          
+
         </ul> <!-- end of links ul sec -->
         
         <!-- <img class="profile-logo" src="<?php the_field('member_logo_11') ?>" alt=""> -->
@@ -774,11 +778,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_12') ?><span class="pronouns">(<?php the_field('member_pronouns_12') ?>)</span></h2>
+          <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_12') ?><span class="pronouns">(<?php the_field('member_pronouns_12') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -787,15 +791,15 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_12') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_12') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
           </li>
-          
+
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_12') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('portfolio_link_12') ?>" target="_blank">Portfolio</a>
           </li>
-          
+
           <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_12') ?>">Portfolio</a>
+            <a class="link-icon" href="<?php the_field('github_link_12') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -843,11 +847,11 @@
                 <input type="radio" name="modal" value="close" class="modal-radio"/>
             </label>
       <div class="content">
-        <div class="top">
+        <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
             <img class="picture" src="" alt="">
           </div>
-          <h2 class="modal-name"><?php the_field('open_modal_full_name_13') ?><span class="pronouns">(<?php the_field('member_pronouns_13') ?>)</span></h2>
+          <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_13') ?><span class="pronouns">(<?php the_field('member_pronouns_13') ?>)</span></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -856,16 +860,18 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_13') ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_13') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+
+          <li class="link">
+            <a class="link-icon" href="<?php the_field('portfolio_link_13') ?>" target="_blank">Portfolio</a>
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_13') ?>"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_13') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </li>
           
-          <li class="link">
-            <a class="link-icon" href="<?php the_field('portfolio_link_13') ?>">Portfolio</a>
-          </li>
+        
           
         </ul> <!-- end of links ul sec -->
         
@@ -914,44 +920,39 @@
         <div class="top-logo">
           <div class="profile-pic-logo">
             <div class="picture-border">
-            <img class="picture-logo" src="http://wordpress-team-site.local/wp-content/uploads/2022/08/Impact-Zone-Logo-2.png" alt="">
+            <img class="picture-logo" src="<?php the_field('open_modal_photo_14') ?>" alt="">
             </div>
           </div>
-          <h2 class="modal-name-logo">Impact Zone</h2>
+          <h2 class="modal-name-logo"><?php the_field('open_modal_full_name_14') ?></h2>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
         </div> <!-- end of top sec -->
-        <p class="member-about-logo">How did our logo come about?</p>
+        <p class="member-about-logo"><?php the_field('logo_about') ?></p>
         <ul class="logo-explained">
           <li class="map">
-            <img class="map-ref"src="http://wordpress-team-site.local/wp-content/uploads/2022/08/Team-Logo-Sample-1-e1661895699813.png" alt="">
+            <img class="map-ref"src="<?php the_field('logo_modal_photo_1') ?>" alt="">
             <h4 class="logo-about">
-            As a team are located all throughout CA, our team members Danu Vong and Kyle Washington
-               came up with the idea to utilize the freeway maps as part of our logo.
+              <?php the_field('logo_modal_paragraph_1') ?>
             </h4>
           </li>
           
           <li class="triangle">
-            <img class="triangle-ref"src="http://wordpress-team-site.local/wp-content/uploads/2022/08/Team-Logo-Sample-2.png" alt="">
+            <img class="triangle-ref"src="<?php the_field('logo_modal_photo_2') ?>" alt="">
             <h4 class="logo-about">
-            When looking at our geographic locations Danu Vong saw a triangle that we 
-            then utilized a triangle to symbolize unity between us all.
+              <?php the_field('logo_modal_paragraph_2') ?>
             </h4>
           </li>
           
           <li class="zone">
-            <img class="zone-ref"src="http://wordpress-team-site.local/wp-content/uploads/2022/08/image-2-e1661895923218.png" alt="">
+            <img class="zone-ref"src="<?php the_field('logo_modal_photo_3') ?>" alt="">
             <h4 class="logo-about">
-            The name IMPACT was first suggested by our lead Neptali Montez. While wanting to tie in our logo and
-             the name idea of IMPACT, Danu Vong envisioned the symbolism of the triangle (us) setting an impact of 
-             vibrations that resembled the urgency of a "Hazard Light" button on cars. As the impact of our
-              creative ideas will see the clients vision come to life through our team's design.
+              <?php the_field('logo_modal_paragraph_3') ?>
             </h4>           
           </li>
         </ul>
         
-        <h3 class="logo-creds">Logo designed and illustrated by team member Grace Birnam</h3>
+        <h3 class="logo-creds"><?php the_field('logo_design_creds') ?></h3>
       </div> <!-- end of content sec -->
     </div>
   </div> <!-- end of main content sec -->

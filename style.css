@@ -1100,7 +1100,7 @@ h2 {
 }
 
 .modal-open:hover {
-  box-shadow: #5325f8 0px 2px 4px, #5325f8 0px 7px 13px -3px, #5325f8 0px -3px 0px inset;
+  box-shadow: rgba(83, 37, 248, 0.4) 0px 5px, rgba(116, 231, 217, 0.3) 0px 10px, rgba(116, 231, 217, 0.2) 0px 15px, rgba(116, 231, 217, 0.1) 0px 20px, rgba(116, 231, 217, 0.05) 0px 25px;
   cursor: pointer;
 }
 
@@ -1213,7 +1213,7 @@ h2 {
   max-height: 80%;
   top: 10%;
   left: 0%;
-  background-color: #1c0d1b;
+  background-color: white;
   box-shadow: 0 3px 15px -2px #222;
   padding: 0%;
   margin: 0% auto;
@@ -1262,7 +1262,7 @@ h2 {
 }
 
 .top {
-  background-color: #1c0d1b;
+  background-color: transparent;
   height: auto;
   width: 100%;
   padding: 0%;
@@ -1293,13 +1293,13 @@ h2 {
   background-color: grey;
   align-items: center;
   justify-content: center;
-  margin: 4% auto 2% auto;
+  margin: 1% auto 2% auto;
   padding: 2% auto !important;
   object-fit: contain;
 }
 
 .top-logo {
-  background-color: #1c0d1b;
+  background-color: white;
   height: auto;
   width: 100%;
   padding: 0%;
@@ -1352,23 +1352,32 @@ h2 {
   padding: 1% 4%;
   margin: 0% auto;
   font-family: "Raleway", sans-serif;
-  color: white;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.34) 0%, rgba(83, 37, 248, 0.01) 100%);
+  font-weight: 600;
+  color: #1c0d1b;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.1) 0%, rgba(83, 37, 248, 0.01) 100%);
 }
 
 .modal-name {
-  background-color: #1c0d1b;
+  background-color: transparent;
   font-family: "Cinzel Decorative", cursive;
-  color: white;
-  margin: 5% auto 1% auto;
-  padding: 1%;
+  color: #1c0d1b;
+  margin: 0% auto 1% auto;
+  padding: 3% 1% 1% 1%;
   font-size: 0.7rem;
+}
+
+.violet-gradient {
+  background: linear-gradient(to bottom, #5325f8, white);
+}
+
+.aqua-gradient {
+  background: linear-gradient(to bottom, #74e7d9, white);
 }
 
 .pronouns {
   font-size: 0.5rem;
   font-family: "Raleway", sans-serif;
-  color: lightgrey;
+  color: grey;
   margin: 0%;
   padding: 0%;
 }
@@ -1378,14 +1387,14 @@ h2 {
   padding: 1% 4%;
   margin: 0% auto;
   font-family: "Raleway", sans-serif;
-  color: white;
+  color: #1c0d1b;
   background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.34) 0%, rgba(83, 37, 248, 0.01) 100%);
 }
 
 .modal-name-logo {
-  background-color: #1c0d1b;
+  background-color: white;
   font-family: "Cinzel Decorative", cursive;
-  color: white;
+  color: #1c0d1b;
   margin: 0% auto;
   padding: 1%;
 }
@@ -1413,7 +1422,7 @@ h2 {
 }
 .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
   font-size: 0.45rem;
-  color: white;
+  color: #1c0d1b;
   font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   font-weight: 400;
@@ -1427,13 +1436,13 @@ h2 {
   margin: 0% auto;
   text-align: center;
   padding: 1%;
-  color: white;
+  color: #1c0d1b;
 }
 
 .profile-links {
   margin: 0% auto;
   padding: 1%;
-  color: white;
+  color: #1c0d1b;
 }
 .profile-links .link {
   display: inline;
@@ -1448,7 +1457,8 @@ h2 {
   background-color: transparent;
   text-decoration: none;
   font-size: 0.95rem;
-  color: white;
+  font-weight: 600;
+  color: #1c0d1b;
   font-family: "Cinzel Decorative", cursive;
 }
 .profile-links .link .link-icon:hover {
@@ -1497,10 +1507,9 @@ h2 {
   font-size: 0.6em;
   height: auto;
   width: 100%;
-  color: white;
+  color: #1c0d1b;
 }
 .profile-projects .project figure figcaption .view:hover {
-  text-transform: uppercase;
   background-color: #5325f8;
   color: white;
   border: none;
@@ -1518,7 +1527,6 @@ h2 {
   align-items: center;
   height: auto;
   width: fit-content;
-  text-transform: uppercase;
   box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
 }
 .profile-projects .project figure figcaption .view .viewbtn {
@@ -1569,7 +1577,8 @@ h2 {
 
   .modal-name {
     font-size: 1rem;
-    margin: 8% auto 0% auto;
+    margin: 0% auto 0% auto;
+    padding: 8% 0% 0% 0%;
   }
 
   .pronouns {
@@ -1632,6 +1641,11 @@ h2 {
     font-size: 2.5rem;
   }
 
+  .profile-logo {
+    height: 15vh;
+    width: 15vh;
+  }
+
   .logo-creds {
     font-size: 0.7rem;
   }
@@ -1657,7 +1671,7 @@ h2 {
 
   .member-about {
     font-size: 0.8rem;
-    padding: 1% 2%;
+    padding: 3% 2% 0% 2%;
     text-align: center;
   }
 
@@ -1715,12 +1729,12 @@ h2 {
 
   .modal-name {
     font-size: 1.5rem;
+    padding: 3% 0% 0% 0%;
   }
 
   .member-about {
     font-size: 0.9rem;
-    padding: 0% 2% 0% 18%;
-    text-align: left;
+    padding: 4% 2% 0% 2%;
   }
 
   .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
@@ -1749,8 +1763,8 @@ h2 {
     height: 12vh;
   }
   .top .profile-pic .picture {
-    width: 25vh;
-    height: 25vh;
+    width: 22vh;
+    height: 22vh;
     margin: 1% 80% 0% 1%;
   }
 }
