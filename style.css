@@ -807,6 +807,83 @@ img.nav#site-navigation.main-navigation {
 }
 /* Footer
 --------------------------------------------- */
+footer#colophon {
+  width: auto;
+  height: 300px;
+  position: relative;
+  bottom: 0;
+}
+footer#colophon ul {
+  list-style-type: none;
+}
+footer#colophon .row-one {
+  display: inline-block;
+  margin: 20px 0px;
+}
+footer#colophon .projects {
+  position: relative;
+  left: -75px;
+}
+footer#colophon .team {
+  position: relative;
+  right: -80px;
+}
+footer#colophon .row-two {
+  display: inline-block;
+  /* text-align: center; */
+  position: relative;
+  left: -12px;
+  margin: 20px 0px;
+}
+footer#colophon .row-three {
+  display: inline-block;
+}
+footer#colophon .contact {
+  position: relative;
+  left: -75px;
+  margin: 20px 0px;
+}
+footer#colophon .about {
+  position: relative;
+  right: -75px;
+  margin: 20px 0px;
+}
+footer#colophon .menu-item a {
+  color: black;
+  text-decoration: none;
+}
+footer#colophon .menu-item a:hover {
+  color: #5325f8;
+}
+footer#colophon .menu-item a:active {
+  color: #5325f8;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.design-developed {
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  margin: 1 auto;
+  font-weight: 600;
+}
+
+.members {
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  margin: 1 auto;
+  font-weight: 600;
+}
+
+.copywright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {

@@ -50,6 +50,7 @@ function wordpress_team_site_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'wordpress-team-site' ),
+			'footer-menu' => __('Footer Menu', 'wordpress-team-site'),
 		)
 	);
 

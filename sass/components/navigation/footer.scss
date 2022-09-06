@@ -1,0 +1,102 @@
+// Set Variables 
+$darkpurple: #1c0d1b;
+$violet: #5325f8;
+$aqua: #74e7d9;
+$cinzel: 'Cinzel Decorative', cursive;
+$raleway: 'Raleway', sans-serif;
+
+footer#colophon {
+    width: auto;
+    height: 300px;
+    // background-color: aqua;
+    position: relative;
+    bottom: 0;
+    ul{
+        list-style-type: none;
+    }
+
+    .row-one {
+        display: inline-block;
+        margin: 20px 0px;
+    }
+
+    .projects {
+        position: relative;
+        left: -75px;
+    }
+
+    .team {
+        position: relative;
+        right: -80px;
+    }
+
+    .row-two {
+        display: inline-block;
+        /* text-align: center; */
+        position: relative;
+        left: -12px;
+        margin: 20px 0px;
+    }
+
+    .row-three {
+        display: inline-block;
+    }
+
+    .contact {
+        position: relative;
+        left: -75px;
+        margin: 20px 0px;
+    }
+
+    .about {
+        position: relative;
+        right: -75px;
+        margin: 20px 0px;
+    }
+
+    .menu-item a {
+        color: black;
+        text-decoration: none;
+        &:hover {
+            color:$violet;
+        }
+        &:active {
+            color:$violet;
+        }
+        
+    }
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.design-developed {
+    font-family: $cinzel;
+    text-align: center;
+    margin: 1 auto;
+    // font-size: 2rem;
+    // letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.members {
+    font-family: $cinzel;
+    text-align: center;
+    margin: 1 auto;
+    // font-size: 2rem;
+    // letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.copywright {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    
+}
