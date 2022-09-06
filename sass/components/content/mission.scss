@@ -83,3 +83,19 @@ img {vertical-align: middle;}
   font-family: 'Cinzel Decorative', cursive;
 }
 
+@media screen and (min-width: 300px) {
+  .section-1 {
+    //background-color: lightgreen;
+    padding-bottom: 750px;
+    position: relative;
+  }
+
+} 
+
+@media screen and (min-width: 680px) {
+  .section-1 {
+    //background-color: lightblue;
+    padding-top: 60px;
+    padding-bottom:0px;
+  }
+}

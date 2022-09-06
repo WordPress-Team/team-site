@@ -131,7 +131,8 @@ img {vertical-align: middle;}
 
 
 @media screen and (min-width: 300px) {
-  .class {
-    background-color: lightgreen;
+  .slideshow-container {
+    //background-color: lightgreen;
+    margin-top: 40px;
   }
 }
