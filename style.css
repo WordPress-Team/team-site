@@ -1109,6 +1109,27 @@ h2 {
   align-self: center;
   position: relative;
 }
+.modal-open .member1,
+.modal-open .member2,
+.modal-open .member3,
+.modal-open .member4,
+.modal-open .member5,
+.modal-open .member6,
+.modal-open .member7,
+.modal-open .member8,
+.modal-open .member9,
+.modal-open .member10,
+.modal-open .member11,
+.modal-open .member12,
+.modal-open .member13 {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+  align-self: center;
+  position: relative;
+  border-radius: 50%;
+}
 
 .modal-open:hover {
   box-shadow: rgba(83, 37, 248, 0.4) 0px 5px, rgba(116, 231, 217, 0.3) 0px 10px, rgba(116, 231, 217, 0.2) 0px 15px, rgba(116, 231, 217, 0.1) 0px 20px, rgba(116, 231, 217, 0.05) 0px 25px;
@@ -1301,12 +1322,11 @@ h2 {
   height: 10vh;
   width: 10vh;
   border-radius: 50%;
-  background-color: grey;
+  background-color: transparent;
   align-items: center;
   justify-content: center;
-  margin: 1% auto 2% auto;
-  padding: 2% auto !important;
-  object-fit: contain;
+  margin: 0% auto;
+  padding: 0%;
 }
 
 .top-logo {
@@ -1417,6 +1437,7 @@ h2 {
   text-decoration: none;
   list-style: none;
   display: inline-block;
+  color: #1c0d1b;
 }
 .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
   text-decoration: none;
@@ -1439,6 +1460,7 @@ h2 {
   font-weight: 400;
   margin: 0% auto;
   padding: 1%;
+  font-weight: 800;
 }
 
 .logo-creds {
@@ -1485,7 +1507,7 @@ h2 {
 }
 
 .profile-projects {
-  margin: 1% auto;
+  margin: 0% auto;
   padding: 1%;
   width: 95%;
   display: flex;
@@ -1499,7 +1521,7 @@ h2 {
 .profile-projects .project figure {
   height: auto;
   width: 100%;
-  padding: 2%;
+  padding: 1%;
   margin: 0% auto;
   text-decoration: none;
 }
@@ -1507,13 +1529,13 @@ h2 {
   height: 10vh;
   width: 100%;
   padding: 0%;
-  box-shadow: rgba(116, 231, 217, 0.5) 0px 15px 15px -10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-color: transparent;
   object-fit: cover;
 }
 .profile-projects .project figure figcaption {
   text-align: left;
-  padding: 5%;
+  padding: 1%;
   margin: 0%;
   font-size: 0.6em;
   height: auto;
@@ -1530,8 +1552,8 @@ h2 {
 }
 .profile-projects .project figure figcaption .view {
   background-color: white;
-  margin: 2%;
-  padding: 3%;
+  margin: 0% auto;
+  padding: 1%;
   font-size: 0.6rem;
   font-weight: 600;
   text-align: center;
@@ -1572,10 +1594,9 @@ h2 {
   }
   .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
     font-size: 0.6rem;
-    color: white;
+    color: #1c0d1b;
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
-    font-weight: 400;
   }
 
   .logo-creds {
@@ -1716,8 +1737,8 @@ h2 {
     padding: 2%;
   }
   .profile-projects .project figure img {
-    height: 15vh;
-    width: 80%;
+    height: 18vh;
+    width: 75%;
   }
   .profile-projects .project figure figcaption {
     font-size: 0.8em;
@@ -1726,7 +1747,7 @@ h2 {
     font-size: 0.7rem;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 984px) {
   .modal-open {
     height: 25vh;
     width: 25vh;
@@ -1734,7 +1755,7 @@ h2 {
 
   .modal .content {
     width: 88%;
-    max-height: 89%;
+    max-height: 94%;
     top: 5%;
   }
 

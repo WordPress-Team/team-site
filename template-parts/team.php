@@ -4,7 +4,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-one">
-           <img class="member1" src="" alt="">
+           <img class="member1" src="<?php the_field('member_circle_photo_1') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_1') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-one" class="modal-radio" />
@@ -15,7 +15,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_1')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_1') ?><span class="pronouns">(<?php the_field('member_pronouns_1') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -75,7 +75,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-two">
-      <img class="member2" src="" alt="">
+      <img class="member2" src="<?php the_field('member_circle_photo_2') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_2') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-two" class="modal-radio" />
@@ -86,7 +86,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_2')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_2') ?><span class="pronouns">(<?php the_field('member_pronouns_2') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -144,7 +144,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-three">
-      <img class="member3" src="" alt="">
+      <img class="member3" src="<?php the_field('member_circle_photo_3') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_3') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-three" class="modal-radio" />
@@ -155,7 +155,7 @@
       <div class="content">
         <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_3')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_3') ?><span class="pronouns">(<?php the_field('member_pronouns_3') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -181,7 +181,7 @@
         
         <img class="profile-logo" src="<?php the_field('member_logo_3') ?>" alt="">
         
-        <!-- <ul class="profile-projects">
+        <ul class="profile-projects">
            
            <li class="project">
               <figure>
@@ -204,7 +204,7 @@
                 </figcaption>
             </figure>
            </li>
-          </ul> end of projects ul sec -->
+          </ul> <!-- end of projects ul sec -->
       </div> <!-- end of content sec -->
     </div>
   </div> <!-- end of main content sec -->
@@ -213,7 +213,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-four">
-      <img class="member4" src="" alt="">
+      <img class="member4" src="<?php the_field('member_circle_photo_4') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_4') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-four" class="modal-radio" />
@@ -224,7 +224,7 @@
       <div class="content">
         <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_4')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_4') ?><span class="pronouns">(<?php the_field('member_pronouns_4') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -283,7 +283,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-five">
-      <img class="member5" src="" alt="">
+      <img class="member5" src="<?php the_field('member_circle_photo_5') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_5') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-five" class="modal-radio" />
@@ -294,7 +294,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_5')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_5') ?><span class="pronouns">(<?php the_field('member_pronouns_5') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -352,7 +352,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-six">
-      <img class="member6" src="" alt="">
+      <img class="member6" src="<?php the_field('member_circle_photo_6') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_6') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-six" class="modal-radio" />
@@ -363,7 +363,7 @@
       <div class="content">
         <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_6')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_6') ?><span class="pronouns">(<?php the_field('member_pronouns_6') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -421,7 +421,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-seven">
-      <img class="member7" src="" alt="">
+      <img class="member7" src="<?php the_field('member_circle_photo_7') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_7') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-seven" class="modal-radio" />
@@ -432,7 +432,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_7')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_7') ?><span class="pronouns">(<?php the_field('member_pronouns_7') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -491,7 +491,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-eight">
-      <img class="member8" src="" alt="">
+      <img class="member8" src="<?php the_field('member_circle_photo_8') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_8') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-eight" class="modal-radio" />
@@ -502,7 +502,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_8')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_8') ?><span class="pronouns">(<?php the_field('member_pronouns_8') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -560,7 +560,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-nine">
-      <img class="member9" src="" alt="">
+      <img class="member9" src="<?php the_field('member_circle_photo_9') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_9') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-nine" class="modal-radio" />
@@ -571,7 +571,7 @@
       <div class="content">
         <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_9')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_9') ?><span class="pronouns">(<?php the_field('member_pronouns_9') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -629,7 +629,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-ten">
-      <img class="member10" src="" alt="">
+      <img class="member10" src="<?php the_field('member_circle_photo_10') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_10') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-ten" class="modal-radio" />
@@ -640,7 +640,7 @@
       <div class="content">
         <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_10')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_10') ?><span class="pronouns">(<?php the_field('member_pronouns_10') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -700,7 +700,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-eleven">
-      <img class="member11" src="" alt="">
+      <img class="member11" src="<?php the_field('member_circle_photo_11') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_11') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-eleven" class="modal-radio" />
@@ -711,7 +711,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_11')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_11') ?><span class="pronouns">(<?php the_field('member_pronouns_11') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -769,7 +769,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-twelve">
-      <img class="member12" src="" alt="">
+      <img class="member12" src="<?php the_field('member_circle_photo_12') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_12') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-twelve" class="modal-radio" />
@@ -780,7 +780,7 @@
       <div class="content">
         <div class="top violet-bkg">
           <div class="profile-pic violet-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_12')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_12') ?><span class="pronouns">(<?php the_field('member_pronouns_12') ?>)</span></h2>
           <label class="modal-label close-btn">
@@ -838,7 +838,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-thirteen">
-      <img class="member13" src="" alt="">
+      <img class="member13" src="<?php the_field('member_circle_photo_13') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_13') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-thirteen" class="modal-radio" />
@@ -849,7 +849,7 @@
       <div class="content">
         <div class="top aqua-bkg">
           <div class="profile-pic aqua-bkg">
-            <img class="picture" src="" alt="">
+            <img class="picture" src="<?php the_field('open_modal_photo_13')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_13') ?><span class="pronouns">(<?php the_field('member_pronouns_13') ?>)</span></h2>
           <label class="modal-label close-btn">
