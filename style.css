@@ -1109,6 +1109,7 @@ img {
 .paragraph {
   margin-top: 100px;
   padding: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -1117,6 +1118,13 @@ img {
 
 .col {
   text-align: center;
+}
+
+.image {
+  height: 175px;
+  width: 160px;
+  margin-left: 70px;
+  margin-top: 0px;
 }
 
 @media screen and (min-width: 300px) {
@@ -1137,6 +1145,7 @@ img {
     margin-top: 100px;
     padding: 20px;
     text-align: center;
+    color: white;
   }
 
   .header {
@@ -1172,6 +1181,8 @@ img {
 
   .header {
     text-align: center;
+    padding-top: 120px;
+    color: white;
   }
 }
 @media screen and (min-width: 780px) {

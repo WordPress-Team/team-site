@@ -1,23 +1,24 @@
 <section class="first-section">
-    <h1 class="header">ACKNOWLEDGEMENTS</h1>
+   
    
   <div class="container">
+    <h1 class="header">ACKNOWLEDGEMENTS</h1>
       <div class="even-columns">
         <div class="col">
-          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" alt="">
-          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint ducimus perferendis harum maxime fugiat error nostrum quos accusamus expedita, voluptatibus, nisi provident cumque numquam tempora, explicabo illo atque eaque.</p>
+          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" class="image" alt="">
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint ducimus perferendis harum maxime fugiat error nostrum quos accusamus expedita, voluptatibus, nisi provident cumque numquam tempora, explicabo</p>
         </div>
         <div class="col">
-          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" alt="">
-          <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore, obcaecati tenetur perferendis fugiat soluta totam officiis magnam, non voluptate incidunt illo neque at blanditiis.</p>
+          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" class="image" alt="">
+          <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint in commodi incidunt aliquam recusandae ex, omnis libero quam nulla possimus. Hic eaque animi recusandae ut. Modi quasi unde at distinctio libero earum sequi necessitatibus repellendus!</p>
         </div>
         <div class="col">
-          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" alt="">
-          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat possimus magni illo excepturi. Maiores explicabo dolorem optio laborum quo voluptates libero molestias recusandae distinctio? Provident quo quidem totam officiis!</p>
+          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg"  class="image" alt="">
+          <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ratione asperiores accusamus, at nam nostrum architecto odio aperiam natus maiores ad ducimus, tempore nulla perferendis quibusdam consectetur, nesciunt exercitationem. </p>
         </div>
         <div class="col">
-          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" alt="">
-          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tenetur rem perspiciatis saepe repellat, itaque nam dicta sit natus dolor quis? Iure earum porro doloremque reiciendis dolorum.</p>
+          <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" class="image" alt="">
+          <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus non, dicta harum tempora officiis laborum ipsam illum voluptatum magni libero nesciunt reprehenderit, sit dolores voluptatem esse mollitia nemo, est illo temporibus itaque!</p>
         </div>
       </div>
   </div>   
