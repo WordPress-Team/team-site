@@ -1092,11 +1092,22 @@ h2 {
   border-radius: 50%;
   height: 10vh;
   width: 10vh;
-  background: lightgrey;
   padding: 0%;
+  object-fit: contain;
   margin: 0% auto;
   color: #fff;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.modal-open .member14 {
+  height: 70%;
+  width: 70%;
+  padding: 0%;
+  margin: 10% auto;
+  align-self: center;
+  position: relative;
 }
 
 .modal-open:hover {

@@ -908,7 +908,7 @@
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-logo">
-      <img class="member14" src="" alt="">
+      <img  class="member14" src="<?php the_field('member_circle_photo_14') ?>" alt="">
      </label>
     <h1 class="member"><?php the_field('circle_name_14') ?></h1>
     <input type="radio" name="modal" value="open" id="modal-open-logo" class="modal-radio" />
