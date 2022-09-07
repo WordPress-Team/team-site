@@ -18,6 +18,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_1')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_1') ?><span class="pronouns">(<?php the_field('member_pronouns_1') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('nepts_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -89,6 +90,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_2')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_2') ?><span class="pronouns">(<?php the_field('member_pronouns_2') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('danus_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -158,6 +160,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_3')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_3') ?><span class="pronouns">(<?php the_field('member_pronouns_3') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('graces_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -227,6 +230,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_4')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_4') ?><span class="pronouns">(<?php the_field('member_pronouns_4') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('kyles_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -297,6 +301,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_5')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_5') ?><span class="pronouns">(<?php the_field('member_pronouns_5') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('chais_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -366,6 +371,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_6')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_6') ?><span class="pronouns">(<?php the_field('member_pronouns_6') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('miles_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -435,6 +441,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_7')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_7') ?><span class="pronouns">(<?php the_field('member_pronouns_7') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('georges_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -505,6 +512,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_8')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_8') ?><span class="pronouns">(<?php the_field('member_pronouns_8') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('myes_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -574,6 +582,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_9')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_9') ?><span class="pronouns">(<?php the_field('member_pronouns_9') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('sumans_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -643,6 +652,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_10')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_10') ?><span class="pronouns">(<?php the_field('member_pronouns_10') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('edwins_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -714,6 +724,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_11')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_11') ?><span class="pronouns">(<?php the_field('member_pronouns_11') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('rukus_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -783,6 +794,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_12')?>" alt="">
           </div>
           <h2 class="modal-name violet-gradient"><?php the_field('open_modal_full_name_12') ?><span class="pronouns">(<?php the_field('member_pronouns_12') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('daniels_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
@@ -852,6 +864,7 @@
             <img class="picture" src="<?php the_field('open_modal_photo_13')?>" alt="">
           </div>
           <h2 class="modal-name aqua-gradient"><?php the_field('open_modal_full_name_13') ?><span class="pronouns">(<?php the_field('member_pronouns_13') ?>)</span></h2>
+          <h4 class="kdg-role"><?php the_field('jordans_role') ?></h4>
           <label class="modal-label close-btn">
                     <input type="radio" name="modal" value="close" class="modal-radio"/>
                 </label>
