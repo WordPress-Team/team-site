@@ -675,18 +675,24 @@ textarea {
   display: block;
   text-decoration: none;
   color: white;
-  font-weight: bolder;
-  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: black 1px 1px;
   margin: 20px 20px;
   font-family: "Cinzel Decorative", cursive;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
 }
 .main-navigation a:hover {
-  color: darkmagenta;
+  color: #5325f8;
 }
 .main-navigation a:active {
   color: cornflowerblue;
 }
 /* Small menu. */
+.menu-menu-1-container {
+  background-image: url("http://impact-zone.local/wp-content/uploads/2022/09/low-opacity-logo.png") !important;
+}
+
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
@@ -727,10 +733,8 @@ button.menu-toggle {
   justify-content: center;
   /* align-items: center; */
   background-position: top;
-  opacity: 0.5;
   margin: 100px 0;
 }
-
 img.nav#site-navigation.main-navigation {
   display: none;
 }
@@ -795,6 +799,14 @@ img.nav#site-navigation.main-navigation {
   .main-navigation ul {
     display: flex;
   }
+
+  .main-navigation a {
+    font-size: 14px;
+  }
+
+  .menu-menu-1-container {
+    background-image: none !important;
+  }
 }
 @media screen and (min-width: 900px) {
   button.menu-toggle {
@@ -816,37 +828,61 @@ footer#colophon {
 footer#colophon ul {
   list-style-type: none;
 }
-footer#colophon .row-one {
-  display: inline-block;
-  margin: 20px 0px;
+footer#colophon .container {
+  margin: 10% auto;
+  padding: 5% auto;
+}
+footer#colophon .container ul {
+  column-count: 3;
+  margin: 0% auto;
+  padding: 0%;
+  font-size: 0.6rem;
+  text-align: center;
 }
 footer#colophon .projects {
-  position: relative;
-  left: -75px;
+  margin: 0 auto;
+  padding: 0;
+}
+footer#colophon .projects a {
+  margin: 2% 6%;
+  padding: 3%;
 }
 footer#colophon .team {
-  position: relative;
-  right: -80px;
+  margin: 0 auto;
+  padding: 0;
+}
+footer#colophon .team a {
+  margin: 2% 6%;
+  padding: 3%;
 }
 footer#colophon .row-two {
-  display: inline-block;
   /* text-align: center; */
-  position: relative;
-  left: -12px;
-  margin: 20px 0px;
+  margin: 23px 102%;
+  padding: 0;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
 }
-footer#colophon .row-three {
-  display: inline-block;
+footer#colophon .row-two a {
+  margin: 2% 6%;
+  padding: 3%;
 }
 footer#colophon .contact {
-  position: relative;
-  left: -75px;
-  margin: 20px 0px;
+  margin: 0 auto;
+  padding: 0;
+}
+footer#colophon .contact a {
+  margin: 2% 6%;
+  padding: 3%;
 }
 footer#colophon .about {
-  position: relative;
-  right: -75px;
-  margin: 20px 0px;
+  margin: 0% 5%;
+  padding: 0;
+}
+footer#colophon .about a {
+  margin: 2% 6%;
+  padding: 3%;
 }
 footer#colophon .menu-item a {
   color: black;
@@ -869,6 +905,7 @@ footer#colophon .menu-item a:active {
   text-align: center;
   margin: 1 auto;
   font-weight: 600;
+  font-size: 0.7rem;
 }
 
 .members {
@@ -884,6 +921,16 @@ footer#colophon .menu-item a:active {
   align-items: center;
 }
 
+@media screen and (min-width: 500px) {
+  .container ul {
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (min-width: 600px) {
+  .container ul {
+    font-size: 1rem !important;
+  }
+}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {

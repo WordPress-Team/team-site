@@ -15,43 +15,94 @@ footer#colophon {
         list-style-type: none;
     }
 
-    .row-one {
-        display: inline-block;
-        margin: 20px 0px;
+    .container {
+        // display:inline-block;
+        // width: 100%;
+        // height: auto;
+        margin: 10% auto;
+        padding: 5% auto;
+        ul {
+            column-count:3;
+            margin: 0% auto;
+            padding: 0%;
+            font-size: 0.6rem;
+            text-align: center;
+        }
+        
     }
 
+
+    // .row-one {
+    //     display: inline-block;
+    //     margin: 20px 0px;
+    // }
+
     .projects {
-        position: relative;
-        left: -75px;
+        // position: relative;
+        // left: -75px;
+        margin: 0 auto;
+        padding: 0;
+        a {
+            margin: 2% 6%;
+            padding: 3%;
+        }
     }
 
     .team {
-        position: relative;
-        right: -80px;
+        // position: relative;
+        // right: -80px;
+        margin: 0 auto;
+        padding: 0;
+        a {
+            margin: 2% 6%;
+            padding: 3%;
+        }
+    }
+
+    .row-one {
+        // margin: 0 0 50px 0;
     }
 
     .row-two {
-        display: inline-block;
-        /* text-align: center; */
-        position: relative;
-        left: -12px;
-        margin: 20px 0px;
+            /* text-align: center; */
+            margin: 23px 102%;
+            padding: 0;
+            display: flex;
+            justify-self: center;
+            justify-content: center;
+            align-items: center;
+        a {
+            margin: 2% 6%;
+            padding: 3%;
+        }
     }
 
-    .row-three {
-        display: inline-block;
-    }
+    // .row-three {
+    //     display: inline-block;
+    // }
 
     .contact {
-        position: relative;
-        left: -75px;
-        margin: 20px 0px;
+        // position: relative;
+        // left: -75px;
+        // margin: 20px 0px;
+        margin: 0 auto;
+        padding: 0;
+        a {
+            margin: 2% 6%;
+            padding: 3%;
+        }
     }
 
     .about {
-        position: relative;
-        right: -75px;
-        margin: 20px 0px;
+        // position: relative;
+        // right: -75px;
+        // margin: 20px 0px;
+        margin: 0% 5%;
+        padding: 0;
+        a {
+            margin: 2% 6%;
+            padding: 3%;
+        }
     }
 
     .menu-item a {
@@ -80,6 +131,7 @@ footer#colophon {
     // font-size: 2rem;
     // letter-spacing: 2px;
     font-weight: 600;
+    font-size: 0.7rem;
 }
 
 .members {
@@ -97,6 +149,24 @@ footer#colophon {
     align-items: center;
 }
 
+@media screen and (min-width: 500px) {
+    .container {
+        ul {
+            font-size: 0.9rem !important;
+        }
+    }
+}
+
 @media screen and (min-width: 600px) {
+    .container {
+        ul {
+            font-size: 1rem !important;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 900px) {
     
 }

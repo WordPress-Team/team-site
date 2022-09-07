@@ -12,7 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		
+		<div class="container">
 			<!-- input code for footer -->
 			<?php
             wp_nav_menu(array(
@@ -21,7 +21,8 @@
                 'menu_class' => 'footer-menu',
                 'menu_id' => 'footer-id'
             ))
-        ?>
+        	?>
+		</div>
 
 		<div class="social-media">
 			<i class="fa-brands fa-instagram fa-2x"></i>
@@ -29,8 +30,8 @@
 			<i class="fa-solid fa-envelope fa-2x"></i>
 		</div>
 
-		<p class="design-developed">DESIGNED & DEVELOPED BY IMPACT ZONE</p>
-		<p class="members">MEMBERS: KYLE W., DANU V., & GRACE B.</p>
+		<p class="design-developed">Designed & Developed by IMPACT ZONE. MEMBERS: KYLE W., DANU V., & GRACE B</p>
+		<!-- <p class="members">MEMBERS: KYLE W., DANU V., & GRACE B.</p> -->
 		
 		<p class="copywright">&#169; Impact Zone</p>
 
