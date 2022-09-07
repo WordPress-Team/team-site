@@ -41,8 +41,8 @@ h2 {
 .modal-open {
   display: inline-block;
   border-radius: 50%;
-  height:10vh;
-  width:10vh;
+  height:9vh;
+  width:9vh;
   // background: lightgrey;
   padding: 0%;
   object-fit: contain;
@@ -688,7 +688,7 @@ margin:0% auto;
   }
 
   .member-about-logo{
-    font-size:0.9rem;
+    font-size:1rem;
   }
   .modal-name-logo{
     font-size: 1.5rem;
@@ -779,11 +779,11 @@ margin:0% auto;
         object-fit: contain;
       }
       .logo-about{
-        font-size: 0.6rem;
-        color: white;
+        font-size: 0.7rem;
+        color: $darkpurple;
         font-family: $raleway;
         letter-spacing: 2px;
-        font-weight: 400;
+        font-weight: 800;
       }
     }
     

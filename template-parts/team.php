@@ -1,5 +1,5 @@
 <div class="parent">
-  <h1 class="team-title">Team</h1>
+  <h1 class="team-title"><?php the_field('team_title') ?></h1>
 <div class="card">
   <div class="content">
     

@@ -1090,8 +1090,8 @@ h2 {
 .modal-open {
   display: inline-block;
   border-radius: 50%;
-  height: 10vh;
-  width: 10vh;
+  height: 9vh;
+  width: 9vh;
   padding: 0%;
   object-fit: contain;
   margin: 0% auto;
@@ -1708,7 +1708,7 @@ h2 {
   }
 
   .member-about-logo {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .modal-name-logo {
@@ -1781,11 +1781,11 @@ h2 {
     object-fit: contain;
   }
   .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
-    font-size: 0.6rem;
-    color: white;
+    font-size: 0.7rem;
+    color: #1c0d1b;
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 800;
   }
 
   .top {
