@@ -20,7 +20,7 @@ h2 {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  padding: 10%;
+  padding: 5%;
   text-align: center;
 }
 .card {
@@ -317,7 +317,7 @@ margin:0% auto;
         justify-content:center;
         margin: 2% auto;
         padding: 5% ;
-        object-fit:contain;
+        object-fit:cover;
         z-index: 999;
         background-color: transparent;
       }
@@ -367,7 +367,7 @@ margin:0% auto;
 .kdg-role{
   font-size: 0.7rem;
   font-family: $raleway;
-  color: darkgrey;
+  color: rgb(116, 116, 116);
   margin: 0% auto;
   padding: 0%;
   text-align: center;
@@ -585,9 +585,7 @@ margin:0% auto;
       font-size: 0.65rem;
     }
 
-    .parent{
-      padding: 10%;
-    }
+   
 
     .modal-name{
       font-size: 1rem;
@@ -743,6 +741,10 @@ margin:0% auto;
 }
 
 @media screen and (min-width: 984px) {
+
+  .parent{
+    padding: 2%;
+  }
 
   .modal-open {
     height:25vh;

@@ -853,7 +853,7 @@ textarea {
   height: auto;
   width: 100%;
   color: #1c0d1b;
-  background: linear-gradient(to bottom left, rgba(28, 13, 27, 0.1) 40%, #1c0d1b 70%);
+  background: linear-gradient(to bottom left, rgba(82, 42, 79, 0.1) 5%, rgba(47, 22, 45, 0.5) 30%, #1c0d1b 55%);
 }
 .contact-section .contact-title {
   font-family: "Cinzel Decorative", cursive;
@@ -1026,7 +1026,7 @@ textarea {
 }
 .about-section .about-content .about-text {
   margin: 0% auto;
-  padding: 4% 8%;
+  padding: 2% 8%;
   font-family: "Raleway", sans-serif;
   font-size: 0.7rem;
   font-weight: 600;
@@ -1082,7 +1082,7 @@ h2 {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  padding: 10%;
+  padding: 5%;
   text-align: center;
 }
 
@@ -1378,7 +1378,7 @@ h2 {
   justify-content: center;
   margin: 2% auto;
   padding: 5%;
-  object-fit: contain;
+  object-fit: cover;
   z-index: 999;
   background-color: transparent;
 }
@@ -1427,7 +1427,7 @@ h2 {
 .kdg-role {
   font-size: 0.7rem;
   font-family: "Raleway", sans-serif;
-  color: darkgrey;
+  color: #747474;
   margin: 0% auto;
   padding: 0%;
   text-align: center;
@@ -1623,10 +1623,6 @@ h2 {
     font-size: 0.65rem;
   }
 
-  .parent {
-    padding: 10%;
-  }
-
   .modal-name {
     font-size: 1rem;
     margin: 0% auto 0% auto;
@@ -1768,6 +1764,10 @@ h2 {
   }
 }
 @media screen and (min-width: 984px) {
+  .parent {
+    padding: 2%;
+  }
+
   .modal-open {
     height: 25vh;
     width: 25vh;
