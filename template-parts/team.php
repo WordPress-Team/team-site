@@ -29,7 +29,7 @@
         <ul class="profile-links">
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_1') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_1') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
@@ -37,7 +37,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_1') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_1') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>       
           
         </ul> <!-- end of links ul sec -->
@@ -99,7 +99,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_2') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_2') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
 
           <li class="link">
@@ -107,7 +107,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_2') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_2') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -169,7 +169,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_3') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_3') ?>" target="_blank"><i aria-label="LinkedIn"class="fa fa-linkedin fa-2x"></i></a>
           </li>
                     
           <li class="link">
@@ -177,7 +177,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_3') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_3') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -239,7 +239,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_4') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_4') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
@@ -247,7 +247,7 @@
           </li>
 
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_4') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_4') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
           
@@ -310,7 +310,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_5') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_5') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
 
           <li class="link">
@@ -318,7 +318,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_5') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_5') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -380,7 +380,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_6') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_6') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
 
           <li class="link">
@@ -388,7 +388,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_6') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_6') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
    
         </ul> <!-- end of links ul sec -->
@@ -450,7 +450,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_7') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_7') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
@@ -458,7 +458,7 @@
           </li>
 
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_7') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_7') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
           
@@ -521,7 +521,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_8') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_8') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
@@ -529,7 +529,7 @@
           </li>
 
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_8') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_8') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -591,7 +591,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_9') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_9') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
 
           <li class="link">
@@ -599,7 +599,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_9') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_9') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
 
         </ul> <!-- end of links ul sec -->
@@ -661,7 +661,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_10') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_10') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
@@ -669,7 +669,7 @@
           </li>
 
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_10') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_10') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
       
@@ -733,7 +733,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_11') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_11') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
           
           <li class="link">
@@ -741,7 +741,7 @@
           </li>
 
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_11') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_11') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
 
         </ul> <!-- end of links ul sec -->
@@ -803,7 +803,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_12') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_12') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
 
           <li class="link">
@@ -811,7 +811,7 @@
           </li>
 
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_12') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_12') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
         </ul> <!-- end of links ul sec -->
@@ -873,7 +873,7 @@
         <ul class="profile-links">
           
         <li class="link">
-            <a class="link-icon" href="<?php the_field('linkedin_link_13') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('linkedin_link_13') ?>" target="_blank"><i aria-label="LinkedIn" class="fa fa-linkedin fa-2x"></i></a>
           </li>
 
           <li class="link">
@@ -881,7 +881,7 @@
           </li>
           
           <li class="link">
-            <a class="link-icon" href="<?php the_field('github_link_13') ?>" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="link-icon" href="<?php the_field('github_link_13') ?>" target="_blank"><i aria-label="GitHub" class="fab fa-github fa-2x"></i></a>
           </li>
           
         
