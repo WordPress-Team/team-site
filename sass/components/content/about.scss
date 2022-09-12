@@ -6,18 +6,25 @@
     align-items: center;
     display: flex;
     color: $darkpurple;
-    background:
-            linear-gradient(to bottom right,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom right,
+    // background:
+    //         linear-gradient(to bottom right,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom right,
                 
-            linear-gradient(to bottom left,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom left,
+    //         linear-gradient(to bottom left,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom left,
                 
-            linear-gradient(to top left, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top left,
+    //         linear-gradient(to top left, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top left,
                 
-            linear-gradient(to top right, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top right;
-    background-size:50% 50%;
+    //         linear-gradient(to top right, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top right;
+    background-size:50%;
+    background: 
+    linear-gradient(135deg, #ffff 20%, transparent 35%),
+    linear-gradient(225deg, #ffff 20%, transparent 35%),
+    linear-gradient(315deg, #ffff 20%, transparent 35%),
+    linear-gradient(45deg, #ffff 20%, transparent 35%); 
+    background-color: rgba(83, 37, 248, 0.3);
     background-repeat:no-repeat;
+    background-position: center;
     .about-content {
-        margin: 0% auto;
+        margin: 40% auto 30% auto;
         padding: 2%;
         text-align: center;
 
@@ -26,7 +33,7 @@
             font-size: 1.5rem;
             letter-spacing: 1.5px;
             margin: 0% auto;
-            padding: 2% ;
+            padding: 0% ;
         }
 
         .about-text{

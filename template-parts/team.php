@@ -1,4 +1,4 @@
-<div class="parent">
+<div class="parent" id="our-team">
   <h1 class="team-title"><?php the_field('team_title') ?></h1>
 <div class="card">
   <div class="content">

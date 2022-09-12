@@ -1,4 +1,4 @@
-<div class="about-section">
+<div class="about-section" id="about">
     <div class="about-content">
         <h1 class="about-header">
         <?php the_field('about_title') ?>
