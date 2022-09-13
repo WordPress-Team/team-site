@@ -1,0 +1,76 @@
+.about-section {
+    margin: 0% auto;
+    padding: 0%;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    color: $darkpurple;
+    background-size:50%;
+    background: 
+    linear-gradient(135deg, #ffff 20%, transparent 35%),
+    linear-gradient(225deg, #ffff 20%, transparent 35%),
+    linear-gradient(315deg, #ffff 20%, transparent 35%),
+    linear-gradient(45deg, #ffff 20%, transparent 35%); 
+    background-color: rgba(83, 37, 248, 0.3);
+    background-repeat:no-repeat;
+    background-position: center;
+    .about-content {
+        margin: 40% auto 0% auto;
+        padding: 2%;
+        text-align: center;
+
+
+        .about-header{
+            font-family: $cinzel;
+            font-size: 1.5rem;
+            letter-spacing: 1.5px;
+            margin: 0% auto;
+            padding: 0% ;
+        }
+
+        .about-text{
+            margin: 0% auto;
+            padding: 2% 8%;
+            font-family: $raleway;
+            font-size: 0.7rem;
+            font-weight: 600;
+            
+        }
+    }
+    .about-image{
+        height: auto;
+        width: 100%;
+        padding: 0%;
+        margin:0% auto;
+        position: relative;
+        bottom: -7px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+   
+    
+    .about-header{
+        font-size: 2rem !important;
+    }
+    .about-text{
+        font-size: 0.9rem !important;
+                
+    }
+}
+    
+@media screen and (min-width: 900px) {
+   
+    
+    .about-header{
+        font-size: 2.5rem !important;
+    }
+    .about-text{
+        font-size: 1.3rem !important;
+                
+    }
+}   
