@@ -887,11 +887,9 @@ footer#colophon .about a {
 footer#colophon .menu-item a {
   color: black;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 footer#colophon .menu-item a:hover {
-  color: #5325f8;
-}
-footer#colophon .menu-item a:active {
   color: #5325f8;
 }
 
@@ -905,7 +903,12 @@ footer#colophon .menu-item a:active {
   text-align: center;
   margin: 1 auto;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  padding: 23px 0;
+}
+
+.footer-impactzone {
+  color: #5325f8;
 }
 
 .members {

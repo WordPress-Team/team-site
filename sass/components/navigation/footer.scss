@@ -108,12 +108,13 @@ footer#colophon {
     .menu-item a {
         color: black;
         text-decoration: none;
+        font-family: $raleway;
         &:hover {
-            color:$violet;
+            color: $violet;
         }
-        &:active {
-            color:$violet;
-        }
+        // &:active {
+        //     color: $darkpurple;
+        // }
         
     }
 
@@ -131,7 +132,12 @@ footer#colophon {
     // font-size: 2rem;
     // letter-spacing: 2px;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    padding: 23px 0;
+}
+
+.footer-impactzone {
+    color: $violet; 
 }
 
 .members {

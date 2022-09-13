@@ -25,12 +25,12 @@
 		</div>
 
 		<div class="social-media">
-			<i class="fa-brands fa-instagram fa-2x"></i>
-			<i class="fa-brands fa-linkedin fa-2x"></i>
+			<i class="fa-brands fa-github fa-2x"></i>
 			<i class="fa-solid fa-envelope fa-2x"></i>
+			<i class="fa-brands fa-linkedin fa-2x"></i>
 		</div>
 
-		<p class="design-developed">Designed & Developed by IMPACT ZONE. MEMBERS: KYLE W., DANU V., & GRACE B</p>
+		<p class="design-developed">Designed & Developed by <span class="footer-impactzone">IMPACT ZONE</span> MEMBERS: KYLE W., DANU V., & GRACE B</p>
 		<!-- <p class="members">MEMBERS: KYLE W., DANU V., & GRACE B.</p> -->
 		
 		<p class="copywright">&#169; Impact Zone</p>
