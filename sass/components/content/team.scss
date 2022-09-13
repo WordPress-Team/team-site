@@ -26,16 +26,12 @@ h2 {
 .card {
   width: auto;
   height:auto;
-  // border-radius: 5px;
   overflow: hidden;
   background: transparent;
-  // box-shadow: 3px 3px 18px -8px #263238;
   color: #424242;
   margin: 0px auto;
   padding: 1%;
   display: inline-block;
-
-/*   border-radius: 50%; */
 }
 
 .modal-open {
@@ -43,7 +39,6 @@ h2 {
   border-radius: 50%;
   height:9vh;
   width:9vh;
-  // background: lightgrey;
   padding: 0%;
   object-fit: contain;
   margin:0% auto;
@@ -85,12 +80,7 @@ h2 {
   }
 }
 
-
-
 .modal-open:hover{
-  // box-shadow: rgba(83, 37, 248) 0px 2px 4px, rgba(83, 37, 248) 0px 7px 13px -3px, rgba(83, 37, 248) 0px -3px 0px inset;
-  // box-shadow: rgba(83, 37, 248) 0px 5px, rgba(116, 231, 217, 0.9) 0px 10px, rgba(116, 231, 217, 0.2) 0px 15px, rgba(116, 231, 217, 0.1) 0px 20px, rgba(116, 231, 217, 0.05) 0px 25px;
-  // box-shadow: rgba(83, 37, 248, 0.4) 0px 20px 30px;
   box-shadow: rgba(83, 37, 248, 0.4) 0px 15px 20px, rgba(116, 231, 217) 0px 5px 10px;
   cursor: pointer;
 }
@@ -248,12 +238,10 @@ margin:0% auto;
 
 .violet-bkg{
   background-color: $violet !important;
-  // z-index: 999;
 }
 
 .aqua-bkg{
   background-color: $aqua !important;
-  // z-index: 999;
 }
 
 .profile-pic{
@@ -494,13 +482,11 @@ margin:0% auto;
         width:100%;
         padding:1%;
         margin:0% auto;
-        // background-color:grey;
         text-decoration:none;
         img{
           height:10vh;
           width:100%;
           padding:0%;
-          // box-shadow: rgb(116, 231, 217, 0.5) 0px 15px 15px -10px;
           box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
           background-color:transparent;
           object-fit: cover;
@@ -546,9 +532,7 @@ margin:0% auto;
                   .viewbtn:hover{
                     color: white;
                   }
-               
               }
-             
           }
       }
     }
@@ -770,17 +754,9 @@ margin:0% auto;
   .member-about{
     font-size: 0.9rem;
     padding: 4% 2% 0% 2%;
-    // text-align: left;
   }
 
   .logo-explained{
-
-    // .map, .triangle{
-    //   width: 48%;
-    // }
-    // .zone{
-    //   width: 95%;
-    // }
     
     .map, .triangle, .zone{
       display: inline-block;
