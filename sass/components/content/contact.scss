@@ -1,0 +1,161 @@
+.contact-section{
+    margin: 0% auto;
+    padding: 2%;
+    height: auto;
+    width: 100%;
+    color: $darkpurple;
+    background: linear-gradient(to bottom left, rgba(82, 42, 79, 0.1) 5%, rgba(47, 22, 45, 0.5) 30%, $darkpurple 55%);
+    .contact-title{
+        font-family: $cinzel;
+        font-size: 1.7rem;
+        letter-spacing: 1.5px;
+        margin: 0% auto;
+        padding: 2% ;
+        text-align: center;
+    }
+}
+
+
+.wpcf7 {
+    margin: 0% auto;
+    padding: 3%;
+    width: 100%;
+    height: auto;
+    font-family: $cinzel;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.wpcf7-not-valid-tip {
+    color: red;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);    
+}
+
+.wpcf7-response-output{
+    border-color: $aqua !important;
+}
+
+.wpcf7 label{
+    font-size: 0.6rem;
+    text-shadow: 
+        0px 4px 3px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.wpcf7 select{
+    box-shadow: 0px 4px 4px rgba(109, 108, 108, 0.7);
+    border: none;
+    cursor: pointer;
+
+}
+.wpcf7-select{
+    color: $darkpurple;
+}
+.wpcf7-select:hover{
+    color: $violet;
+    text-shadow: 0px 2px 4px $aqua;
+    background-color: $darkpurple;
+}
+ 
+.wpcf7-select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+.wpcf7 textarea{
+    height: 25vh;
+    width: 100%;
+    font-size: 0.5rem;
+    font-weight: 600;
+    font-family: $cinzel;
+    padding: 1% 2%;
+    border-radius: 0%;
+    letter-spacing: 2px;
+    resize: none;
+    border: 1px solid rgba(133, 131, 131, 0.01);
+    box-shadow: 0px 4px 4px rgba(114, 113, 113, 0.7);
+}
+
+.wpcf7 input[type="submit"] {
+    margin: 0% auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    width: auto;
+    height: auto;
+    font-weight: 600;
+    font-family: $cinzel;
+    font-size: 0.6rem;
+    padding: 2% 4%;
+    border-radius: 0%;
+    border: 1px solid rgba(133, 131, 131, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.wpcf7 input[type="submit"]:hover {
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background: #1C0D1B;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 4px 4px rgb(83, 37, 248, 0.5);
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="select"]
+{
+    color: #000;
+    width: 100%;
+    height: auto;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family: $cinzel;
+    padding: 1.5% 2%;
+    border-radius: 0%;
+    border: 1px solid rgba(133, 131, 131, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+
+    .contact-title{
+        font-size: 2.2rem !important;
+    }
+
+    .wpcf7 {
+        width: 60%;
+    }
+
+    .wpcf7 input[type="submit"] {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .contact-title{
+        font-size: 2.6rem !important;
+    }
+
+    .wpcf7 {
+        width: 50%;
+    }
+
+    .wpcf7 input[type="submit"] {
+        font-size: 1rem;
+    }
+}

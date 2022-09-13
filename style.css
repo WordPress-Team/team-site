@@ -1068,8 +1068,219 @@ footer#colophon .menu-item a:hover {
 --------------------------------------------- */
 /* Contact
 --------------------------------------------- */
+.contact-section {
+  margin: 0% auto;
+  padding: 2%;
+  height: auto;
+  width: 100%;
+  color: #1c0d1b;
+  background: linear-gradient(to bottom left, rgba(82, 42, 79, 0.1) 5%, rgba(47, 22, 45, 0.5) 30%, #1c0d1b 55%);
+}
+.contact-section .contact-title {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  margin: 0% auto;
+  padding: 2%;
+  text-align: center;
+}
+
+.wpcf7 {
+  margin: 0% auto;
+  padding: 3%;
+  width: 100%;
+  height: auto;
+  font-family: "Cinzel Decorative", cursive;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.wpcf7-not-valid-tip {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.wpcf7-response-output {
+  border-color: #74e7d9 !important;
+}
+
+.wpcf7 label {
+  font-size: 0.6rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.wpcf7 select {
+  box-shadow: 0px 4px 4px rgba(109, 108, 108, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.wpcf7-select {
+  color: #1c0d1b;
+}
+
+.wpcf7-select:hover {
+  color: #5325f8;
+  text-shadow: 0px 2px 4px #74e7d9;
+  background-color: #1c0d1b;
+}
+
+.wpcf7-select::after {
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+
+.wpcf7 textarea {
+  height: 25vh;
+  width: 100%;
+  font-size: 0.5rem;
+  font-weight: 600;
+  font-family: "Cinzel Decorative", cursive;
+  padding: 1% 2%;
+  border-radius: 0%;
+  letter-spacing: 2px;
+  resize: none;
+  border: 1px solid rgba(133, 131, 131, 0.01);
+  box-shadow: 0px 4px 4px rgba(114, 113, 113, 0.7);
+}
+
+.wpcf7 input[type=submit] {
+  margin: 0% auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #000;
+  width: auto;
+  height: auto;
+  font-weight: 600;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 0.6rem;
+  padding: 2% 4%;
+  border-radius: 0%;
+  border: 1px solid rgba(133, 131, 131, 0.01);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wpcf7 input[type=submit]:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background: #1C0D1B;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 4px 4px rgba(83, 37, 248, 0.5);
+}
+
+.wpcf7 input[type=text],
+.wpcf7 input[type=email],
+.wpcf7 input[type=tel],
+.wpcf7 input[type=select] {
+  color: #000;
+  width: 100%;
+  height: auto;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: "Cinzel Decorative", cursive;
+  padding: 1.5% 2%;
+  border-radius: 0%;
+  border: 1px solid rgba(133, 131, 131, 0.01);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+  .contact-title {
+    font-size: 2.2rem !important;
+  }
+
+  .wpcf7 {
+    width: 60%;
+  }
+
+  .wpcf7 input[type=submit] {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .contact-title {
+    font-size: 2.6rem !important;
+  }
+
+  .wpcf7 {
+    width: 50%;
+  }
+
+  .wpcf7 input[type=submit] {
+    font-size: 1rem;
+  }
+}
 /* About
 --------------------------------------------- */
+.about-section {
+  margin: 0% auto;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  display: inline-block;
+  color: #1c0d1b;
+  background-size: 50%;
+  background: linear-gradient(135deg, white 20%, transparent 35%), linear-gradient(225deg, white 20%, transparent 35%), linear-gradient(315deg, white 20%, transparent 35%), linear-gradient(45deg, white 20%, transparent 35%);
+  background-color: rgba(83, 37, 248, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-section .about-content {
+  margin: 40% auto 0% auto;
+  padding: 2%;
+  text-align: center;
+}
+.about-section .about-content .about-header {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  margin: 0% auto;
+  padding: 0%;
+}
+.about-section .about-content .about-text {
+  margin: 0% auto;
+  padding: 2% 8%;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.about-section .about-image {
+  height: auto;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+  position: relative;
+  bottom: -7px;
+}
+
+@media screen and (min-width: 600px) {
+  .about-header {
+    font-size: 2rem !important;
+  }
+
+  .about-text {
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .about-header {
+    font-size: 2.5rem !important;
+  }
+
+  .about-text {
+    font-size: 1.3rem !important;
+  }
+}
 /* Banner
 --------------------------------------------- */
 .banner-1 {
@@ -1160,6 +1371,769 @@ footer#colophon .menu-item a:hover {
 --------------------------------------------- */
 /* Team
 --------------------------------------------- */
+* {
+  letter-spacing: 1.6px;
+}
+
+.team-title {
+  font-size: 1.5rem;
+  font-family: "Cinzel Decorative", cursive;
+  color: #1c0d1b;
+  text-align: center;
+  padding: 0%;
+  margin: 5% auto;
+}
+
+h2 {
+  font-size: 0.7rem;
+  padding: 2%;
+  text-align: center;
+}
+
+.parent {
+  margin: 0% auto;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 5%;
+  text-align: center;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: transparent;
+  color: #424242;
+  margin: 0px auto;
+  padding: 1%;
+  display: inline-block;
+}
+
+.modal-open {
+  display: inline-block;
+  border-radius: 50%;
+  height: 9vh;
+  width: 9vh;
+  padding: 0%;
+  object-fit: contain;
+  margin: 0% auto;
+  color: #fff;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.modal-open .member14 {
+  height: 70%;
+  width: 70%;
+  padding: 0%;
+  margin: 10% auto;
+  align-self: center;
+  position: relative;
+}
+.modal-open .member1,
+.modal-open .member2,
+.modal-open .member3,
+.modal-open .member4,
+.modal-open .member5,
+.modal-open .member6,
+.modal-open .member7,
+.modal-open .member8,
+.modal-open .member9,
+.modal-open .member10,
+.modal-open .member11,
+.modal-open .member12,
+.modal-open .member13 {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+  align-self: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.modal-open:hover {
+  box-shadow: rgba(83, 37, 248, 0.4) 0px 15px 20px, rgb(116, 231, 217) 0px 5px 10px;
+  cursor: pointer;
+}
+
+.modal-label {
+  position: relative;
+}
+
+.modal-radio {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.25s, transform 0.25s;
+  z-index: 99;
+}
+
+#modal-open-one:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-two:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-three:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-four:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-five:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-six:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-seven:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-eight:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-nine:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-ten:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-eleven:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-twelve:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-thirteen:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#modal-open-logo:checked + .modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.modal .content {
+  position: relative;
+  width: 70%;
+  height: auto;
+  max-height: 80%;
+  top: 10%;
+  left: 0%;
+  background-color: white;
+  box-shadow: 0 3px 15px -2px #222;
+  padding: 0%;
+  margin: 0% auto;
+}
+
+.close-btn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 20px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #1c0d1b;
+  border: 1px solid white;
+}
+
+.close-btn:after,
+.close-btn:before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  background: grey;
+  left: 15%;
+  top: 50%;
+  top: calc(50% - 1px);
+  transform-origin: 50% 50%;
+  transform: rotate(45deg);
+}
+
+.close-btn:before {
+  transform: rotate(-45deg);
+}
+
+.action-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1c0d1b;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.top {
+  background-color: transparent;
+  height: auto;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+}
+.top .violet-bkg {
+  background-color: #5325f8 !important;
+}
+.top .aqua-bkg {
+  background-color: #74e7d9 !important;
+}
+.top .profile-pic {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  border-radius: 0%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  margin: 0% auto;
+  padding: 2% auto !important;
+}
+.top .profile-pic .picture {
+  position: relative;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  margin: 0% auto;
+  padding: 0%;
+}
+
+.top-logo {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+}
+.top-logo .profile-pic-logo {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  border-radius: 0%;
+  background-color: #1c0d1b;
+  align-items: center;
+  justify-content: center;
+  margin: 0% auto;
+  padding: 2% auto !important;
+}
+.top-logo .profile-pic-logo .picture-border {
+  position: relative;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  margin: 4% auto 2% auto;
+  padding: 2% auto !important;
+  object-fit: contain;
+}
+.top-logo .profile-pic-logo .picture-border .picture-logo {
+  position: relative;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 2% auto;
+  padding: 5%;
+  object-fit: cover;
+  z-index: 999;
+  background-color: transparent;
+}
+
+.member {
+  font-size: 0.6rem;
+  font-family: "Cinzel Decorative", cursive;
+  color: #1c0d1b;
+}
+
+.member-about {
+  font-size: 0.5rem;
+  padding: 1% 4%;
+  margin: 0% auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #1c0d1b;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.1) 0%, rgba(83, 37, 248, 0.01) 100%);
+}
+
+.modal-name {
+  background-color: transparent;
+  font-family: "Cinzel Decorative", cursive;
+  color: #1c0d1b;
+  margin: 0% auto 1% auto;
+  padding: 3% 1% 1% 1%;
+  font-size: 0.7rem;
+}
+
+.violet-gradient {
+  background: linear-gradient(to bottom, #5325f8, white);
+}
+
+.aqua-gradient {
+  background: linear-gradient(to bottom, #74e7d9, white);
+}
+
+.pronouns {
+  font-size: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  color: grey;
+  margin: 0%;
+  padding: 0%;
+}
+
+.kdg-role {
+  font-size: 0.7rem;
+  font-family: "Raleway", sans-serif;
+  color: rgb(116, 116, 116);
+  margin: 0% auto;
+  padding: 0%;
+  text-align: center;
+}
+
+.member-about-logo {
+  font-size: 0.6rem;
+  padding: 1% 4%;
+  margin: 0% auto;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(83, 37, 248, 0.34) 0%, rgba(83, 37, 248, 0.01) 100%);
+  background-color: #1c0d1b;
+}
+
+.modal-name-logo {
+  background-color: #1c0d1b;
+  font-family: "Cinzel Decorative", cursive;
+  color: white;
+  margin: 0% auto;
+  padding: 1%;
+}
+
+.logo-explained {
+  z-index: 999;
+  padding: 2%;
+  margin: 0% auto;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  color: white;
+  background-color: #1c0d1b;
+}
+.logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
+  text-decoration: none;
+  padding: 1%;
+  margin: 0% auto;
+  text-align: center;
+}
+.logo-explained .map .map-ref, .logo-explained .map .triangle-ref, .logo-explained .map .zone-ref, .logo-explained .triangle .map-ref, .logo-explained .triangle .triangle-ref, .logo-explained .triangle .zone-ref, .logo-explained .zone .map-ref, .logo-explained .zone .triangle-ref, .logo-explained .zone .zone-ref {
+  margin: 0% auto;
+  padding: 2%;
+  height: 7vh;
+  width: auto;
+  object-fit: cover;
+}
+.logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
+  font-size: 0.45rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0% auto;
+  padding: 1%;
+  font-weight: 800;
+}
+
+.logo-creds {
+  font-size: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  margin: 0% auto;
+  text-align: center;
+  padding: 1%;
+  color: white;
+  background-color: #1c0d1b;
+}
+
+.profile-links {
+  margin: 0% auto;
+  padding: 1%;
+  color: #1c0d1b;
+}
+.profile-links .link {
+  display: inline;
+  margin: 1%;
+  padding: 1%;
+}
+.profile-links .link .link-icon {
+  height: auto;
+  width: 100%;
+  padding: 1%;
+  margin: 0% auto;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #1c0d1b;
+  font-family: "Cinzel Decorative", cursive;
+}
+.profile-links .link .link-icon:hover {
+  color: #74e7d9;
+}
+
+.profile-logo {
+  height: 10vh;
+  width: 10vh;
+  margin: 0% auto;
+  padding: 1%;
+  object-fit: fill;
+}
+
+.profile-projects {
+  margin: 0% auto;
+  padding: 1%;
+  width: 95%;
+  display: flex;
+}
+.profile-projects .project {
+  display: inline !important;
+  margin: 0% auto;
+  padding: 1%;
+  max-width: 50%;
+}
+.profile-projects .project figure {
+  height: auto;
+  width: 100%;
+  padding: 1%;
+  margin: 0% auto;
+  text-decoration: none;
+}
+.profile-projects .project figure img {
+  height: 10vh;
+  width: 100%;
+  padding: 0%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: transparent;
+  object-fit: cover;
+}
+.profile-projects .project figure figcaption {
+  text-align: left;
+  padding: 1%;
+  margin: 0%;
+  font-size: 0.6em;
+  height: auto;
+  width: 100%;
+  color: #1c0d1b;
+}
+.profile-projects .project figure figcaption .view:hover {
+  background-color: #5325f8;
+  color: white;
+  border: none;
+  font-weight: 800;
+  transition: all 0.2s ease 0s;
+  box-shadow: 116, 231, 217, 0.5 0 2px 4px, 116, 231, 217, 0.5 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+.profile-projects .project figure figcaption .view {
+  background-color: white;
+  margin: 0% auto;
+  padding: 1% 2%;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  width: fit-content;
+  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
+}
+.profile-projects .project figure figcaption .view .viewbtn {
+  text-decoration: none;
+  color: #1c0d1b;
+  font-family: "Cinzel Decorative", cursive;
+}
+.profile-projects .project figure figcaption .view .viewbtn:hover {
+  color: white;
+}
+
+@media screen and (min-width: 500px) {
+  .team-title {
+    font-size: 2rem;
+  }
+
+  .logo-explained .map, .logo-explained .triangle {
+    width: 48%;
+  }
+  .logo-explained .zone {
+    width: 95%;
+  }
+  .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
+    display: inline-block;
+  }
+  .logo-explained .map .map-ref, .logo-explained .map .triangle-ref, .logo-explained .map .zone-ref, .logo-explained .triangle .map-ref, .logo-explained .triangle .triangle-ref, .logo-explained .triangle .zone-ref, .logo-explained .zone .map-ref, .logo-explained .zone .triangle-ref, .logo-explained .zone .zone-ref {
+    margin: 0% auto;
+    padding: 2%;
+    height: 15vh;
+    width: auto;
+    object-fit: contain;
+  }
+  .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
+    font-size: 0.6rem;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .logo-creds {
+    font-size: 0.65rem;
+  }
+
+  .modal-name {
+    font-size: 1rem;
+    margin: 0% auto 0% auto;
+    padding: 8% 0% 0% 0%;
+  }
+
+  .pronouns {
+    font-size: 0.7rem;
+  }
+
+  .member-about {
+    font-size: 0.7rem;
+  }
+
+  .member-about-logo {
+    font-size: 0.8rem;
+  }
+
+  .modal-name-logo {
+    font-size: 1.1rem;
+  }
+
+  .modal-open {
+    height: 15vh;
+    width: 15vh;
+  }
+
+  .modal .content {
+    width: 85%;
+    max-height: 87%;
+  }
+
+  .top .profile-pic {
+    height: 12vh;
+  }
+  .top .profile-pic .picture {
+    width: 15vh;
+    height: 15vh;
+    margin: 1% auto;
+  }
+
+  .profile-projects {
+    width: 95%;
+  }
+  .profile-projects .project {
+    width: 37%;
+  }
+  .profile-projects .project figure {
+    padding: 2%;
+  }
+  .profile-projects .project figure img {
+    height: 15vh;
+    width: 100%;
+  }
+  .profile-projects .project figure figcaption {
+    font-size: 0.6em;
+  }
+  .profile-projects .project figure figcaption .view {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .team-title {
+    font-size: 2.5rem;
+  }
+
+  .profile-logo {
+    height: 15vh;
+    width: 15vh;
+  }
+
+  .logo-creds {
+    font-size: 0.7rem;
+  }
+
+  .member {
+    font-size: 1.2rem;
+  }
+
+  .modal-open {
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .modal-name {
+    margin: 0% auto;
+    font-size: 1.4rem;
+    padding: 2%;
+  }
+
+  .pronouns {
+    font-size: 0.9rem;
+  }
+
+  .member-about {
+    font-size: 0.8rem;
+    padding: 3% 2% 0% 2%;
+    text-align: center;
+  }
+
+  .member-about-logo {
+    font-size: 1rem;
+  }
+
+  .modal-name-logo {
+    font-size: 1.5rem;
+  }
+
+  .top {
+    align-items: flex-start !important;
+  }
+  .top .profile-pic {
+    height: 12vh;
+  }
+  .top .profile-pic .picture {
+    width: 19vh;
+    height: 19vh;
+    margin: 1% 75% 0% 1%;
+  }
+
+  .profile-projects {
+    width: 95%;
+  }
+  .profile-projects .project {
+    width: 37%;
+  }
+  .profile-projects .project figure {
+    padding: 2%;
+  }
+  .profile-projects .project figure img {
+    height: 18vh;
+    width: 75%;
+  }
+  .profile-projects .project figure figcaption {
+    font-size: 0.8em;
+  }
+  .profile-projects .project figure figcaption .view {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 984px) {
+  .parent {
+    padding: 2%;
+  }
+
+  .modal-open {
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .modal .content {
+    width: 88%;
+    max-height: 94%;
+    top: 5%;
+  }
+
+  .modal-name {
+    font-size: 1.5rem;
+    padding: 3% 0% 0% 0%;
+  }
+
+  .member-about {
+    font-size: 0.9rem;
+    padding: 4% 2% 0% 2%;
+  }
+
+  .logo-explained .map, .logo-explained .triangle, .logo-explained .zone {
+    display: inline-block;
+    width: 32%;
+  }
+  .logo-explained .map .map-ref, .logo-explained .map .triangle-ref, .logo-explained .map .zone-ref, .logo-explained .triangle .map-ref, .logo-explained .triangle .triangle-ref, .logo-explained .triangle .zone-ref, .logo-explained .zone .map-ref, .logo-explained .zone .triangle-ref, .logo-explained .zone .zone-ref {
+    margin: 0% auto;
+    padding: 2%;
+    height: 25vh;
+    width: auto;
+    object-fit: cover;
+  }
+  .logo-explained .map .logo-about, .logo-explained .triangle .logo-about, .logo-explained .zone .logo-about {
+    font-size: 0.7rem;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+  }
+
+  .top {
+    align-items: flex-start !important;
+  }
+  .top .profile-pic {
+    height: 12vh;
+  }
+  .top .profile-pic .picture {
+    width: 22vh;
+    height: 22vh;
+    margin: 1% 80% 0% 1%;
+  }
+}
 /* Acknowledgments
 --------------------------------------------- */
 /*--------------------------------------------------------------
