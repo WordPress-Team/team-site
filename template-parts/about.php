@@ -1,3 +1,4 @@
+
 <div class="about-section" id="about">
     <div class="about-content">
         <h1 class="about-header">
@@ -14,4 +15,7 @@
 
         </p>
     </div>
+    
+        <img class="about-image" src="http://wordpress-team-site.local/wp-content/uploads/2022/09/WP-logo-friends.png" alt="">
+    
 </div>

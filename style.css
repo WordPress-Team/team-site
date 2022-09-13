@@ -1006,7 +1006,7 @@ textarea {
   height: auto;
   width: 100%;
   align-items: center;
-  display: flex;
+  display: inline-block;
   color: #1c0d1b;
   background-size: 50%;
   background: linear-gradient(135deg, #ffff 20%, transparent 35%), linear-gradient(225deg, #ffff 20%, transparent 35%), linear-gradient(315deg, #ffff 20%, transparent 35%), linear-gradient(45deg, #ffff 20%, transparent 35%);
@@ -1015,7 +1015,7 @@ textarea {
   background-position: center;
 }
 .about-section .about-content {
-  margin: 40% auto 30% auto;
+  margin: 40% auto 0% auto;
   padding: 2%;
   text-align: center;
 }
@@ -1032,6 +1032,14 @@ textarea {
   font-family: "Raleway", sans-serif;
   font-size: 0.7rem;
   font-weight: 600;
+}
+.about-section .about-image {
+  height: auto;
+  width: 100%;
+  padding: 0%;
+  margin: 0% auto;
+  position: relative;
+  bottom: -7px;
 }
 
 @media screen and (min-width: 600px) {

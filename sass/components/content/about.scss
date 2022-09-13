@@ -4,7 +4,7 @@
     height: auto;
     width: 100%;
     align-items: center;
-    display: flex;
+    display: inline-block;
     color: $darkpurple;
     background-size:50%;
     background: 
@@ -16,9 +16,10 @@
     background-repeat:no-repeat;
     background-position: center;
     .about-content {
-        margin: 40% auto 30% auto;
+        margin: 40% auto 0% auto;
         padding: 2%;
         text-align: center;
+
 
         .about-header{
             font-family: $cinzel;
@@ -37,8 +38,18 @@
             
         }
     }
+    .about-image{
+        height: auto;
+        width: 100%;
+        padding: 0%;
+        margin:0% auto;
+        position: relative;
+        bottom: -7px;
+    }
 
 }
+
+
 
 @media screen and (min-width: 600px) {
    
