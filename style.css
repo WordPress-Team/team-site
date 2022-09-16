@@ -1336,7 +1336,8 @@ footer#colophon .menu-item a:hover {
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   margin: 15px;
-  width: 130px;
+  width: 200px;
+  padding: 12px 0px;
 }
 .both-buttons .button-1:hover {
   background-color: #74e7d9;
@@ -1348,7 +1349,8 @@ footer#colophon .menu-item a:hover {
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   margin: 15px;
-  width: 130px;
+  width: 200px;
+  padding: 12px 0px;
 }
 .both-buttons .button-2:hover {
   background-color: #74e7d9;
