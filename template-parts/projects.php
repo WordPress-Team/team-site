@@ -1,72 +1,107 @@
-<div class="slideshow-container">
-<h1 class="projects-title">PROJECTS</h1>
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 4</div>
-  <img src="http://impact-zone.local/wp-content/uploads/2022/08/image7-scaled.jpg" style="width:100%">
-  <div class="text">Caption One</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 4</div>
-  <img src="http://impact-zone.local/wp-content/uploads/2022/08/image6-scaled.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 4</div>
-  <img src="http://impact-zone.local/wp-content/uploads/2022/08/image20-scaled-e1661961004737.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">4 / 4</div>
-  <img src="http://impact-zone.local/wp-content/uploads/2022/08/image21-scaled.jpg" style="width:100%">
-  <div class="text">Caption Four</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-</section>
-
-
-
-
+<!-- This is the start of the slider -->
+<div class="container">
+    <input type="radio" name="dot" id="one">
+    <input type="radio" name="dot" id="two">
+    <div class="main-card">
+      <div class="cards">
+        <div class="card">
+        <div class="content">
+           <!-- image goes here -->
+           <img src="http://portfolio.local/wp-content/uploads/2022/07/Screenshot-2022-02-02-195159-e1658453735741.png" class="card-image"alt="">
+           <div class="details">
+             <a href="https://kylewashington73.github.io/Donut-Shop/"><div class="link-image">Donut Shop</div></a>
+           </div>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+        <div class="content">
+           <!-- image goes here -->
+           <img src="http://portfolio.local/wp-content/uploads/2022/07/disney-logo.jpg" class="card-image"alt="">
+           <div class="details">
+           <a href="https://chaisaetern.github.io/Replica-Challenge/"><div class="link-image">Replica Challenge</div></a>
+           </div>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+        </div>
+        
+        <div class="card">
+        <div class="content">
+           <!-- image goes here -->
+           <img src="http://portfolio.local/wp-content/uploads/2022/07/heroimg.jpg" class="card-image"alt="">
+           <div class="details">
+           <a href="https://kylewashington73.github.io/children-of-incarcerated-parents/"><div class="link-image">Children of Incarcerated Parents</div></a>
+           </div>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+         <div class="content">
+           <!-- image goes here -->
+           <div class="details">
+           <img src="http://portfolio.local/wp-content/uploads/2022/06/screenshot.jpg" class="card-image"alt=""> 
+           <a href="https://kylewashington73.github.io/project-assessments/"><div class="link-image">Portfolio</div></a>
+           </div>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+           <!-- image goes here -->
+           <div class="details">
+           <img src="http://portfolio.local/wp-content/uploads/2022/07/project-assessments-logo.jpg" class="card-image"alt="">
+           <a href="https://github.com/KyleWashington73/project-assessments#project-assessments"><div class="link-image">Project Assessment</div></a>
+            
+           </div>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="content">
+          <!-- image goes here -->
+           <div class="details">
+           <img src="http://portfolio.local/wp-content/uploads/2022/07/resume-logo.png" class="card-image"alt="">
+           <a href=""><div class="link-image">Resume</div></a>
+           </div>
+           <div class="media-icons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <label for="one" class=" active one"></label>
+      <label for="two" class="two"></label>
+    </div>
+  </div>
