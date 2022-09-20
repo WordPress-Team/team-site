@@ -29,6 +29,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="js/slider.js"></script>
 </body>
 </html>

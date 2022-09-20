@@ -53,13 +53,35 @@ font-family: 'Raleway';
 .col-1, .col-2, .col-3, .col-4 {
   text-align: center;
 }
-.paragraph {
-  margin-top: 100px;
-  padding: 20px;
-  padding-bottom: 20px;
+
+.title {
   font-size: 12px;
+  color: #E5DDDC;
 }
 
+.paragraph {
+  margin-top: 10px;
+  //padding: 20px;
+  padding-bottom: 20px;
+  font-size: 9px;
+  color: #FFFFFF;
+  text-align: center;
+}
+ .p1 {
+  padding-right: 8px;
+ }
+
+ .p2 {
+  padding-left: 8px;
+ }
+
+ .p3 {
+  padding-right: 8px;
+ }
+
+ .p4 {
+  padding-left: 8px;
+ }
 .image {
   height: 100px;
   width: 100px;
@@ -149,4 +171,14 @@ font-family: 'Raleway';
   width: 164px;
   margin: 0 auto;
 }
+
+.title {
+  color: #E5DDDC;
+}
+
+.paragraph {
+  margin-top: 10px;
+  text-align: center;
+}
+
 }

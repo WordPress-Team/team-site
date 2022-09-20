@@ -9,7 +9,7 @@
            <!-- image goes here -->
            <img src="http://portfolio.local/wp-content/uploads/2022/07/Screenshot-2022-02-02-195159-e1658453735741.png" class="card-image"alt="">
            <div class="details">
-             <a href="https://kylewashington73.github.io/Donut-Shop/"><div class="link-image">Donut Shop</div></a>
+             <a href="https://kylewashington73.github.io/Donut-Shop/"><div class="link-image">card 1</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -24,7 +24,7 @@
            <!-- image goes here -->
            <img src="http://portfolio.local/wp-content/uploads/2022/07/disney-logo.jpg" class="card-image"alt="">
            <div class="details">
-           <a href="https://chaisaetern.github.io/Replica-Challenge/"><div class="link-image">Replica Challenge</div></a>
+           <a href="https://chaisaetern.github.io/Replica-Challenge/"><div class="link-image">card 2</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -40,7 +40,7 @@
            <!-- image goes here -->
            <img src="http://portfolio.local/wp-content/uploads/2022/07/heroimg.jpg" class="card-image"alt="">
            <div class="details">
-           <a href="https://kylewashington73.github.io/children-of-incarcerated-parents/"><div class="link-image">Children of Incarcerated Parents</div></a>
+           <a href="https://kylewashington73.github.io/children-of-incarcerated-parents/"><div class="link-image">card 3</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -57,7 +57,7 @@
            <!-- image goes here -->
            <div class="details">
            <img src="http://portfolio.local/wp-content/uploads/2022/06/screenshot.jpg" class="card-image"alt=""> 
-           <a href="https://kylewashington73.github.io/project-assessments/"><div class="link-image">Portfolio</div></a>
+           <a href="https://kylewashington73.github.io/project-assessments/"><div class="link-image">card 4</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -72,7 +72,7 @@
            <!-- image goes here -->
            <div class="details">
            <img src="http://portfolio.local/wp-content/uploads/2022/07/project-assessments-logo.jpg" class="card-image"alt="">
-           <a href="https://github.com/KyleWashington73/project-assessments#project-assessments"><div class="link-image">Project Assessment</div></a>
+           <a href="https://github.com/KyleWashington73/project-assessments#project-assessments"><div class="link-image">card 5</div></a>
             
            </div>
            <div class="media-icons">
@@ -88,7 +88,7 @@
           <!-- image goes here -->
            <div class="details">
            <img src="http://portfolio.local/wp-content/uploads/2022/07/resume-logo.png" class="card-image"alt="">
-           <a href=""><div class="link-image">Resume</div></a>
+           <a href=""><div class="link-image">card 6</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>

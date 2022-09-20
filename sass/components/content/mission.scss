@@ -27,6 +27,7 @@
   text-align: center;
   font-family: 'Raleway';
   font-size: 14px;
+ 
   color: #1C0D1B;
   
 }
@@ -45,6 +46,8 @@
     margin-top: 50px;
     margin-bottom: 120px;
   }
+
+  
 }
  
 @media (max-width: 900px) {
@@ -54,7 +57,7 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1201px) {
   .section-1 {
     margin-top: 50px;
   }
