@@ -897,6 +897,9 @@ footer#colophon .menu-item a:hover {
   display: flex;
   justify-content: space-evenly;
 }
+.social-media i:hover {
+  color: #5325f8;
+}
 
 .design-developed {
   font-family: "Cinzel Decorative", cursive;
@@ -1306,11 +1309,12 @@ footer#colophon .menu-item a:hover {
   width: auto;
   margin: 5px 10px;
   margin: 12px 13px;
-  padding: 0 10px;
+  padding: 45px 10px;
 }
 
 .banner-2 {
   color: white;
+  font-size: 22px;
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
   padding: 15px 0;
@@ -1318,9 +1322,10 @@ footer#colophon .menu-item a:hover {
 
 .paragraph {
   color: white;
-  font-family: "Raleway", sans-serif;
-  line-height: 25px;
+  font-family: "Cinzel Decorative", cursive;
+  line-height: 35px;
   text-align: center;
+  font-size: 18px;
 }
 
 .both-buttons {
@@ -1361,10 +1366,36 @@ footer#colophon .menu-item a:hover {
   .banner {
     font-size: 2rem;
   }
+
+  .logo-letter {
+    height: 45px;
+    width: 50px;
+    padding-top: 1px;
+    position: relative;
+    top: 3px;
+  }
+
+  .banner-1 {
+    font-family: "Cinzel Decorative", cursive;
+    text-align: center;
+    margin: 1 auto;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+
+  .banner-2 {
+    color: white;
+    font-size: 22px;
+  }
 }
 @media screen and (min-width: 900px) {
   .banner {
     font-size: 2.5rem;
+  }
+
+  .banner-container {
+    padding: 60px 183px;
   }
 }
 /* Mission

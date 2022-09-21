@@ -123,6 +123,9 @@ footer#colophon {
 .social-media {
     display: flex;
     justify-content: space-evenly;
+    i:hover {
+        color:$violet;
+    }
 }
 
 .design-developed {
