@@ -24,7 +24,7 @@
 font-family: 'Cinzel Decorative';
 font-size: 20px;
 text-align: center;
-
+margin-bottom: 20px;
 color: #FFFFFF;
 }
 
@@ -35,13 +35,13 @@ font-family: 'Raleway';
 
 .even-columns-1 {
   display: flex;
-  padding: 50px 0px;
+  //padding: 50px 0px;
   //border: 2px solid black;
 }
 
 .even-columns-2 {
   display: flex;
-  padding: 50px 0px;
+  //padding: 50px 0px;
   //border: 2px solid black;
 }
 
@@ -61,7 +61,6 @@ font-family: 'Raleway';
 
 .paragraph {
   margin-top: 10px;
-  //padding: 20px;
   padding-bottom: 20px;
   font-size: 9px;
   color: #FFFFFF;
@@ -89,73 +88,25 @@ font-family: 'Raleway';
   margin: 0 auto;
 }
 
+@media (min-width: 600px) {
+   .title {
+    font-size: 12px;
+    color: #E5DDDC;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
+   .paragraph {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    font-size: 9px;
+    color: #FFFFFF;
+    text-align: center;
+  }
 
-//@media (min-width: 500px) {
-
-//   .first-section {
-//       height: 1048px;
-//       width: 360px;
-//       margin: 0px;
-//       padding: 0px;
-//       display: inline-block;
-//   }
-
-//   .even-columns-1 {
-//     text-align: center;
-//     background-color: #1c0d1b;
-
-//   }
-
-//   .even-columns-2 {
-//     text-align: center;
-//     position: relative;
-//     margin-top: 1200px;
-//     margin-left: -260px;
-//     background-color: #1c0d1b;
-//   }
-
-//   .image {
-//     height: 100px;
-//     width: 100px;
-//   }
-
-  
-//   .paragraph {
-//     font-size: 12px;
-      
-//   }
-
-// }
-
-// // @media (min-width: 900px) {
-
-//   .header {
-//     text-align: center;
-//     margin-bottom: 50px;
-//   }
-
-//   .image {
-//     height: 100px;
-//     width: 100px;
-//   }
-
-//   .paragraph {
-//     margin-top: 0px;
-//   }
- 
-
-//   .even-columns-1 {
-//     text-align: center;
-//     padding: 0px;
-//   }
-
-//   .even-columns-2 {
-//     text-align: center;
-//     padding: 0px; 
-//   }
-// }
-
+}
 @media (min-width: 1200px) {
 
   .first-section {

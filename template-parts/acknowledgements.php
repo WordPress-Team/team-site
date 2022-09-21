@@ -6,7 +6,7 @@
         <div class="col-1">
           <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" class="image" alt="">
           <h3 class="title">Aryca Gordon (She/Her), Persevere - Vice President, Pre-Apprenticeships</h3>
-          <p class="paragraph p1">'Impact Zone' would like to pay regard to Ms. Gordon for her undying dedication to and continued support for her students/apprentices here at Alphaworks. Thank you for being the heart and soul of this apprenticeship; you are genuinely appreciated!</p>
+          <p class="paragraph p1">'Impact Zone' would like to pay respect to Ms. Gordon for her undying dedication to and continued support for her students/apprentices here at Alphaworks. Thank you for being the heart and soul of this apprenticeship; you are genuinely appreciated!</p>
         </div>
         <div class="col-2">
           <img src="http://impact-zone.local/wp-content/uploads/2022/09/icon.jpg" class="image" alt="">
