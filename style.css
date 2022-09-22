@@ -1214,7 +1214,7 @@ footer#colophon .menu-item a:hover {
   display: inline-block;
   color: #1c0d1b;
   background-size: 50%;
-  background: linear-gradient(135deg, white 20%, transparent 35%), linear-gradient(225deg, white 20%, transparent 35%), linear-gradient(315deg, white 20%, transparent 35%), linear-gradient(45deg, white 20%, transparent 35%);
+  background: linear-gradient(135deg, #ffff 20%, transparent 35%), linear-gradient(225deg, #ffff 20%, transparent 35%), linear-gradient(315deg, #ffff 20%, transparent 35%), linear-gradient(45deg, #ffff 20%, transparent 35%);
   background-color: rgba(83, 37, 248, 0.3);
   background-repeat: no-repeat;
   background-position: center;
@@ -1730,7 +1730,7 @@ h2 {
 }
 
 .modal-open:hover {
-  box-shadow: rgba(83, 37, 248, 0.4) 0px 15px 20px, rgb(116, 231, 217) 0px 5px 10px;
+  box-shadow: rgba(83, 37, 248, 0.4) 0px 15px 20px, #74e7d9 0px 5px 10px;
   cursor: pointer;
 }
 
@@ -2014,7 +2014,7 @@ h2 {
 .kdg-role {
   font-size: 0.5rem;
   font-family: "Raleway", sans-serif;
-  color: rgb(116, 116, 116);
+  color: #747474;
   margin: 0% auto;
   padding: 0% 2%;
   text-align: center;
