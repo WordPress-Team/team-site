@@ -20,7 +20,7 @@ h2 {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  padding: 5%;
+  padding: 3%;
   text-align: center;
 }
 .card {
@@ -37,8 +37,8 @@ h2 {
 .modal-open {
   display: inline-block;
   border-radius: 50%;
-  height:9vh;
-  width:9vh;
+  height:11vh;
+  width:11vh;
   padding: 0%;
   object-fit: contain;
   margin:0% auto;
@@ -355,11 +355,11 @@ margin:0% auto;
 }
 
 .kdg-role{
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-family: $raleway;
   color: rgb(116, 116, 116);
   margin: 0% auto;
-  padding: 0%;
+  padding: 0% 2%;
   text-align: center;
 }
 
@@ -616,6 +616,9 @@ margin:0% auto;
       }
     }
 
+    .kdg-role{
+      font-size: 0.7rem;
+    }
     .profile-projects{
      width:95%;
      
