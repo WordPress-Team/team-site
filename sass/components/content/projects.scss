@@ -171,9 +171,11 @@ input[type="radio"]{
     margin-bottom: 10px;
    // width: calc(100% / 2 - 10px);
   }
+
+ 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 600px) {
   .main-card .cards .card .about-p{
     /* margin: 20px 0 10px 0; */
     width: 100%;
@@ -182,6 +184,10 @@ input[type="radio"]{
 
   .main-card .cards {
      flex-direction: row;
+  }
+
+  .container .main-card .cards{
+    margin-top: 0px;
   }
 }
 

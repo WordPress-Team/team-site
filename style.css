@@ -1053,10 +1053,9 @@ textarea {
 .section-1 {
   height: 163px;
   width: 100%;
-  padding: 20px;
-  background: linear-gradient(to bottom right, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) bottom right, linear-gradient(to bottom left, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) bottom left, linear-gradient(to top left, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) top left, linear-gradient(to top right, rgba(83, 37, 248, 0.6) 0%, rgba(83, 37, 248, 0.5) 7.41%, rgba(83, 37, 248, 0.4) 13.72%, rgba(83, 37, 248, 0.3) 25.23%, rgba(83, 37, 248, 0.2) 34.56%, rgba(83, 37, 248, 0.1) 40.76%, transparent 50%) top right;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
+  background: linear-gradient(135deg, #ffff 20%, transparent 35%), linear-gradient(225deg, #ffff 20%, transparent 35%), linear-gradient(315deg, #ffff 20%, transparent 35%), linear-gradient(45deg, #ffff 20%, transparent 35%);
+  background-size: auto;
+  background-color: rgba(83, 37, 248, 0.2);
 }
 
 .our-mission-1-container {
@@ -1278,7 +1277,7 @@ input[type=radio] {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 599px) {
+@media (max-width: 600px) {
   .main-card .cards .card .about-p {
     /* margin: 20px 0 10px 0; */
     width: 100%;
@@ -1287,6 +1286,10 @@ input[type=radio] {
 
   .main-card .cards {
     flex-direction: row;
+  }
+
+  .container .main-card .cards {
+    margin-top: 0px;
   }
 }
 @media (max-width: 350px) {

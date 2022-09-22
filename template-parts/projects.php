@@ -9,7 +9,7 @@
            <!-- image goes here -->
            <img src="http://impact-zone.local/wp-content/uploads/2022/09/resume-logo.png" class="card-image"alt="">
            <div class="details">
-             <a href="https://kylewashington73.github.io/Donut-Shop/"><div class="link-image">project 1</div></a>
+             <a href="https://kylewashington73.github.io/Donut-Shop/"><div class="link-image">Water Scarcity</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -24,7 +24,7 @@
            <!-- image goes here -->
            <img src="http://impact-zone.local/wp-content/uploads/2022/09/resume-logo.png" class="card-image"alt="">
            <div class="details">
-           <a href="https://chaisaetern.github.io/Replica-Challenge/"><div class="link-image">project 2</div></a>
+           <a href="https://chaisaetern.github.io/Replica-Challenge/"><div class="link-image">Karat Site</div></a>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
