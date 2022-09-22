@@ -1,0 +1,124 @@
+// Set Variables 
+$darkpurple: #1c0d1b;
+$violet: #5325f8;
+$aqua: #74e7d9;
+$cinzel: 'Cinzel Decorative', cursive;
+$raleway: 'Raleway', sans-serif;
+
+// EXAMPLE:
+
+// color: $darkpurple;
+// font-family: $cinzel;
+
+.banner-1 {
+    font-family: $cinzel;
+    text-align: center;
+    margin: 1 auto;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.logo-letter {
+    height: 26px;
+    width: 25px;
+    padding-top: 1px;
+    position: relative;
+    top: 3px;
+}
+
+.banner-container {
+    background-color: #1c0d1b;
+    height: 49vh;
+    width: auto;
+    margin: 5px 10px;
+    margin: 12px 13px;
+    padding: 45px 10px;
+}
+
+.banner-2 {
+    color: white;
+    font-size: 22px;
+    font-family: $cinzel;
+    text-align: center;
+    padding: 15px 0; 
+}
+
+.paragraph {
+    color:white;
+    // font-family: $raleway;
+    font-family: $cinzel;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.both-buttons{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+        .button-1 {
+            background-color: $darkpurple;
+            color: $aqua;
+            box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);;
+            border-radius: 20px;
+            margin: 15px;
+            width: 200px;
+            padding: 12px 0px;
+            &:hover{
+               background-color: $aqua;
+               color:$darkpurple;
+            }
+        }
+
+        .button-2 {
+            background-color: $darkpurple;
+            color: $aqua;
+            box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);;
+            border-radius: 20px;
+            margin: 15px;
+            width: 200px;
+            padding: 12px 0px;
+            &:hover{
+                background-color: $aqua;
+                color:$darkpurple;
+             }
+        }
+}
+
+    @media screen and (min-width: 600px) {
+        .banner {
+            font-size: 2rem;
+        }
+        .logo-letter {
+            height: 45px;
+            width: 50px;
+            padding-top: 1px;
+            position: relative;
+            top: 3px;
+        }
+        .banner-1 {
+            font-family: "Cinzel Decorative", cursive;
+            text-align: center;
+            margin: 1 auto;
+            font-size: 50px;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+        .banner-2 {
+            color: white;
+            font-size: 22px;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        .banner {
+            font-size: 2.5rem;
+        }
+        .banner-container {
+            padding: 60px 183px;
+        }
+    }

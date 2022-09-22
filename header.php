@@ -21,7 +21,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Raleway&display=swap" rel="stylesheet">
-	
+	<script src="https://kit.fontawesome.com/d0f1b16eb2.js" crossorigin="anonymous"></script>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -38,14 +39,18 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wordpress-team-site' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="hamburger">&#9776;</span></button>
+			
 			<?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+
 				)
 			);
 			?>
+			<!-- <img class="nav-image" src="<?php the_field('nav_image') ?>"> -->
+			
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
