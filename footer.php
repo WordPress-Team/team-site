@@ -12,19 +12,29 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wordpress-team-site' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'wordpress-team-site' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'wordpress-team-site' ), 'wordpress-team-site', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<!-- input code for footer -->
+			<?php
+            wp_nav_menu(array(
+                'menu' => 'Nav Menu',
+                'theme_location' => 'footer-menu',
+                'menu_class' => 'footer-menu',
+                'menu_id' => 'footer-id'
+            ))
+        	?>
+		</div>
+
+		<div class="social-media">
+			<i class="fa-brands fa-github fa-2x"aria-label="github"></i>
+			<i class="fa-solid fa-envelope fa-2x"aria-label="github"></i>
+			<i class="fa-brands fa-linkedin fa-2x"aria-label="github"></i>
+		</div>
+
+		<p class="design-developed">Designed & Developed by <span class="footer-impactzone">IMPACT ZONE</span> MEMBERS: KYLE W., DANU V., & GRACE B</p>
+		<!-- <p class="members">MEMBERS: KYLE W., DANU V., & GRACE B.</p> -->
+		
+		<p class="copywright">&#169; Impact Zone</p>
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

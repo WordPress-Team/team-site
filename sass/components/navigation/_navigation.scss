@@ -13,23 +13,34 @@ $raleway: 'Raleway', sans-serif;
 .site-header{
     height: 60px;
     width: 100%;
-    background-color: #eedbff;
+    background-color: $darkpurple;
     position: sticky;
     top: 0;
     z-index: 1;
+
 	.site-branding{
 		float: left;
 		margin: 5px 15px;
 		height:50px;
 		width:50px;
 	}
+
+	// .nav-menu {
+	// 	display: none; 
+	// }
+
 }
 .main-navigation {
 	display: block;
 	width: 100%;
 
+	// .nav-menu {
+	// 	display: none; 
+	// }
+
 	ul {
 		display: none;
+		float: right;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
@@ -86,6 +97,19 @@ $raleway: 'Raleway', sans-serif;
 	a {
 		display: block;
 		text-decoration: none;
+		color: white;
+		font-weight: 800;
+		text-shadow: black 1px 1px;
+		margin: 20px 20px;
+		font-family: "Cinzel Decorative", cursive;
+		font-size: 1.2rem;
+		letter-spacing: 1.5px;
+		&:hover{
+			color: $violet;
+		}
+		&:active{
+			color:cornflowerblue;
+		}
 	}
 
 	.current_page_item > a,
@@ -96,20 +120,89 @@ $raleway: 'Raleway', sans-serif;
 }
 
 /* Small menu. */
+.menu-menu-1-container {
+	background-image: url('http://impact-zone.local/wp-content/uploads/2022/09/low-opacity-logo.png') !important;
+	// opacity: 0.3 !important;
+}
+
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
 }
 
+button.menu-toggle {
+    position: absolute;
+	top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.hamburger {
+	color: $aqua;
+	font-size: 30px;
+}
+
+.toggled {
+    width: 100%;
+    height: 100vh;
+    background: $darkpurple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    div {
+		height: 100vh;
+		width: 100%;
+		background-color: $darkpurple;
+		background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		/* align-items: center; */
+		background-position: top;
+		// opacity: 0.5;
+		margin: 100px 0;
+		// background:
+		//  linear-gradient(to bottom right,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom right,
+		  
+		//  linear-gradient(to bottom left,rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) bottom left,
+		  
+		//  linear-gradient(to top left, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top left,
+		  
+		//  linear-gradient(to top right, rgba(83, 37, 248, 0.6)  0%, rgba(83, 37, 248, 0.5)  7.41%, rgba(83, 37, 248, 0.4)  13.72%, rgba(83, 37, 248, 0.3)  25.23%, rgba(83, 37, 248, 0.2)  34.56%, rgba(83, 37, 248, 0.1)  40.76%,transparent 50%) top right;	
+		
+	  }
+	  .nav-image {
+		// display: block;
+	  }
+}
+
+img.nav#site-navigation.main-navigation {
+	display:none;
+}
+
 @media screen and (min-width: 37.5em) {
+
+	.nav-image {
+		display: none;
+	}
 
 	.menu-toggle {
 		display: none;
 	}
 
 	.main-navigation ul {
-		display: flex;
+		display: none;
+		
 	}
+	.toggled {
+		display: none;	
+	}
+	
 }
 
 .comment-navigation,
@@ -131,5 +224,44 @@ $raleway: 'Raleway', sans-serif;
 	.nav-next {
 		text-align: end;
 		flex: 1 0 50%;
+	}
+}
+
+@media screen and (min-width: 600px) {
+    //CODE HERE FOR TABLET SIZES  
+	button.menu-toggle {
+		display:block;
+	} 
+	.toggled {
+		display:block; 
+	}
+	.menu-menu-1-container {
+		display: flex;
+}
+}
+
+@media screen and (min-width: 829px) {
+	button.menu-toggle {
+		display:none;
+	}
+	.main-navigation ul {
+		display: flex;
+	}
+	.main-navigation a {
+		font-size: 14px;
+	}
+	.menu-menu-1-container {
+		background-image: none !important;
+	}
+}
+
+@media screen and (min-width: 900px) {
+    
+    //CODE HERE FOR LARGER TABLET/DESKTOP AND UP HERE
+	button.menu-toggle {
+		display:none;
+	}
+	.main-navigation ul {
+		display: flex;
 	}
 }
