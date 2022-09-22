@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package impact zone
+ * @package  Impact Zone
  */
 
 ?>
@@ -39,6 +39,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="js/slider.js"></script>
 </body>
 </html>

@@ -85,9 +85,10 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+.projects-title {
   font-size: 2em;
   margin: 0.67em 0;
+  text-align: center;
 }
 
 /* Grouping content
@@ -116,10 +117,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-a {
-  background-color: transparent;
-}
-
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -517,22 +514,6 @@ table {
 
 /* Links
 --------------------------------------------- */
-a {
-  color: #4169e1;
-}
-a:visited {
-  color: #800080;
-}
-a:hover, a:focus, a:active {
-  color: #191970;
-}
-a:focus {
-  outline: thin dotted;
-}
-a:hover, a:active {
-  outline: 0;
-}
-
 /* Forms
 --------------------------------------------- */
 button,
@@ -1400,8 +1381,269 @@ footer#colophon .menu-item a:hover {
 }
 /* Mission
 --------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  height: 163px;
+  width: 100%;
+  background: linear-gradient(135deg, #ffff 20%, transparent 35%), linear-gradient(225deg, #ffff 20%, transparent 35%), linear-gradient(315deg, #ffff 20%, transparent 35%), linear-gradient(45deg, #ffff 20%, transparent 35%);
+  background-size: auto;
+  background-color: rgba(83, 37, 248, 0.2);
+}
+
+.our-mission-1-container {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #1C0D1B;
+}
+
+.mission-header {
+  font-size: 24px;
+  text-align: center;
+  margin-top: -40px;
+  padding-top: 0px;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+@media (max-width: 600px) {
+  .section-1 {
+    height: 161px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 900px) {
+  .section-1 {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1201px) {
+  .section-1 {
+    margin-top: 50px;
+  }
+
+  .mission-header {
+    padding-top: 10px;
+  }
+
+  .our-mission-1-container {
+    margin-top: 40px;
+  }
+}
 /* Projects
 --------------------------------------------- */
+.container {
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0px 0;
+  margin: 0 auto;
+  margin-left: 175px;
+}
+
+.container .main-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200%;
+  transition: 1s;
+}
+
+#two:checked ~ .main-card {
+  margin-left: -100%;
+}
+
+.container .main-card .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.main-card .cards .card {
+  width: 270px;
+  background: #fff;
+  border-radius: 12px;
+  margin: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 35px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+}
+
+.main-card .cards .card:hover {
+  transform: translateY(-15px);
+}
+
+.cards .card .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cards .card .content .img {
+  height: 160px;
+  width: 130px;
+  border-radius: 50%;
+  padding: 3px;
+  background: silver;
+  margin-bottom: 14px;
+}
+
+.card .content .img img {
+  height: 200px;
+  width: 100%;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card .content .card-image {
+  height: 178px;
+}
+
+.card .content a {
+  text-decoration: none;
+}
+
+.card .content .link-image {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  margin-block: 10px;
+}
+.card .content .link-image:hover {
+  color: red;
+}
+.card .content .link-image:active {
+  color: orange;
+}
+
+.card .content .job {
+  font-size: 20px;
+  color: silver;
+}
+
+.card .content .media-icons {
+  margin-top: 10px;
+  display: none;
+}
+
+.media-icons a {
+  text-align: center;
+  line-height: 33px;
+  height: 35px;
+  width: 35px;
+  margin: 0 4px;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: silver;
+  transition: all 0.3s ease;
+}
+
+.media-icons a:hover {
+  color: silver;
+  background-color: #fff;
+  border-color: silver;
+}
+
+.container .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button label {
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: silver;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button label.active {
+  width: 35px;
+}
+
+#one:checked ~ .button .one {
+  width: 35px;
+}
+
+#one:checked ~ .button .two {
+  width: 15px;
+}
+
+#two:checked ~ .button .one {
+  width: 15px;
+}
+
+#two:checked ~ .button .two {
+  width: 35px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    margin-left: -5px;
+  }
+}
+@media (max-width: 768px) {
+  .main-card .cards .card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .main-card .cards .card .about-p {
+    /* margin: 20px 0 10px 0; */
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .main-card .cards {
+    flex-direction: row;
+  }
+
+  .container .main-card .cards {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 350px) {
+  .main-card .cards {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .main-card .cards .card {
+    height: 27%;
+  }
+
+  .container {
+    margin-left: -5px;
+  }
+}
 /* Team
 --------------------------------------------- */
 * {
@@ -2173,6 +2415,136 @@ h2 {
 }
 /* Acknowledgments
 --------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-section {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 70px;
+  background-color: #1c0d1b;
+  padding: 20px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  font-family: "Cinzel Decorative";
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.paragraph {
+  font-family: "Raleway";
+}
+
+.even-columns-1 {
+  display: flex;
+}
+
+.even-columns-2 {
+  display: flex;
+}
+
+.even-columns > * {
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.col-1, .col-2, .col-3, .col-4 {
+  text-align: center;
+}
+
+.title {
+  font-size: 12px;
+  color: #E5DDDC;
+}
+
+.paragraph {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  font-size: 9px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.p1 {
+  padding-right: 8px;
+}
+
+.p2 {
+  padding-left: 8px;
+}
+
+.p3 {
+  padding-right: 8px;
+}
+
+.p4 {
+  padding-left: 8px;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 12px;
+    color: #E5DDDC;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .paragraph {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    font-size: 9px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .first-section {
+    padding-top: 100px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .container-1 {
+    flex-direction: row;
+  }
+
+  .image {
+    height: 164px;
+    width: 164px;
+    margin: 0 auto;
+  }
+
+  .title {
+    color: #E5DDDC;
+  }
+
+  .paragraph {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

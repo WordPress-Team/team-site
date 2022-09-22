@@ -37,9 +37,10 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
+ .projects-title {
 	font-size: 2em;
 	margin: 0.67em 0;
+	text-align: center;
 }
 
 /* Grouping content
@@ -73,9 +74,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 
-a {
-	background-color: transparent;
-}
+
 
 /**
  * 1. Remove the bottom border in Chrome 57-
