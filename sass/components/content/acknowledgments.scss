@@ -1,14 +1,14 @@
 
 
-* {
-  margin: 0;
-  padding: 0;
-}
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
 
 .first-section {
   height: auto;
   width: 100%;
-  margin-top: 20px;
+  margin: 0%;
   padding-top: 70px;
   background-color: #1c0d1b;
   padding: 20px;
@@ -52,35 +52,38 @@ font-family: 'Raleway';
 
 .col-1, .col-2, .col-3, .col-4 {
   text-align: center;
+  margin: 2%;
 }
 
 .title {
-  font-size: 12px;
+  font-size: 0.6rem;
   color: #E5DDDC;
+  padding: 3% 1%;
 }
 
 .paragraph {
-  margin-top: 10px;
+  margin: 2% 3%;
   padding-bottom: 20px;
-  font-size: 9px;
+  font-size: 0.5rem;
+  line-height: 0.6rem;
   color: #FFFFFF;
   text-align: center;
 }
- .p1 {
-  padding-right: 8px;
- }
+//  .p1 {
+//   padding-right: 8px;
+//  }
 
- .p2 {
-  padding-left: 8px;
- }
+//  .p2 {
+//   padding-left: 8px;
+//  }
 
- .p3 {
-  padding-right: 8px;
- }
+//  .p3 {
+//   padding-right: 8px;
+//  }
 
- .p4 {
-  padding-left: 8px;
- }
+//  .p4 {
+//   padding-left: 8px;
+//  }
 
 .image {
   height: 100px;
@@ -90,24 +93,25 @@ font-family: 'Raleway';
 
 @media (min-width: 600px) {
    .title {
-    font-size: 12px;
+    font-size: 1rem;
     color: #E5DDDC;
     margin-left: 20px;
     margin-right: 20px;
   }
 
    .paragraph {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    font-size: 9px;
+    // margin-top: 10px;
+    // margin-left: 20px;
+    // margin-right: 20px;
+    // padding-bottom: 20px;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
     color: #FFFFFF;
     text-align: center;
   }
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 
   .first-section {
     padding-top: 100px;
@@ -121,8 +125,8 @@ font-family: 'Raleway';
 }
 
 .image {
-  height: 164px;
-  width: 164px;
+  height: 12vh;
+  width: 12vh;
   margin: 0 auto;
 }
 
@@ -131,7 +135,7 @@ font-family: 'Raleway';
 }
 
 .paragraph {
-  margin-top: 10px;
+  // margin-top: 10px;
   text-align: center;
 }
 

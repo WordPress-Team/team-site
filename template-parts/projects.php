@@ -1,5 +1,5 @@
 <!-- This is the start of the slider -->
-<div class="container">
+<div class="container" id="projects">
     <input type="radio" name="dot" id="one">
     <input type="radio" name="dot" id="two">
     <div class="main-card">

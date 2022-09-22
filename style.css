@@ -802,23 +802,36 @@ img.nav#site-navigation.main-navigation {
 --------------------------------------------- */
 footer#colophon {
   width: auto;
-  height: 300px;
+  height: auto;
   position: relative;
   bottom: 0;
+  align-items: center;
 }
 footer#colophon ul {
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
-footer#colophon .container {
-  margin: 10% auto;
-  padding: 5% auto;
+footer#colophon .footer-container {
+  margin: 2% auto;
+  align-items: center;
+  justify-content: center;
+  padding: 5% auto !important;
 }
-footer#colophon .container ul {
+footer#colophon .footer-container ul {
   column-count: 3;
   margin: 0% auto;
-  padding: 0%;
-  font-size: 0.6rem;
+  padding: 3% 1%;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: "Cinzel Decorative", cursive;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+footer#colophon .footer-container ul li {
+  width: auto;
 }
 footer#colophon .projects {
   margin: 0 auto;
@@ -838,7 +851,6 @@ footer#colophon .team a {
 }
 footer#colophon .row-two {
   /* text-align: center; */
-  margin: 23px 102%;
   padding: 0;
   display: flex;
   justify-self: center;
@@ -868,10 +880,11 @@ footer#colophon .about a {
 footer#colophon .menu-item a {
   color: black;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Cinzel Decorative", cursive;
 }
 footer#colophon .menu-item a:hover {
   color: #5325f8;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 .social-media {
@@ -885,10 +898,10 @@ footer#colophon .menu-item a:hover {
 .design-developed {
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
-  margin: 1 auto;
+  margin: 1 auto !important;
   font-weight: 600;
   font-size: 0.8rem;
-  padding: 23px 0;
+  padding: 2%;
 }
 
 .footer-impactzone {
@@ -898,7 +911,7 @@ footer#colophon .menu-item a:hover {
 .members {
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
-  margin: 1 auto;
+  margin: 1% auto;
   font-weight: 600;
 }
 
@@ -916,6 +929,13 @@ footer#colophon .menu-item a:hover {
 @media screen and (min-width: 600px) {
   .container ul {
     font-size: 1rem !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .footer-container ul {
+    padding: 1% !important;
+    font-weight: 800 !important;
+    font-size: 0.9rem !important;
   }
 }
 /* Posts and pages
@@ -1274,6 +1294,7 @@ footer#colophon .menu-item a:hover {
   font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 600;
+  color: #1c0d1b;
 }
 
 .logo-letter {
@@ -1286,19 +1307,19 @@ footer#colophon .menu-item a:hover {
 
 .banner-container {
   background-color: #1c0d1b;
-  height: 49vh;
+  height: auto;
   width: auto;
-  margin: 5px 10px;
-  margin: 12px 13px;
+  margin: 0px 10px;
   padding: 45px 10px;
 }
 
 .banner-2 {
   color: white;
-  font-size: 22px;
+  font-size: 1rem;
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
   padding: 15px 0;
+  font-weight: 400;
 }
 
 .paragraph {
@@ -1315,15 +1336,19 @@ footer#colophon .menu-item a:hover {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  padding: 1%;
 }
 .both-buttons .button-1 {
   background-color: #1c0d1b;
   color: #74e7d9;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
-  margin: 15px;
+  margin: 2%;
   width: 200px;
-  padding: 12px 0px;
+  padding: 3% 6%;
+  font-size: 0.7rem;
+  width: auto;
+  height: auto;
 }
 .both-buttons .button-1:hover {
   background-color: #74e7d9;
@@ -1334,9 +1359,11 @@ footer#colophon .menu-item a:hover {
   color: #74e7d9;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
-  margin: 15px;
-  width: 200px;
-  padding: 12px 0px;
+  margin: 2%;
+  padding: 3% 6%;
+  font-size: 0.7rem;
+  width: auto;
+  height: auto;
 }
 .both-buttons .button-2:hover {
   background-color: #74e7d9;
@@ -1369,14 +1396,34 @@ footer#colophon .menu-item a:hover {
     color: white;
     font-size: 22px;
   }
+
+  .button-1, .button-2 {
+    font-size: 0.8rem !important;
+    padding: 2% 4% !important;
+  }
 }
 @media screen and (min-width: 900px) {
   .banner {
     font-size: 2.5rem;
   }
 
-  .banner-container {
-    padding: 60px 183px;
+  .banner-2 {
+    padding: 1% 10%;
+  }
+
+  .both-buttons {
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .both-buttons .button-1, .both-buttons .button-2 {
+    font-size: 0.8rem !important;
+    padding: 1% 2% !important;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .button-1, .button-2 {
+    font-size: 1rem !important;
+    padding: 1% 2% !important;
   }
 }
 /* Mission
@@ -1387,8 +1434,9 @@ footer#colophon .menu-item a:hover {
 }
 
 .section-1 {
-  height: 163px;
+  height: auto;
   width: 100%;
+  padding: 10%;
   background: linear-gradient(135deg, #ffff 20%, transparent 35%), linear-gradient(225deg, #ffff 20%, transparent 35%), linear-gradient(315deg, #ffff 20%, transparent 35%), linear-gradient(45deg, #ffff 20%, transparent 35%);
   background-size: auto;
   background-color: rgba(83, 37, 248, 0.2);
@@ -1398,40 +1446,25 @@ footer#colophon .menu-item a:hover {
   text-align: center;
   font-family: "Raleway";
   font-size: 14px;
+  font-weight: 600;
   color: #1C0D1B;
 }
 
 .mission-header {
+  font-weight: 800;
   font-size: 24px;
   text-align: center;
-  margin-top: -40px;
-  padding-top: 0px;
+  padding: 2%;
   font-family: "Cinzel Decorative", cursive;
 }
 
-@media (max-width: 600px) {
-  .section-1 {
-    height: 161px;
-    margin-top: 50px;
-    margin-bottom: 120px;
-  }
-}
-@media (max-width: 900px) {
-  .section-1 {
-    margin-top: 50px;
-  }
-}
-@media (max-width: 1201px) {
-  .section-1 {
-    margin-top: 50px;
+@media (min-width: 600px) {
+  .our-mission-1-container {
+    font-size: 1rem;
   }
 
   .mission-header {
-    padding-top: 10px;
-  }
-
-  .our-mission-1-container {
-    margin-top: 40px;
+    font-size: 2.1rem;
   }
 }
 /* Projects
@@ -1440,9 +1473,10 @@ footer#colophon .menu-item a:hover {
   max-width: 900px;
   width: 100%;
   overflow: hidden;
-  padding: 0px 0;
+  padding: 3%;
   margin: 0 auto;
-  margin-left: 175px;
+  margin-left: 75px !important;
+  height: auto;
 }
 
 .container .main-card {
@@ -2415,15 +2449,10 @@ h2 {
 }
 /* Acknowledgments
 --------------------------------------------- */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .first-section {
   height: auto;
   width: 100%;
-  margin-top: 20px;
+  margin: 0%;
   padding-top: 70px;
   background-color: #1c0d1b;
   padding: 20px;
@@ -2462,35 +2491,22 @@ h2 {
 
 .col-1, .col-2, .col-3, .col-4 {
   text-align: center;
+  margin: 2%;
 }
 
 .title {
-  font-size: 12px;
+  font-size: 0.6rem;
   color: #E5DDDC;
+  padding: 3% 1%;
 }
 
 .paragraph {
-  margin-top: 10px;
+  margin: 2% 3%;
   padding-bottom: 20px;
-  font-size: 9px;
+  font-size: 0.5rem;
+  line-height: 0.6rem;
   color: #FFFFFF;
   text-align: center;
-}
-
-.p1 {
-  padding-right: 8px;
-}
-
-.p2 {
-  padding-left: 8px;
-}
-
-.p3 {
-  padding-right: 8px;
-}
-
-.p4 {
-  padding-left: 8px;
 }
 
 .image {
@@ -2501,23 +2517,20 @@ h2 {
 
 @media (min-width: 600px) {
   .title {
-    font-size: 12px;
+    font-size: 1rem;
     color: #E5DDDC;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .paragraph {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    font-size: 9px;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
     color: #FFFFFF;
     text-align: center;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .first-section {
     padding-top: 100px;
   }
@@ -2531,8 +2544,8 @@ h2 {
   }
 
   .image {
-    height: 164px;
-    width: 164px;
+    height: 12vh;
+    width: 12vh;
     margin: 0 auto;
   }
 
@@ -2541,7 +2554,6 @@ h2 {
   }
 
   .paragraph {
-    margin-top: 10px;
     text-align: center;
   }
 }

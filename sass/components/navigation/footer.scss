@@ -7,26 +7,41 @@ $raleway: 'Raleway', sans-serif;
 
 footer#colophon {
     width: auto;
-    height: 300px;
+    height: auto;
     // background-color: aqua;
     position: relative;
     bottom: 0;
+    align-items: center;
     ul{
         list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
     }
 
-    .container {
+    .footer-container {
         // display:inline-block;
         // width: 100%;
         // height: auto;
-        margin: 10% auto;
-        padding: 5% auto;
+        margin: 2% auto;
+        align-items:center ;
+        justify-content: center;
+        padding: 5% auto !important;
         ul {
             column-count:3;
             margin: 0% auto;
-            padding: 0%;
-            font-size: 0.6rem;
+            padding: 3% 1%;
+            font-size: 0.7rem;
+            font-weight: 600;
+            font-family: $cinzel;
             text-align: center;
+            align-items:center ;
+            justify-content: center;
+
+            li {
+                width: auto;
+            }
+
         }
         
     }
@@ -65,7 +80,7 @@ footer#colophon {
 
     .row-two {
             /* text-align: center; */
-            margin: 23px 102%;
+            // margin: 23px 102%;
             padding: 0;
             display: flex;
             justify-self: center;
@@ -108,9 +123,10 @@ footer#colophon {
     .menu-item a {
         color: black;
         text-decoration: none;
-        font-family: $raleway;
+        font-family: $cinzel;
         &:hover {
             color: $violet;
+            text-shadow: 2px 2px rgb(255, 255, 255, 0.5);
         }
         // &:active {
         //     color: $darkpurple;
@@ -131,12 +147,12 @@ footer#colophon {
 .design-developed {
     font-family: $cinzel;
     text-align: center;
-    margin: 1 auto;
+    margin: 1 auto !important;
     // font-size: 2rem;
     // letter-spacing: 2px;
     font-weight: 600;
     font-size: 0.8rem;
-    padding: 23px 0;
+    padding: 2%;
 }
 
 .footer-impactzone {
@@ -146,7 +162,7 @@ footer#colophon {
 .members {
     font-family: $cinzel;
     text-align: center;
-    margin: 1 auto;
+    margin: 1% auto;
     // font-size: 2rem;
     // letter-spacing: 2px;
     font-weight: 600;
@@ -177,5 +193,12 @@ footer#colophon {
 
 
 @media screen and (min-width: 900px) {
-    
+    .footer-container {
+      
+        ul {
+            padding: 1% !important;
+            font-weight: 800 !important;
+            font-size: 0.9rem !important;
+        }
+    } 
 }

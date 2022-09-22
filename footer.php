@@ -6,13 +6,13 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package  Impact Zone
+ * @package  wordpress-team-site
  */
 
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="container">
+		<div class="footer-container">
 			<!-- input code for footer -->
 			<?php
             wp_nav_menu(array(
@@ -30,7 +30,7 @@
 			<i class="fa-brands fa-linkedin fa-2x"aria-label="github"></i>
 		</div>
 
-		<p class="design-developed">Designed & Developed by <span class="footer-impactzone">IMPACT ZONE</span> MEMBERS: KYLE W., DANU V., & GRACE B</p>
+		<p class="design-developed">Designed & Developed by <br><span class="footer-impactzone">Impact Zone</span> members: <br> Kyle W. , Danu V. , & Grace B.</p>
 		<!-- <p class="members">MEMBERS: KYLE W., DANU V., & GRACE B.</p> -->
 		
 		<p class="copywright">&#169; Impact Zone</p>

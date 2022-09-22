@@ -17,6 +17,7 @@ $raleway: 'Raleway', sans-serif;
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 600;
+    color: $darkpurple;
 }
 
 .logo-letter {
@@ -29,19 +30,19 @@ $raleway: 'Raleway', sans-serif;
 
 .banner-container {
     background-color: #1c0d1b;
-    height: 49vh;
+    height: auto;
     width: auto;
-    margin: 5px 10px;
-    margin: 12px 13px;
+    margin: 0px 10px;
     padding: 45px 10px;
 }
 
 .banner-2 {
     color: white;
-    font-size: 22px;
+    font-size: 1rem;;
     font-family: $cinzel;
     text-align: center;
     padding: 15px 0; 
+    font-weight: 400;
 }
 
 .paragraph {
@@ -59,15 +60,19 @@ $raleway: 'Raleway', sans-serif;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    padding: 1%;
 
         .button-1 {
             background-color: $darkpurple;
             color: $aqua;
             box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);;
             border-radius: 20px;
-            margin: 15px;
+            margin: 2%;
             width: 200px;
-            padding: 12px 0px;
+            padding: 3% 6%;
+            font-size: 0.7rem;
+            width: auto;
+            height: auto;
             &:hover{
                background-color: $aqua;
                color:$darkpurple;
@@ -79,9 +84,11 @@ $raleway: 'Raleway', sans-serif;
             color: $aqua;
             box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);;
             border-radius: 20px;
-            margin: 15px;
-            width: 200px;
-            padding: 12px 0px;
+            margin: 2%;
+            padding: 3% 6%;
+            font-size: 0.7rem;
+            width: auto;
+            height: auto;
             &:hover{
                 background-color: $aqua;
                 color:$darkpurple;
@@ -112,13 +119,38 @@ $raleway: 'Raleway', sans-serif;
             color: white;
             font-size: 22px;
         }
+        .button-1, .button-2{
+            font-size: 0.8rem !important;
+            padding: 2% 4% !important;
+        }
     }
 
     @media screen and (min-width: 900px) {
         .banner {
             font-size: 2.5rem;
         }
-        .banner-container {
-            padding: 60px 183px;
+        .banner-2{
+            padding: 1% 10%;
         }
+
+        .both-buttons{
+            justify-content: left;
+            align-items: flex-start;
+
+            .button-1, .button-2{
+                font-size: 0.8rem !important;
+                padding: 1% 2% !important;
+            }
+        }
+
+    }
+
+    @media screen and (min-width: 1100px) {
+
+            .button-1, .button-2{
+                font-size: 1rem !important;
+                padding: 1% 2% !important;
+            }
+        
+
     }
