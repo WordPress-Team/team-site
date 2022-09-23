@@ -2,7 +2,7 @@
 
 
    <section class="section-1">
-    <h1 class="mission-header">Our Mission</h1>
+    <h2 class="mission-header">Our Mission</h2>
     <div class="our-mission-1-container">
         <p class="our-mission-1-container">The mission of Impact Zone is to asssist our clients 
         in reflecting their dreams, visions, and ideas onto a webpage; <br> connecting 

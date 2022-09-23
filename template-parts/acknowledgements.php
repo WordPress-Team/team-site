@@ -1,6 +1,6 @@
 <section class="first-section" id="acknow">
    
-<h1 class="header">Acknowledgements</h1>
+<h2 class="header">Acknowledgements</h2>
   <div class="container-1">
       <div class="even-columns-1">
         <div class="col-1">

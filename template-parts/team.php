@@ -1,12 +1,12 @@
 <div class="parent" id="team">
-  <h1 class="team-title"><?php the_field('team_title') ?></h1>
+  <h2 class="team-title"><?php the_field('team_title') ?></h2>
 <div class="card">
   <div class="content">
     
     <label class="modal-open modal-label" for="modal-open-one">
            <img class="member1" src="<?php the_field('member_circle_photo_1') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_1') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_1') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-one" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -78,7 +78,7 @@
     <label class="modal-open modal-label" for="modal-open-two">
       <img class="member2" src="<?php the_field('member_circle_photo_2') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_2') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_2') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-two" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -148,7 +148,7 @@
     <label class="modal-open modal-label" for="modal-open-three">
       <img class="member3" src="<?php the_field('member_circle_photo_3') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_3') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_3') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-three" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -218,7 +218,7 @@
     <label class="modal-open modal-label" for="modal-open-four">
       <img class="member4" src="<?php the_field('member_circle_photo_4') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_4') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_4') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-four" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -289,7 +289,7 @@
     <label class="modal-open modal-label" for="modal-open-five">
       <img class="member5" src="<?php the_field('member_circle_photo_5') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_5') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_5') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-five" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -359,7 +359,7 @@
     <label class="modal-open modal-label" for="modal-open-six">
       <img class="member6" src="<?php the_field('member_circle_photo_6') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_6') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_6') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-six" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -429,7 +429,7 @@
     <label class="modal-open modal-label" for="modal-open-seven">
       <img class="member7" src="<?php the_field('member_circle_photo_7') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_7') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_7') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-seven" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -500,7 +500,7 @@
     <label class="modal-open modal-label" for="modal-open-eight">
       <img class="member8" src="<?php the_field('member_circle_photo_8') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_8') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_8') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-eight" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -570,7 +570,7 @@
     <label class="modal-open modal-label" for="modal-open-nine">
       <img class="member9" src="<?php the_field('member_circle_photo_9') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_9') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_9') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-nine" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -640,7 +640,7 @@
     <label class="modal-open modal-label" for="modal-open-ten">
       <img class="member10" src="<?php the_field('member_circle_photo_10') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_10') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_10') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-ten" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -712,7 +712,7 @@
     <label class="modal-open modal-label" for="modal-open-eleven">
       <img class="member11" src="<?php the_field('member_circle_photo_11') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_11') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_11') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-eleven" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -782,7 +782,7 @@
     <label class="modal-open modal-label" for="modal-open-twelve">
       <img class="member12" src="<?php the_field('member_circle_photo_12') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_12') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_12') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-twelve" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -852,7 +852,7 @@
     <label class="modal-open modal-label" for="modal-open-thirteen">
       <img class="member13" src="<?php the_field('member_circle_photo_13') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_13') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_13') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-thirteen" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">
@@ -923,7 +923,7 @@
     <label class="modal-open modal-label" for="modal-open-logo">
       <img  class="member14" src="<?php the_field('member_circle_photo_14') ?>" alt="">
      </label>
-    <h1 class="member"><?php the_field('circle_name_14') ?></h1>
+    <h2 class="member"><?php the_field('circle_name_14') ?></h2>
     <input type="radio" name="modal" value="open" id="modal-open-logo" class="modal-radio" />
     <div class="modal">
       <label class="modal-label overlay">

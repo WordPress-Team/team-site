@@ -1,9 +1,9 @@
 
 <div class="about-section" id="about">
     <div class="about-content">
-        <h1 class="about-header">
+        <h2 class="about-header">
         <?php the_field('about_title') ?>
-        </h1>
+        </h2>
         <p class="about-text">
             <?php the_field('about_1') ?>
         </p>

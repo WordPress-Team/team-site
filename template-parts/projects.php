@@ -7,31 +7,31 @@
 		<div class="testimonials">
 			<label class="item" for="t-1">
 				<img src="https://dummyimage.com/150" alt="picture">
-        <h1 class="site-name">Website Here</h1>
+        <h2 class="site-name">Website Here</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente consequatur minus ea doloremque.</p>
 				<h2>Web Developers: Names here</h2>
 			</label>
 			<label class="item" for="t-2">
 				<img src="https://dummyimage.com/150" alt="picture">
-        <h1 class="site-name">Website Here</h1>
+        <h2 class="site-name">Website Here</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente consequatur minus ea doloremque.</p>
 				<h2>Web Developers: Names here</h2>
 			</label>
 			<label class="item" for="t-3">
 				<img src="https://dummyimage.com/150" alt="picture">
-        <h1 class="site-name">Website Here</h1>
+        <h2 class="site-name">Website Here</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente consequatur minus ea doloremque.</p>
 				<h2>Web Developers: Names here</h2>
 			</label>
 			<label class="item" for="t-4">
 				<img src="https://dummyimage.com/150" alt="picture">
-        <h1 class="site-name">Website Here</h1>
+        <h2 class="site-name">Website Here</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente consequatur minus ea doloremque.</p>
 				<h2>Web Developers: Names here</h2>
 			</label>
 			<label class="item" for="t-5">
 				<img src="https://dummyimage.com/150" alt="picture">
-        <h1 class="site-name">Website Here</h1>
+        <h2 class="site-name">Website Here</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente consequatur minus ea doloremque.</p>
 				<h2>Web Developers: Names here</h2>
 			</label>
