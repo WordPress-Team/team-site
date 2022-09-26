@@ -1,10 +1,20 @@
 .slider {
 	width: 100%;
-  margin: 0% auto;
-  padding: 5% 0%;
+	margin: 0% auto;
+	padding: 5% ;
+	letter-spacing: 2px;
+  
 }
 .slider input {
 	display: none;
+}
+
+.project-title{
+	font-size: 1.7rem;
+  	padding: 2% 4%;
+	color: $darkpurple;
+	font-family: $cinzel;
+	font-weight: 600;
 }
 .testimonials {
 	display: flex;
@@ -28,27 +38,37 @@
 	text-align: center;
 	transition: transform 0.4s;
 	-webkit-transform-style: preserve-3d;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	user-select: none;
+	// box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	// box-shadow: rgb(53, 53, 54) 0px 20px 30px -10px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;	user-select: none;
 	cursor: pointer;
 }
 .testimonials .item img {
 	width: 250px;
-  height: 150px;
+  	height: 150px;
 	// border-radius: 50%;
-	border: 13px solid #3B344D;
+	border: 3px solid rgba(83, 37, 248, 0.3);
 }
 .testimonials .item p {
 	color: #ddd;
-  font-size: 0.6rem;
-  padding: 2% 4%;
-  margin: 0% auto;
-  width: 100%;
+	font-size: 0.6rem;
+	padding: 2% 4%;
+	margin: 0% auto;
+	font-family: $raleway;
+	width: 100%;
 }
 .testimonials .item h2 {
 	font-size: 0.8rem;
-  padding: 2% 4%;
+  	padding: 2% 4%;
+	color: white;
+	font-family: $cinzel;
+}
 
+.testimonials .item h3, h4{
+	font-size: 0.6rem;
+  	padding: 2% 4%;
+	color: white;
+	font-family: $raleway;
 }
 .dots {
 	display: flex;
@@ -64,12 +84,15 @@
 	background-color: $violet;
 	margin: 7px;
 	transition: transform 0.2s, color 0.2s;
+	// box-shadow: rgba(116, 231, 217, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(116, 231, 217, 0.35) 0px -2px 6px 0px inset;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* First */
 #t-1:checked ~ .dots label[for="t-1"] {
 	transform: scale(2);
-	background-color: $violet;
+	background-color: $aqua;
+
 }
 #t-1:checked ~ .dots label[for="t-2"] {
 	transform: scale(1.5);
@@ -99,7 +122,7 @@
 }
 #t-2:checked ~ .dots label[for="t-2"] {
 	transform: scale(2);
-	background-color: #fff;
+	background-color: $aqua;
 }
 #t-2:checked ~ .dots label[for="t-3"] {
 	transform: scale(1.5);
@@ -128,7 +151,7 @@
 }
 #t-3:checked ~ .dots label[for="t-3"] {
 	transform: scale(2);
-	background-color: #fff;
+	background-color: $aqua;
 }
 #t-3:checked ~ .dots label[for="t-4"] {
 	transform: scale(1.5);
@@ -156,7 +179,7 @@
 }
 #t-4:checked ~ .dots label[for="t-4"] {
 	transform: scale(2);
-	background-color: #fff;
+	background-color: $aqua;
 }
 #t-4:checked ~ .dots label[for="t-5"] {
 	transform: scale(1.5);
@@ -184,7 +207,7 @@
 }
 #t-5:checked ~ .dots label[for="t-5"] {
 	transform: scale(2);
-	background-color: #fff;
+	background-color: $aqua;
 }
 #t-5:checked ~ .testimonials label[for="t-1"] {
 	transform: translateX(-1200px) translateZ(-360px) rotateY(45deg);
@@ -211,4 +234,21 @@
     width: 450px;
   }
 
+  .dots label {
+	height: 10px;
+	width: 10px;
+	}
+
+	.project-title{
+		font-size: 2.2rem;
+	}
+
 }
+
+@media screen and (min-width: 900px) {
+  
+	  .project-title{
+		  font-size: 2.7rem;
+	  }
+  
+  }

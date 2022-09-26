@@ -1212,7 +1212,7 @@ footer#colophon .menu-item a:hover {
 }
 @media screen and (min-width: 900px) {
   .contact-title {
-    font-size: 2.6rem !important;
+    font-size: 2.7rem !important;
   }
 
   .wpcf7 {
@@ -1246,7 +1246,7 @@ footer#colophon .menu-item a:hover {
 }
 .about-section .about-content .about-header {
   font-family: "Cinzel Decorative", cursive;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   letter-spacing: 1.5px;
   margin: 0% auto;
   padding: 0%;
@@ -1269,7 +1269,7 @@ footer#colophon .menu-item a:hover {
 
 @media screen and (min-width: 600px) {
   .about-header {
-    font-size: 2rem !important;
+    font-size: 2.2rem !important;
   }
 
   .about-text {
@@ -1278,7 +1278,7 @@ footer#colophon .menu-item a:hover {
 }
 @media screen and (min-width: 900px) {
   .about-header {
-    font-size: 2.5rem !important;
+    font-size: 2.7rem !important;
   }
 
   .about-text {
@@ -1452,10 +1452,11 @@ footer#colophon .menu-item a:hover {
 
 .mission-header {
   font-weight: 800;
-  font-size: 24px;
+  font-size: 1.7;
   text-align: center;
   padding: 2%;
   font-family: "Cinzel Decorative", cursive;
+  color: #1c0d1b;
 }
 
 @media (min-width: 600px) {
@@ -1464,7 +1465,12 @@ footer#colophon .menu-item a:hover {
   }
 
   .mission-header {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 900px) {
+  .mission-header {
+    font-size: 2.7rem;
   }
 }
 /* Projects
@@ -1472,11 +1478,20 @@ footer#colophon .menu-item a:hover {
 .slider {
   width: 100%;
   margin: 0% auto;
-  padding: 5% 0%;
+  padding: 5%;
+  letter-spacing: 2px;
 }
 
 .slider input {
   display: none;
+}
+
+.project-title {
+  font-size: 1.7rem;
+  padding: 2% 4%;
+  color: #1c0d1b;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
 }
 
 .testimonials {
@@ -1502,7 +1517,7 @@ footer#colophon .menu-item a:hover {
   text-align: center;
   transition: transform 0.4s;
   -webkit-transform-style: preserve-3d;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   user-select: none;
   cursor: pointer;
 }
@@ -1510,7 +1525,7 @@ footer#colophon .menu-item a:hover {
 .testimonials .item img {
   width: 250px;
   height: 150px;
-  border: 13px solid #3B344D;
+  border: 3px solid rgba(83, 37, 248, 0.3);
 }
 
 .testimonials .item p {
@@ -1518,12 +1533,22 @@ footer#colophon .menu-item a:hover {
   font-size: 0.6rem;
   padding: 2% 4%;
   margin: 0% auto;
+  font-family: "Raleway", sans-serif;
   width: 100%;
 }
 
 .testimonials .item h2 {
   font-size: 0.8rem;
   padding: 2% 4%;
+  color: white;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.testimonials .item h3, h4 {
+  font-size: 0.6rem;
+  padding: 2% 4%;
+  color: white;
+  font-family: "Raleway", sans-serif;
 }
 
 .dots {
@@ -1541,12 +1566,13 @@ footer#colophon .menu-item a:hover {
   background-color: #5325f8;
   margin: 7px;
   transition: transform 0.2s, color 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* First */
 #t-1:checked ~ .dots label[for=t-1] {
   transform: scale(2);
-  background-color: #5325f8;
+  background-color: #74e7d9;
 }
 
 #t-1:checked ~ .dots label[for=t-2] {
@@ -1583,7 +1609,7 @@ footer#colophon .menu-item a:hover {
 
 #t-2:checked ~ .dots label[for=t-2] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #74e7d9;
 }
 
 #t-2:checked ~ .dots label[for=t-3] {
@@ -1619,7 +1645,7 @@ footer#colophon .menu-item a:hover {
 
 #t-3:checked ~ .dots label[for=t-3] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #74e7d9;
 }
 
 #t-3:checked ~ .dots label[for=t-4] {
@@ -1654,7 +1680,7 @@ footer#colophon .menu-item a:hover {
 
 #t-4:checked ~ .dots label[for=t-4] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #74e7d9;
 }
 
 #t-4:checked ~ .dots label[for=t-5] {
@@ -1689,7 +1715,7 @@ footer#colophon .menu-item a:hover {
 
 #t-5:checked ~ .dots label[for=t-5] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #74e7d9;
 }
 
 #t-5:checked ~ .testimonials label[for=t-1] {
@@ -1718,6 +1744,20 @@ footer#colophon .menu-item a:hover {
 @media screen and (min-width: 600px) {
   .testimonials .item {
     width: 450px;
+  }
+
+  .dots label {
+    height: 10px;
+    width: 10px;
+  }
+
+  .project-title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .project-title {
+    font-size: 2.7rem;
   }
 }
 /* Team
@@ -2507,10 +2547,11 @@ h2 {
 }
 
 .header {
-  font-family: "Cinzel Decorative";
-  font-size: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1.7rem;
   text-align: center;
   margin-bottom: 20px;
+  font-weight: 400;
   color: #FFFFFF;
 }
 
@@ -2540,6 +2581,14 @@ h2 {
   font-size: 0.6rem;
   color: #E5DDDC;
   padding: 3% 1%;
+  font-family: "Cinzel Decorative", cursive;
+  letter-spacing: 2px;
+}
+
+.acknow-role {
+  font-size: 0.5rem;
+  color: #E5DDDC;
+  padding: 1%;
 }
 
 .paragraph {
@@ -2565,11 +2614,24 @@ h2 {
     margin-right: 20px;
   }
 
+  .header {
+    font-size: 2.2rem;
+  }
+
+  .acknow-role {
+    font-size: 0.8rem;
+  }
+
   .paragraph {
     font-size: 0.7rem;
     line-height: 0.8rem;
     color: #FFFFFF;
     text-align: center;
+  }
+}
+@media (min-width: 600px) {
+  .header {
+    font-size: 2.7rem;
   }
 }
 @media (min-width: 1000px) {

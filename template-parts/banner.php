@@ -1,5 +1,5 @@
 <section id="hero-link">
-<h2 class="banner-1">Imp<span class="logo-a"><img class="logo-letter" src="<?php the_field('nav_image') ?>"></span>ct Zone</h2>
+<h2 class="banner-1">Imp<span class="logo-a"><img class="logo-letter" src="<?php the_field('main_title_image') ?>"></span>ct Zone</h2>
 
 <div class="banner-container">
       <h2 class="banner-2"><?php the_field('banner-2-title');?></h2>
