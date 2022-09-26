@@ -25,12 +25,21 @@
 		</div>
 
 		<div class="social-media">
-			<i class="fa-brands fa-github fa-2x"aria-label="github"></i>
-			<i class="fa-solid fa-envelope fa-2x"aria-label="github"></i>
-			<i class="fa-brands fa-linkedin fa-2x"aria-label="github"></i>
+			
+				<a href="https://github.com/WordPress-Team">
+					<i class="fa-brands fa-github fa-2x"aria-label="github"></i>
+				</a>
+
+				<a href="impactzonedevelopment@gmail.com" target="_blank">
+					<i class="fa-solid fa-envelope fa-2x"aria-label="email"></i>
+				</a>
+
+				<a href="">
+					<i class="fa-brands fa-linkedin fa-2x"aria-label="linkedin"></i>
+				</a>
 		</div>
 
-		<p class="design-developed">Designed & Developed by <br><span class="footer-impactzone">Impact Zone</span> members: <br> Kyle W. , Danu V. , & Grace B.</p>
+		<p class="design-developed"><?php the_field('designed_and_built_1') ?> <br><span class="footer-impactzone"><?php the_field('impact_span') ?> </span> <?php the_field('designed_and_built_2') ?> </p>
 		<!-- <p class="members">MEMBERS: KYLE W., DANU V., & GRACE B.</p> -->
 		
 		<p class="copywright">&#169; Impact Zone</p>

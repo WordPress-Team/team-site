@@ -6,8 +6,16 @@
       <!-- <p class="paragraph"><?php the_field('banner-2-p');?></p> -->
 
       <div class="both-buttons">
-        <button class="button-1" type="button">Learn More</button>
-        <button class="button-2" type="button">Contact</button>
+        <button class="button-1" type="button">
+            <a href="#about">
+              <?php the_field('banner_button_1') ?>
+            </a>
+          </button>
+        <button class="button-2" type="button">
+          <a href="#contact">
+              <?php the_field('banner_button_2') ?>
+          </a>
+        </button>
     </div>
 </div>
 </section>

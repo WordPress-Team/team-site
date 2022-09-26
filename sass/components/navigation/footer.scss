@@ -139,6 +139,9 @@ footer#colophon {
 .social-media {
     display: flex;
     justify-content: space-evenly;
+    a{
+        color: $darkpurple;
+    }
     i:hover {
         color:$violet;
     }

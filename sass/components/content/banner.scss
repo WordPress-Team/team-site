@@ -61,6 +61,7 @@ $raleway: 'Raleway', sans-serif;
     align-items: center;
     flex-direction: column;
     padding: 1%;
+    font-weight: 400;
 
         .button-1 {
             background-color: $darkpurple;
@@ -73,6 +74,14 @@ $raleway: 'Raleway', sans-serif;
             font-size: 0.7rem;
             width: auto;
             height: auto;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: $darkpurple;
+                font-weight: 600;
+            }
             &:hover{
                background-color: $aqua;
                color:$darkpurple;
@@ -89,6 +98,14 @@ $raleway: 'Raleway', sans-serif;
             font-size: 0.7rem;
             width: auto;
             height: auto;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: $darkpurple;
+                font-weight: 600;
+            }
             &:hover{
                 background-color: $aqua;
                 color:$darkpurple;

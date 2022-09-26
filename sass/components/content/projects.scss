@@ -16,7 +16,7 @@
 	font-family: $cinzel;
 	font-weight: 600;
 }
-.testimonials {
+.website {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -26,7 +26,7 @@
 	perspective: 1000px;
 	overflow: hidden;
 }
-.testimonials .item {
+.website .item {
 	top: 0;
 	position: absolute;
 	box-sizing: border-box;
@@ -43,13 +43,13 @@
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;	user-select: none;
 	cursor: pointer;
 }
-.testimonials .item img {
+.website .item img {
 	width: 250px;
   	height: 150px;
 	// border-radius: 50%;
 	border: 3px solid rgba(83, 37, 248, 0.3);
 }
-.testimonials .item p {
+.website .item p {
 	color: #ddd;
 	font-size: 0.6rem;
 	padding: 2% 4%;
@@ -57,14 +57,18 @@
 	font-family: $raleway;
 	width: 100%;
 }
-.testimonials .item h2 {
+.website .item h2 {
 	font-size: 0.8rem;
   	padding: 2% 4%;
 	color: white;
 	font-family: $cinzel;
+	a{
+		color: white;
+		text-decoration: none;
+	}
 }
 
-.testimonials .item h3, h4{
+.website .item h3, h4{
 	font-size: 0.6rem;
   	padding: 2% 4%;
 	color: white;
@@ -88,6 +92,10 @@
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.dots label:hover {
+	background-color: $darkpurple;
+}
+
 /* First */
 #t-1:checked ~ .dots label[for="t-1"] {
 	transform: scale(2);
@@ -97,22 +105,22 @@
 #t-1:checked ~ .dots label[for="t-2"] {
 	transform: scale(1.5);
 }
-#t-1:checked ~ .testimonials label[for="t-1"] {
+#t-1:checked ~ .website label[for="t-1"] {
 	z-index: 4;
 }
-#t-1:checked ~ .testimonials label[for="t-2"] {
+#t-1:checked ~ .website label[for="t-2"] {
 	transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
 	z-index: 3;
 }
-#t-1:checked ~ .testimonials label[for="t-3"] {
+#t-1:checked ~ .website label[for="t-3"] {
 	transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
 	z-index: 2;
 }
-#t-1:checked ~ .testimonials label[for="t-4"] {
+#t-1:checked ~ .website label[for="t-4"] {
 	transform: translateX(900px) translateZ(-270px) rotateY(-35deg);
 	z-index: 1;
 }
-#t-1:checked ~ .testimonials label[for="t-5"] {
+#t-1:checked ~ .website label[for="t-5"] {
 	transform: translateX(1200px) translateZ(-360px) rotateY(-45deg);
 }
 
@@ -127,21 +135,21 @@
 #t-2:checked ~ .dots label[for="t-3"] {
 	transform: scale(1.5);
 }
-#t-2:checked ~ .testimonials label[for="t-1"] {
+#t-2:checked ~ .website label[for="t-1"] {
 	transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
 }
-#t-2:checked ~ .testimonials label[for="t-2"] {
+#t-2:checked ~ .website label[for="t-2"] {
 	z-index: 3;
 }
-#t-2:checked ~ .testimonials label[for="t-3"] {
+#t-2:checked ~ .website label[for="t-3"] {
 	transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
 	z-index: 2;
 }
-#t-2:checked ~ .testimonials label[for="t-4"] {
+#t-2:checked ~ .website label[for="t-4"] {
 	transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
 	z-index: 1;
 }
-#t-2:checked ~ .testimonials label[for="t-5"] {
+#t-2:checked ~ .website label[for="t-5"] {
 	transform: translateX(900px) translateZ(-270px) rotateY(-35deg);
 }
 
@@ -156,20 +164,20 @@
 #t-3:checked ~ .dots label[for="t-4"] {
 	transform: scale(1.5);
 }
-#t-3:checked ~ .testimonials label[for="t-1"] {
+#t-3:checked ~ .website label[for="t-1"] {
 	transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
 }
-#t-3:checked ~ .testimonials label[for="t-2"] {
+#t-3:checked ~ .website label[for="t-2"] {
 	transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
 }
-#t-3:checked ~ .testimonials label[for="t-3"] {
+#t-3:checked ~ .website label[for="t-3"] {
 	z-index: 3;
 }
-#t-3:checked ~ .testimonials label[for="t-4"] {
+#t-3:checked ~ .website label[for="t-4"] {
 	transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
 	z-index: 2;
 }
-#t-3:checked ~ .testimonials label[for="t-5"] {
+#t-3:checked ~ .website label[for="t-5"] {
 	transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
 }
 
@@ -184,20 +192,20 @@
 #t-4:checked ~ .dots label[for="t-5"] {
 	transform: scale(1.5);
 }
-#t-4:checked ~ .testimonials label[for="t-1"] {
+#t-4:checked ~ .website label[for="t-1"] {
 	transform: translateX(-900px) translateZ(-270px) rotateY(35deg);
 }
-#t-4:checked ~ .testimonials label[for="t-2"] {
+#t-4:checked ~ .website label[for="t-2"] {
 	transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
 }
-#t-4:checked ~ .testimonials label[for="t-3"] {
+#t-4:checked ~ .website label[for="t-3"] {
 	transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
 	z-index: 2;
 }
-#t-4:checked ~ .testimonials label[for="t-4"] {
+#t-4:checked ~ .website label[for="t-4"] {
 	z-index: 3;
 }
-#t-4:checked ~ .testimonials label[for="t-5"] {
+#t-4:checked ~ .website label[for="t-5"] {
 	transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
 }
 
@@ -209,28 +217,28 @@
 	transform: scale(2);
 	background-color: $aqua;
 }
-#t-5:checked ~ .testimonials label[for="t-1"] {
+#t-5:checked ~ .website label[for="t-1"] {
 	transform: translateX(-1200px) translateZ(-360px) rotateY(45deg);
 }
-#t-5:checked ~ .testimonials label[for="t-2"] {
+#t-5:checked ~ .website label[for="t-2"] {
 	transform: translateX(-900px) translateZ(-270px) rotateY(35deg);
 	z-index: 1;
 }
-#t-5:checked ~ .testimonials label[for="t-3"] {
+#t-5:checked ~ .website label[for="t-3"] {
 	transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
 	z-index: 2;
 }
-#t-5:checked ~ .testimonials label[for="t-4"] {
+#t-5:checked ~ .website label[for="t-4"] {
 	transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
 	z-index: 3;
 }
-#t-5:checked ~ .testimonials label[for="t-5"] {
+#t-5:checked ~ .website label[for="t-5"] {
 	z-index: 4;
 }
 
 @media screen and (min-width: 600px) {
 
-  .testimonials .item {
+  .website .item {
     width: 450px;
   }
 
