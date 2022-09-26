@@ -1500,6 +1500,7 @@ footer#colophon .menu-item a:hover {
   margin: 0% auto;
   padding: 5%;
   letter-spacing: 2px;
+  height: auto;
 }
 
 .slider input {
@@ -1545,13 +1546,13 @@ footer#colophon .menu-item a:hover {
 .website .item img {
   width: 250px;
   height: 150px;
-  border: 3px solid rgba(83, 37, 248, 0.3);
+  object-fit: contain;
 }
 
 .website .item p {
   color: #ddd;
   font-size: 0.6rem;
-  padding: 2% 4%;
+  padding: 1% 4%;
   margin: 0% auto;
   font-family: "Raleway", sans-serif;
   width: 100%;
@@ -1559,20 +1560,52 @@ footer#colophon .menu-item a:hover {
 
 .website .item h2 {
   font-size: 0.8rem;
-  padding: 2% 4%;
+  padding: 1% 4%;
   color: white;
   font-family: "Cinzel Decorative", cursive;
 }
 .website .item h2 a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
+}
+.website .item h2 a:hover {
+  color: aqua;
+  text-shadow: 1px 1px #5325f8;
 }
 
 .website .item h3, h4 {
   font-size: 0.6rem;
-  padding: 2% 4%;
+  padding: 1% 4%;
   color: white;
   font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.project-view {
+  color: white;
+  background-color: #1c0d1b;
+  border-radius: 95%;
+  margin: 2% auto;
+  padding: 2% 4%;
+  font-size: 0.6rem;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45), 0px -4px 4px rgba(255, 255, 255, 0.45), 4px 0px 4px rgba(255, 255, 255, 0.45), -4px 0px 4px rgba(255, 255, 255, 0.45);
+}
+.project-view a {
+  text-decoration: none;
+  color: white;
+  padding: 1% 2%;
+}
+
+.project-view:hover {
+  background-color: #5325f8;
+}
+
+.project-sub {
+  font-size: 0.7rem;
+  color: #1c0d1b;
+  padding: 1% 6%;
+  text-align: center;
 }
 
 .dots {
@@ -1771,7 +1804,7 @@ footer#colophon .menu-item a:hover {
 
 @media screen and (min-width: 600px) {
   .website .item {
-    width: 450px;
+    width: 550px;
   }
 
   .dots label {
@@ -1782,10 +1815,48 @@ footer#colophon .menu-item a:hover {
   .project-title {
     font-size: 2.2rem;
   }
+
+  .project-sub {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (min-width: 900px) {
   .project-title {
     font-size: 2.7rem;
+  }
+
+  .website .item img {
+    width: 320px;
+    height: 220px;
+    object-fit: contain;
+  }
+
+  .project-view {
+    font-size: 0.8rem;
+  }
+
+  .website {
+    min-height: 500px;
+  }
+
+  .website .item p {
+    font-size: 0.8rem;
+  }
+
+  .website .item h2 {
+    font-size: 1rem;
+  }
+  .website .item h2 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .website .item h3, h4 {
+    font-size: 0.8rem;
+  }
+
+  .project-sub {
+    font-size: 1rem;
   }
 }
 /* Team
@@ -2662,6 +2733,12 @@ h2 {
     font-size: 2.7rem;
   }
 }
+@media (min-width: 800px) {
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+}
 @media (min-width: 1000px) {
   .first-section {
     padding-top: 100px;
@@ -2687,6 +2764,11 @@ h2 {
 
   .paragraph {
     text-align: center;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
   }
 }
 /*--------------------------------------------------------------

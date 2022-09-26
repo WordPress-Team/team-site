@@ -135,6 +135,15 @@ font-family: 'Raleway';
  }
 
 }
+
+@media (min-width: 800px) {
+  .image{
+    height:150px;
+    width: 150px;
+  }
+
+}
+
 @media (min-width: 1000px) {
 
   .first-section {
@@ -161,6 +170,11 @@ font-family: 'Raleway';
 .paragraph {
   // margin-top: 10px;
   text-align: center;
+}
+
+.image{
+  height:200px;
+  width: 200px;
 }
 
 }
