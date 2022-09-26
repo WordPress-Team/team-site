@@ -30,7 +30,7 @@
 					<i class="fa-brands fa-github fa-2x"aria-label="github"></i>
 				</a>
 
-				<a href="impactzonedevelopment@gmail.com" target="_blank">
+				<a href="mailto:impactzonedevelopment@gmail.com" target="_blank">
 					<i class="fa-solid fa-envelope fa-2x"aria-label="email"></i>
 				</a>
 
