@@ -1294,15 +1294,15 @@ footer#colophon .menu-item a:hover {
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
   margin: 1 auto;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   font-weight: 600;
   color: #1c0d1b;
 }
 
 .logo-letter {
-  height: 26px;
-  width: 25px;
+  height: 36px;
+  width: 35px;
   padding-top: 1px;
   position: relative;
   top: 3px;
@@ -1407,7 +1407,7 @@ footer#colophon .menu-item a:hover {
     font-family: "Cinzel Decorative", cursive;
     text-align: center;
     margin: 1 auto;
-    font-size: 50px;
+    font-size: 3.1rem;
     letter-spacing: 2px;
     font-weight: 600;
   }
@@ -1427,6 +1427,11 @@ footer#colophon .menu-item a:hover {
     font-size: 2.5rem;
   }
 
+  .banner-1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+  }
+
   .banner-2 {
     padding: 1% 10%;
   }
@@ -1444,6 +1449,11 @@ footer#colophon .menu-item a:hover {
   .button-1, .button-2 {
     font-size: 1rem !important;
     padding: 1% 2% !important;
+  }
+
+  .logo-letter {
+    height: 50px;
+    width: 55px;
   }
 }
 /* Mission
@@ -1472,7 +1482,7 @@ footer#colophon .menu-item a:hover {
 
 .mission-header {
   font-weight: 800;
-  font-size: 1.7;
+  font-size: 1.7rem;
   text-align: center;
   padding: 2%;
   font-family: "Cinzel Decorative", cursive;

@@ -1,4 +1,9 @@
 <section id="hero-link">
+
+	<!-- ////////////////////////////// -->
+	<!-- Section designed by Grace B. & developed by Danu V.  -->
+	<!-- ///////////////////////////// -->
+
 <h2 class="banner-1">Imp<span class="logo-a"><img class="logo-letter" src="<?php the_field('main_title_image') ?>"></span>ct Zone</h2>
 
 <div class="banner-container">

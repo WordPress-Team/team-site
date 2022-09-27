@@ -1,4 +1,9 @@
 <div class="slider" id="projects">
+	
+	<!-- ////////////////////////////// -->
+	<!-- Section designed &  developed by Grace B.  -->
+	<!-- ///////////////////////////// -->
+
 	<h2 class="project-title"><?php the_field('project_title') ?></h2>
 	<h3 class="project-sub"><?php the_field('project_subtitle') ?></h3>
 	<hr>

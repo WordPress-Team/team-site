@@ -14,15 +14,15 @@ $raleway: 'Raleway', sans-serif;
     font-family: $cinzel;
     text-align: center;
     margin: 1 auto;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 2px;
     font-weight: 600;
     color: $darkpurple;
 }
 
 .logo-letter {
-    height: 26px;
-    width: 25px;
+    height: 36px;
+    width: 35px;
     padding-top: 1px;
     position: relative;
     top: 3px;
@@ -125,10 +125,10 @@ $raleway: 'Raleway', sans-serif;
             top: 3px;
         }
         .banner-1 {
-            font-family: "Cinzel Decorative", cursive;
+            font-family: $cinzel;
             text-align: center;
             margin: 1 auto;
-            font-size: 50px;
+            font-size: 3.1rem;
             letter-spacing: 2px;
             font-weight: 600;
         }
@@ -145,6 +145,11 @@ $raleway: 'Raleway', sans-serif;
     @media screen and (min-width: 900px) {
         .banner {
             font-size: 2.5rem;
+        }
+
+        .banner-1{
+            font-size: 3.6rem;
+            font-weight: 600;
         }
         .banner-2{
             padding: 1% 10%;
@@ -168,6 +173,9 @@ $raleway: 'Raleway', sans-serif;
                 font-size: 1rem !important;
                 padding: 1% 2% !important;
             }
-        
+            .logo-letter {
+                height: 50px;
+                width: 55px;
+            }
 
     }

@@ -1,5 +1,10 @@
 
 <div class="about-section" >
+
+	<!-- ////////////////////////////// -->
+	<!-- Section designed & developed by Grace B.  -->
+	<!-- ///////////////////////////// -->
+
     <div class="about-content" id="about">
         <h2 class="about-header" >
         <?php the_field('about_title') ?>

@@ -12,6 +12,11 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+	<!-- ////////////////////////////// -->
+	<!-- Section designed by Grace B. developed by Danu V. -->
+	<!-- ///////////////////////////// -->
+
 		<div class="footer-container">
 			<!-- input code for footer -->
 			<?php

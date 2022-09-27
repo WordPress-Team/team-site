@@ -1,4 +1,7 @@
 <div class="parent" id="team">
+  	<!-- ////////////////////////////// -->
+	<!-- Section designed & developed by Grace B. -->
+	<!-- ///////////////////////////// -->
   <h2 class="team-title"><?php the_field('team_title') ?></h2>
 <div class="card">
   <div class="content">

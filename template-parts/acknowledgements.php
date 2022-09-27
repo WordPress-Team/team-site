@@ -1,5 +1,9 @@
 <section class="first-section" id="acknow">
    
+	<!-- ////////////////////////////// -->
+	<!-- Section designed Grace B. & developed by Kyle W.  -->
+	<!-- ///////////////////////////// -->
+
 <h2 class="header"><?php the_field('acknowledge_title') ?></h2>
   <div class="container-1">
       <div class="even-columns-1">
