@@ -9,8 +9,8 @@
   height: auto;
   width: 100%;
   margin: 0%;
-  padding-top: 70px;
-  background-color: #1c0d1b;
+  // padding-top: 70px;
+  background-color: $darkpurple;
   padding: 20px;
 }
 
@@ -55,7 +55,7 @@ font-family: 'Raleway';
 
 .col-1, .col-2, .col-3, .col-4 {
   text-align: center;
-  margin: 2%;
+  margin: 0%;
 }
 
 .title {

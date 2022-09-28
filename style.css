@@ -1466,7 +1466,7 @@ footer#colophon .menu-item a:hover {
 .section-1 {
   height: auto;
   width: 100%;
-  padding: 10%;
+  padding: 30% 10%;
   background: linear-gradient(135deg, #ffff 20%, transparent 35%), linear-gradient(225deg, #ffff 20%, transparent 35%), linear-gradient(315deg, #ffff 20%, transparent 35%), linear-gradient(45deg, #ffff 20%, transparent 35%);
   background-size: auto;
   background-color: rgba(83, 37, 248, 0.2);
@@ -1501,6 +1501,10 @@ footer#colophon .menu-item a:hover {
 @media (min-width: 900px) {
   .mission-header {
     font-size: 2.7rem;
+  }
+
+  .our-mission-1-container {
+    font-size: 1.3rem;
   }
 }
 /* Projects
@@ -2644,7 +2648,6 @@ h2 {
   height: auto;
   width: 100%;
   margin: 0%;
-  padding-top: 70px;
   background-color: #1c0d1b;
   padding: 20px;
 }
@@ -2685,7 +2688,7 @@ h2 {
 
 .col-1, .col-2, .col-3, .col-4 {
   text-align: center;
-  margin: 2%;
+  margin: 0%;
 }
 
 .title {
