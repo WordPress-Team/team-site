@@ -4,7 +4,7 @@
    <section class="section-1">
 
    	<!-- ////////////////////////////// -->
-	<!-- Section designed by Gracew B. & developed by Kyle W.  -->
+	<!-- Section designed by Grace B. & developed by Kyle W.  -->
 	<!-- ///////////////////////////// -->
     
     <h2 class="mission-header"><?php the_field('mission_title') ?></h2>
